@@ -1,0 +1,322 @@
+/*------------------------------------------------------------------ 
+Project:      Fm-fr (fm_books)
+Version:      1.0
+Last change:  06-10-2011
+Author:       Nicolas Dufour (jazzynico)
+--------------------------------------------------------------------
+[Table of contents] 
+1. Body
+2. Navigation
+  2.1. Menu
+  2.2. Page navigation
+3. Page content
+  3.1. Headings
+  3.2. Links
+X. Others
+-------------------------------------------------------------------*/  
+/*------------------------------------------------------------------ 
+[1. Body] 
+*/
+
+body {
+  font-family : trebuchet, verdana, sans-serif;
+  color: #333;
+  background-color: #666;
+  font-size: 12px;
+  line-height:17px;
+}
+
+img {
+  border:0px;
+  max-width:600px;
+  height:auto;
+}
+
+/*------------------------------------------------------------------ 
+[2. Navigation ]
+*/
+/*-- [2.1. Menu] --*/
+
+.menu-goes-here {
+  background-color: #fff;
+  padding: 110px 3px 10px 12px;
+  color:  #000;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.1em;
+  position: absolute;
+  left:-260px;
+  top:100px;
+  width: 180px;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 10px 0;
+}
+
+#index-book-title {
+  font-weight:bold;
+  width: 180px; 
+  text-transform: uppercase;
+  position: absolute;
+  top: 120px; 
+  left: 8px; 
+  z-index: 10; 
+  font-size: 1.4em;
+  font-weight: bold; 
+  color: #333;
+}
+
+.menu-goes-here a, .menu-goes-here a:link, .menu-goes-here a:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+}
+
+.menu-goes-here ul {
+  width: 170px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-goes-here li {
+  padding: 2px 0 2px 5px;
+  margin: 0;
+  color: #000;
+  list-style-type: none;
+}
+
+.menu-goes-here li:hover {
+  background-color: #ccc;
+}
+
+.menu-goes-here li.booki-section, .menu-goes-here li.booki-section:hover{
+  color: #000;
+  border-top:1px solid #333;
+  margin-top:5px;
+  padding-top: 3px;
+  padding-left: 0;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+#pdf {
+  position: absolute;
+  left: 8px;
+  top: 180px;
+  z-index:1;
+}
+
+#pdf a {
+  padding: 0 5px;
+}
+
+#home {
+  position:absolute;
+  left:0px;
+  top:10px;
+}
+
+div.navbar {
+  height: 30px;
+}
+
+/*-- [2.2. Page navigation] --*/
+
+div.arrow {
+  position: fixed;
+}
+
+.arrow.left{
+  left: 224px;
+}
+
+.arrow.right{
+  left: 940px;
+}
+
+.arrow.top{
+  top: 50px;
+}
+
+.arrow.bottom{
+  bottom: 20px;
+  visibility: hidden;
+}
+
+/*------------------------------------------------------------------ 
+[3. Page content ]
+*/
+
+/*-- [3.1. Heading] --*/
+
+h1, h2, h3 {
+  font-family : Arial, verdana, sans-serif;
+  font-weight : Bold;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding-top : 15px;
+}
+
+h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+h4, h5, h6 {font-weight : Bold;font-size: 12px;}
+
+/*-- [3.2. Links] --*/
+
+a:link {
+  color:#666666;
+}
+a:visited {
+  color:#000000;
+}
+a:active {
+  color:#000000;
+}
+a:hover {
+  color:#000000;
+}
+
+/*-- [3.3. Page] --*/
+
+#main {
+  width: 670px;
+  border: 10px solid #333;
+  border-top: 0;
+  padding: 0px;
+  margin: 0px;
+  background: #fff;
+  position: absolute;
+  left: 250px;
+  top: 0;
+}
+
+#main-content{
+  margin: 0 10px 0 10px;
+}
+
+pre, span.code, span.verbatim {
+  font-size: 12px;
+  line-height: 1.5em;
+  background-color: #FFE5CC;
+  border: 0px solid #000000;
+  margin-left : 0.5em;
+  margin-bottom : 20px;
+  margin-right : 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color : black;
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.fm-content {
+  padding: 0em .5em;
+}
+
+/*-- [3.4. Comments] --*/
+
+.comment-box {
+  padding: .5em 1em;
+  border-top: 2px solid #666666;
+  margin : 30px 0 0 0;
+}
+
+.comment-box h2 {
+  margin-top: 0;
+}
+
+.comment {
+  padding: .2em;
+}
+
+label {
+  cursor: pointer;
+  line-height: 12px;
+  margin-top: 2px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+select, input, textarea {
+  background-color: #f5f5f5;
+  border:1px solid black;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+select:focus, input:focus, textarea:focus {
+  border: 1px solid #cc6600;
+  background-color: #ffffdd;
+}
+/*------------------------------------------------------------------ 
+[X. Others ]
+*/
+
+#edit-links {
+  color: black;
+  border: 1px;
+  position: absolute;
+  top:12px;
+  left:400px;
+}
+
+#edit-links a {
+  color: #ff7f00;
+  font-size: smaller;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+hr {
+  border : none;
+  background-color : #666666;
+  color : #000000;
+  height : 2px;
+  width:120px;
+  margin-left:0px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+ul, li {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+
+
+/*
+ * this might cause more problems that it solves, but fixed-width type
+ * is extremely tiny in Firefox with some sizing methods (eg with 76%
+ * font-sizing)
+*/
+
+body kbd, body tt, body code {
+  font-size: x-small;
+}
+
+p {
+  margin-top: 1em;
+}
+

@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/prettify.js"></script>
+    <script type="application/javascript" src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Comment modifier un glyphe d'une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="Comment créer une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content">
+  <h1>Comment ajouter des glyphes à une fonte</h1>
+
+  <p>Vous pouvez vouloir ajouter des glyphes manquants à une fonte et il y a de bonnes raisons à cela, voir le chapitre « <em>Intentions et attentions</em> ». Plusieurs possibilités s'offrent à vous :</p>
+
+  <ul>
+    <li>transformer un glyphe existant ;</li>
+
+    <li>ajouter un caractère diacritique, comme un accent, grâce au système des références internes de FontForge ;</li>
+
+    <li>ajouter plusieurs caractères diacritiques grâce au système des ancres qu'offre le standard Unicode (présenté au chapitre « <em>Créer une fonte</em> »).</li>
+  </ul>
+
+  <h2>Transformer un glyphe existant</h2>
+
+  <p>Vous cherchez à créer le <strong>ǝ</strong>. Ce caractère est nommé en Unicode LATIN SMALL LETTER TURNED E et la valeur U+01DD, du bloc Latin Extended-B<span class="InsertNoteMarker" id="InsertNoteID_6_marker7"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-ajouter-des-glyphes-a-une-fonte#InsertNoteID_6">1</a></sup></span>, dont la majuscule est <strong>Ǝ</strong>.
+ Cette lettre est utilisée dans l'alphabet pan-nigerian et dans nombre 
+de langues de l'Afrique de l'Ouest et correspond en moré au son <strong>e</strong>
+ muet français, sans être muet, justement (peut-être dans la même mesure
+ que ses locuteurs arrêtent d'être muets devant son absence dans la 
+plupart des fontes à travers le présent manuel)... Ne pas le confondre 
+avec le <strong>ə</strong> (U+0259) phonétique qui est souvent dessiné de la même manière mais dont l'usage et la majuscule <strong>Ə</strong> n'ont rien à voir.</p>
+
+  <p>Pour le dessin de ce glyphe, vous pouvez élaborer une opération de miroir sur base du glyphe <strong>e</strong> existant. Depuis la fenêtre de fonte, sélectionnez le <strong>e</strong> et copiez-le.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/026_Rennesgardo%2520%2520Fengardo-regular.png"></p>
+
+  <p>Puis <em>Vue &gt; Aller au glyphe</em>, tapez U+01DD.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/019_Aller%2520au%2520glyphe.png"></p>
+
+  <p>FontForge vous amène sur le glyphe en question, collez le contenu du presse papier.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/023_Rennesgardo%2520%2520Fengardo-regular.png"></p>
+
+  <p>Double-cliquez sur le glyphe, observez un instant le léger 
+décentrage de son dessin, 62 unités du côté bombé de la panse, 50 unités
+ du côté ouvert, de manière à équilibrer optiquement le glyphe. Dans un 
+élan plus pratique, choisissez <em>Vue &gt; Show &gt; Palettes &gt; Palettes verrouillées</em> pour ancrer les deux palettes d'outils et de calques à l'intérieur de la fenêtre de glyphes.</p>
+
+  <p><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/027_uni01DD_1.png"></p>
+
+  <p>Lancez une rotation à 180° avec <em>Éléments &gt; Transformations &gt; Transformer</em>, puis <em>Centre de la sélection</em> et <em>Pivoter</em> à 180° dans n'importe quel sens. &gt;</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/028_Transformer.png">&nbsp;</p>
+
+  <p>Le glyphe est maintenant retourné dans le sens voulu.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/029_uni01DD_2.png"></p>
+
+  <p>Mais les approches gauche et droite n'ont pas été retournées, il 
+est donc nécessaire de déplacer le tracé de -12 unités, par exemple avec
+ <em>Éléments &gt; Transformations &gt; Transformer</em> et <em>Déplacer</em>.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/030_uni01DD_3.png"></p>
+
+  <p>Notre glyphe est prêt. Plus complexe maintenant : pour l'exercice, tentez le ƴ (U+01b4).</p>
+
+  <h2>Ajouter un caractère diacritique</h2>
+
+  <p>Nouveau chantier, l'ajout de caractères diacritiques, comme les 
+accents, sur des glyphes existants permettent de couvrir une partie 
+importante des besoins en glyphes manquants. Commencez par un cas simple
+ en ajoutant un accent aigu <strong>´</strong> sur le <strong>ǝ</strong> pour former le glyphe <strong>´</strong><strong>ǝ</strong> (l'accent est superposé au <strong>ǝ</strong>,
+ l'assemblage n'est justement pas encore accessible par la fonte que le 
+navigateur utilise pour afficher les mots que vous lisez...!). En moré, 
+cet accent aigu indique un ton montant.</p>
+
+  <p>Le glyphe est manquant dans le codage Unicode, et donc il n'existe 
+pas de case pré-existante pour lui dans FontForge. Commencez donc par 
+ajouter une case d'encodage avec <em>Codage &gt; Ajouter des cases de codage</em>.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/031_Ajout%2520de%2520cases%2520de%2520codage.png"></p>
+
+  <p>La nouvelle case de glyphe, encore vide, se créé tout au bout de la <em>fenêtre de fonte</em>,
+ derrière la grande quantité de glyphes alternatifs que Loïc a dessiné. 
+Chacun de ces glyphes est surmonté de son nom Unicode, tous inexistants 
+ici, et représentés par <strong>?</strong>.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/033_nouv_case.png"></p>
+
+  <p>Vous voulez y placer pour commencer le <strong>ǝ</strong> nouvellement créé. Un copier/coller du glyphe depuis la fenêtre de fonte (<em>Vue &gt; Aller au glyphe</em>
+ avec U+01DD parce que le tableau est long) semble être la méthode la 
+plus simple, mais nous allons l'éviter parce que beaucoup trop lourde à 
+maintenir et à partager avec d'autres sur le plus long terme quand des 
+dizaines ou des centaines de glyphes sont concernés.</p>
+
+  <p>À la place, nous allons copier la référence du glyphe, avec le menu contextuel (clic droit ou clic + touche [Ctrl]) et <em>Copier référence</em>.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/004_coller_ref.png"></p>
+
+  <p>Puis nous collons cette référence avec <em>Édition &gt; Coller</em>.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/005_coller.png"></p>
+
+  <p>Double-cliquez pour afficher la fenêtre de glyphe, et sélectionnez 
+le glyphe : un cadre s'affiche, à la place des points d'ancrage, et le 
+code Unicode du glyphe qui est référencé s'affiche au-dessus.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/006_NameMe.png"></p>
+
+  <p>Parmi les avantages de ce mode de travail, il y a le lien dynamique
+ qui existe entre l'original et sa référence. Essayez-le : ouvrez-le et 
+modifiez le <strong>ǝ</strong> original, puis revenez à la référence, et constatez qu'elle a suivi. Puis vous pouvez annuler ce test avec <em>Édition &gt; Annuler</em>.</p>
+
+  <p><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/007_compare.png"></p>
+
+  <p>Baladez-vous quelques instants dans la fenêtre de fonte, et ouvrez par exemple le <strong>é</strong>.
+ Dans une fonte faite de référence, on devrait y retrouver 2 références,
+ la lettre e et l'accent aigu. Ici, le glyphe est dessiné par trois 
+tracés, deux pour le e, un pour l'accent, décomposés comme on les 
+appelle parfois.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/009_eacute.png">&nbsp;</p>
+
+  <p>Comme dans bon nombre de cas, les sources complètes d'une fonte ne 
+sont pas disponibles, et dans le cas du Fengardo, son auteur, n'a pas 
+trouvé utile ou souhaitable de nous transmettre son ou ses fichiers 
+sources, sans doute produits via FontLab, le principal éditeur de fonte 
+sous licence privative. Les raisons de ce choix sont propres à Loïc, 
+donc bien sûr légitimes, et nous ne voudrons pas généraliser ici outre 
+mesure, mais grâce à l'opportunité de l'écriture de cette ou, nous (les 
+co-auteurs) nous rendons de plus en plus compte qu'il est difficile pour
+ les typographes occidentaux, dont certains d'entre nous font partie, 
+d'appréhender immédiatement les conséquences de tel ou tel choix 
+apparemment technique. Nous supposons par le nombre de diacritiques 
+présents dans la fonte, les glyphes ont été élaborés en mode référencé 
+présents dans ce fichier source, puis déreliés lors de la génération de 
+la fonte sous format <em>.otf</em>.</p>
+
+  <p>Ces notions sont complexes, en interconnexions de plusieurs 
+domaines techniques, très récentes et donc encore largement incomplètes.
+ Nous allons donc tenter de tracer des sentiers pour contourner les 
+nombreuses difficultés encore présentes pour quelques années.</p>
+
+  <p>Reprenons, et essayez maintenant de composer et commencez par 
+chercher le premier accent aigu dans la table Unicode représentée par la
+ fenêtre de fonte, ou utilisez <em>Vue &gt; Aller au glyphe</em> et tapez <em>acute</em> qui veut dire aigu en anglais, la langue de travail du Consortium Unicode.&nbsp;</p>
+
+  <p>Il est cependant intéressant de noter plusieurs documents officiels
+ issus du travail de standardisation du consortium Unicode sont 
+désormais disponibles en français en plus de l'anglais via la section 
+française du site web d'Unicode.<span class="InsertNoteMarker" id="InsertNoteID_9_marker10"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-ajouter-des-glyphes-a-une-fonte#InsertNoteID_9">2</a></sup></span></p>
+
+  <p><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/008_acute.png"></p>
+
+  <p>Copiez la référence de ce glyphe avec <em>Édition &gt; Copier la référence</em>,
+ retournez vers la fenêtre de glyphe à créer et collez cette référence. 
+La référence de l'accent arrive positionnée selon ses métriques 
+d'origine. Ce positionnement initial est souvent relativement 
+satisfaisant. Dans le cas présent, déplacez-le peut-être de quelques 
+unités vers la droite.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/012_NameMe.png"></p>
+
+  <p>Mais que remarquer à propos des métriques ? L'approche droite est 
+maintenant négative ! Elle a hérité de l'ensemble des métriques de 
+l'accent ! Il convient donc de faire l'opération dans l'autre sens. Ou 
+bien, de pointer le glyphe principal <strong>ǝ</strong> dans la fenêtre de fonte, de <em>cliquer-droit &gt; Copier la chasse</em> et de coller cette chasse correcte sur le nouveau glyphe avec <em>Édition &gt; Coller</em>.</p>
+
+  <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/013_NameMe_chasse.png">&nbsp;</p>
+
+  <p>Notre glyphe est maintenant créé. Hop! Pour le tester en situation 
+réelle, il semble suffire de générer la fonte, voir chapitre « Comment 
+créer une fonte ». Mais une série de notions sont d'abord à prendre en 
+compte.</p>
+
+  <h2>Comment utiliser la fonte encore à générer?</h2>
+
+  <p>Car une fois le fichier de fonte généré, comment accéder à ce 
+nouveau glyphe à partir d'un logiciel de traitement de texte, de 
+graphisme, de mise en page, et même dans un navigateur ? 
+Malheureusement, cette question n'a pas de réponse simple !</p>
+
+  <p>Plongeons malgré tout ! Si on simplifie grossièrement, il y a plusieurs acteurs en présence :</p>
+
+  <ol>
+    <li><strong>la chaîne de caractères</strong> (le texte) qui est à afficher ou mettre en page&nbsp;;</li>
+
+    <li><strong>le codage des caractères</strong> dans un ou plusieurs systèmes d'écriture&nbsp;;</li>
+
+    <li><strong>la fonte</strong> (collection de glyphes)&nbsp;;</li>
+
+    <li><strong>le moteur de composition</strong> (partagé de manière variable entre systèmes d'exploitation, moteur de rendu et application)&nbsp;;</li>
+  </ol>
+
+  <p>Selon ce schéma, c'est 5. <strong>le clavier</strong> qui envoie des instructions permettant au système d'exploitation de construire la chaîne de caractère.</p>
+
+  <h3>1. La chaîne de caractère</h3>
+
+  <p>Le texte est le vecteur de sens, qui va dépendre de tous les autres
+ acteurs pour maintenir ses constituantes propres les plus diverses.</p>
+
+  <h3>2. Le codage</h3>
+
+  <p>Le codage est matière complexe, mais étonnement passionnante. Quand
+ Unicode a démarré ses activités titanesques d'unification des codages, 
+le Consortium, après de nombreux débats riche en complexité technique et
+ culturelle, a décidé d'intégrer un nombre très important de codages 
+pré-existants même s'ils comportaient nombres de paradoxes, ambiguïtés 
+ou même absurdités. Ce choix a entre autres été guidé par le besoin de 
+permettre la moins mauvaise rétro-compatibilité avec les systèmes 
+antérieurs. Dans la grande majorité de ces codages, les glyphes moins 
+simples étaient composés, comme dans par exemple <strong>À</strong> ou <strong>dž</strong> ou <strong>ئ</strong>,
+ ce qui veut dire qu'une case de codage était réservée pour le(s) 
+glyphe(s) principal(aux) et le(s) diacritique(s), sous une forme fixe. 
+Dans ce mode, la chaîne texte - codage - fonte - moteur de composition 
+est assez simple à faire fonctionner.</p>
+
+  <p>Mais pour répondre à la magnifique et incroyable complexité des 
+milliers de langues et de systèmes d'écriture existant et ayant existé 
+sur Terre, des systèmes décomposés ont été imaginés, nettement plus 
+articulés et en miroir, complexes eux aussi. C'est-à-dire que plutôt que
+ fixer l'assemblage de chaque glyphe, les différents morceaux sont 
+stockés chacun dans sa case de codage, et un système partagé de 
+composition, résidant dans la fonte, le système d'exploitation, le 
+moteur de rendu et/ou dans le logiciel qui compose le texte, va (tenter 
+de) recomposer l'assemblage du glyphe.</p>
+
+  <p>Après la phase d'intégration des anciens codages, cette nouvelle 
+voie a été privilégiée, et peu de nouveaux systèmes d'écriture sont 
+encore intégrés sur un mode composé (simple mais épuisant 
+progressivement le nombre de places disponibles) dans Unicode.</p>
+
+  <h3>3. La fonte</h3>
+
+  <p>OpenType (OT), le format de fonte qui a intégré la norme Unicode, matérialisé par les fichiers .<em>otf</em>,
+ sert de stockage pour tous les glyphes et les différentes parties 
+(diacritiques) et intègre une partie des systèmes de composition grâce à
+ différentes fonctionnalités (baptisées parfois fonctionnalités OT ou 
+feature OT).</p>
+
+  <h3><strong>4. Le moteur de composition</strong></h3>
+
+  <p>Le système d'exploitation reçoit la chaîne de caractère, codée en 
+Unicode, puis le moteur de composition va chercher dans la fonte les 
+éléments dont il a besoin et il les passe selon une forme terminée ou 
+encore en partie à traiter au moteur de rendu et à l'application qui va 
+les afficher.</p>
+
+  <p>Si la plupart des systèmes d'exploitation savent maintenant 
+recevoir du texte codé en Unicode et utiliser des fontes OT, tous ne 
+savent pas traiter l'ensemble de la complexité des fonctionnalités OT, 
+ni de la même façon. Les moteurs de rendus et les applications, eux et 
+elles aussi ont un support variable de ces fonctionnalités. Comme tout 
+fonctionne en chaîne, il y a des raisons multiples de trouver un 
+problème à l'une ou l'autre étape.</p>
+
+  <p><strong>5. Le clavier</strong></p>
+
+  <p>C'est un mode d'entrée particulier qui produit la chaîne de caractère et qui dépend principalement du système d'exploitation.</p>
+
+  <h3>Difficultés et solutions transitoires</h3>
+
+  <p>Le support de ces fonctionnalités progresse régulièrement. Mais 
+dans le cas des systèmes d'exploitation, moteur de rendu et applications
+ privatives, ces progressions ne sont documentées que très tard. Et donc
+ une série de systèmes d'écriture, dont bon nombre utilisés dans les 
+langues de l'Afrique de l'Ouest, ne sont pas encore bien, ou même très 
+mal supportés. En ajoutant les questions autour de la saisie au clavier 
+des systèmes d'écriture qui ne disposent pas des leurs, les difficultés 
+deviennent complexes à circonscrire.</p>
+
+  <p>Or ces locuteurs sont légitimement impatient de pouvoir utiliser 
+les outils informatiques dans leur système d'écriture pour pouvoir 
+communiquer dans leur langue sans ambiguïtés, freins ni contorsions. 
+Différentes solutions ont donc été développées, Microsoft Word, la suite
+ Adobe CS, Indesign, Keyman, etc font sans doute partie des solutions 
+privatives utilisées, mais c'est maintenant du côté du logiciel libre 
+qu'elles sont en développement les plus actives.</p>
+
+  <p>Le système GNU/Linux et ses différents moteurs de rendu sont 
+maintenant largement capables de supporter des scripts complexes et sont
+ parfois les premiers à offrir une prise en charge de certains systèmes 
+d'écriture. Ces avancées sont possibles grâce nottamment aux moteurs de 
+rendu libres Pango et Harfbuzz utilisé par Inkscape et par les 
+navigateurs comme Mozilla Firefox ou Chromium. De même, le moteur de 
+rendu pour script complexe Graphite - qui offre un plus grande 
+flexibilité pour la création de comportements pour les scripts complexes
+ - utilisé par le système de composition XeLatex ou par les derniéres 
+versions de LibreOffice complètent dans une large mesure ce support de 
+manière multiplateforme permet d'accélérer le support de fonctionnalités
+ encore à venir dans le chantier opaque du côté privateur. Il faut 
+cependant souligner que, pour l'instant, Graphite n'est pas encore 
+intégré dans Fontforge et demande une étape supplémentaire de traitement
+ après la génération de la fonte OT, il faut faire appel à des 
+utilitaires séparés (voir <a title="Graphite" href="http://scripts.sil.org/RenderingGraphite">http://scripts.sil.org/RenderingGraphite</a>.</p>
+
+  <p>Les suites de publications privatrices n'ont qu'à bien se tenir. Voir les chapitre « <em>Outils Complémentaires</em> » ou « <em>Glossaire</em> » pour retrouver ces outils.</p>
+
+  <h2>En pratique, que faire dans la fonte&nbsp;?</h2>
+
+  <p>Deux options se présentent à nous.</p>
+
+  <ul>
+    <li>
+      <strong>La méthode composée</strong> que nous avons suivie 
+jusqu'ici présente la manière simple et ancienne de construire les 
+glyphes avec diacritiques. Sur des chaînes de fabrication qui pour une 
+raison ou une autre bloquent une composition OT complète avec une fonte 
+décomposée, cette solution reste valable, quoique obsolète à moyen 
+terme. Pour pouvoir accéder à notre glyphe depuis une application une 
+fois la fonte chargée, nous devons le déplacer vers une case de codage 
+définie dans l'Unicode, même si notre glyphe ne fait pas partie du 
+codage Unicode (et n'en fera sans doute jamais partie sous cette forme).
+ Nous créons alors un usage particulier de ce codage censé être 
+l'inverse, universel. Donc pour éviter autant que possible de rentrer en
+ collision avec un autre glyphe, nous allons utiliser quelques cases de 
+codage dans la zone grise qui s'appelle la Private Use Area qui en 
+prévoit environ 6400. Après avoir consulté quelques sources (<a href="http://en.wikipedia.org/wiki/Private_Use_Area#Private_use_characters">http://en.wikipedia.org/wiki/Private_Use_Area#Private_use_characters</a>, <a href="http://scripts.sil.org/cms/scripts/page.php?&amp;item_id=VendorUseOfPUA">http://scripts.sil.org/cms/scripts/page.php?&amp;item_id=VendorUseOfPUA</a>, <a href="http://www.evertype.com/standards/csur/">http://www.evertype.com/standards/csur/</a>), il semble que la série comprise entre U+E83C et U+E89F n'est pas, ou très peu, utilisée.
+
+      <p style="text-align: justify;"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/014_compo.png"></p>
+
+      <p>Coupez-collez donc le glyphe vers la case U+E83C. Et après avoir changé son nom dans le <em>Infos fonte</em>, générez la fonte&nbsp; et testé le glyphe dans un des outils précités, en pointant le nouveau glyphe.</p>
+    </li>
+
+    <li><strong>La méthode décomposée</strong> va être abordée dans un autre chapitre.</li>
+  </ul>
+
+  <ol id="InsertNote_NoteList">
+    <li id="InsertNoteID_6">Bloc Latin étendu B http://fr.wikipedia.org/wiki/Table_des_caractères_Unicode/U0180<span id="InsertNoteID_6_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-ajouter-des-glyphes-a-une-fonte#InsertNoteID_6_marker7">^</a></sup></span></li>
+
+    <li id="InsertNoteID_9">Section française d'Unicode - http://www.unicode.org/fr/<span id="InsertNoteID_9_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-ajouter-des-glyphes-a-une-fonte#InsertNoteID_9_marker10">^</a></sup></span></li>
+  </ol>
+</div>
+
+<ul class="menu-goes-here">
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+
+  <li class="booki-section">Méthodologie</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+
+  <li class="booki-section">Fondre avec Fontforge</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+
+  <li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+
+  <li class="booki-section">Dessiner ses glyphes dans Inkscape</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Comment modifier un glyphe d'une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="Comment créer une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police"><img src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch017_comment-ajouter-des-glyphes-a-une-fonte_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

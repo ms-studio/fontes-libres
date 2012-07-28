@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch016_comment-modifier-une-police_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch016_comment-modifier-une-police_files/prettify.js"></script>
+    <script type="application/javascript" src="ch016_comment-modifier-une-police_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch016_comment-modifier-une-police_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch016_comment-modifier-une-police_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch016_comment-modifier-une-police_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch016_comment-modifier-une-police_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch016_comment-modifier-une-police_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch016_comment-modifier-une-police_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Prise en main de FontForge" href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge"><img src="ch016_comment-modifier-une-police_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="Comment ajouter des glyphes à une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte"><img src="ch016_comment-modifier-une-police_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content"><h1>Comment modifier un glyphe d'une fonte
+</h1>
+<p>Vous êtes impatient, ça tombe bien, nous aussi&nbsp;! Plongeons dans FontForge sans attendre.
+</p>
+<h2>Ouvrir la fonte
+</h2>
+<p>Au lancement de FontForge, le dialogue <em>[Ouvrir fonte]</em> apparaît par défaut. Le bouton <em>[Nouvelle fonte] </em>n'est
+ qu'une option, voir le chapitre&nbsp;«&nbsp;Comment créer une 
+fonte&nbsp;». Naviguer au besoin et pointer un fichier de fonte, qui 
+peut être de divers formats, mais pour démarrer, choisissez soit une 
+police Opentype de type <em>.otf</em>, soit un fichier source de FontForge au format<em> .sfd</em>.
+</p>
+<p>Dans cet ouvrage, nous allons modifier la police Fengardo de Loïc 
+Sander (ouverte plus largement à l'occasion de la rédaction de ce livre,
+ voir le chapitre&nbsp;«&nbsp;À propos de ce livre&nbsp;») disponible au
+ format .otf sur le site <a target="_blank" href="http://www.akalollip.com/blog/?p=1673">akalollip</a><span class="InsertNoteMarker" id="InsertNoteID_8_marker9"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-modifier-une-police#InsertNoteID_8">1</a></sup></span>&nbsp;.&nbsp;
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/Ouvrir%2520Fonte_001.png">&nbsp;
+</p>
+<p>Si seule la source Truetype, de type<em> .ttf</em> est disponible, voir le chapitre&nbsp;« Formats ouverts&nbsp;».
+</p>
+<h2>La fenêtre de fonte
+</h2>
+<p>La fenêtre de fonte avec la table des caractères de la fonte s'ouvre 
+sur une partie de l'écran. Vous pouvez mettre la fenêtre en plein écran 
+pour naviguer plus aisément dans tous les glyphes disponibles, affichés 
+dans des cases représentant approximativement leur corps. La disposition
+ des glyphes dans ce tableau dépend de l'encodage utilisé pour son 
+affichage, le plus souvent Unicode au démarrage (l'encodage est spécifié
+ dans la barre de titre de la fenêtre, à droite du nom de la fonte). 
+Avec l'option du menu <em>Codage &gt; Compacté</em>, l'ordre d'affichage
+ est modifié pour repousser les glyphes ne contenant pas d'information 
+en fin de tableau, cela permettant d'accéder plus rapidement aux glyphes
+ existants. Au double-clic sur un glyphe, sa fenêtre d'édition s'ouvre.
+</p>
+<p style="text-align: justify;"> <img src="ch016_comment-modifier-une-police_files/Fengardo%2520%2520Fengardo-regular.png"></p>
+<p>Pour chercher un glyphe particulier, utiliser <em>Vue &gt; Aller au glyphe</em>. Vous pouvez aussi agrandir ou réduire l'affichage avec le menu <em>Vue &gt; Agrandir</em> ou <em>Vue &gt; Réduire</em>, ou encore en tournant la molette de la souris lorsque la touche [<em>Ctrl</em>] est enfoncée.
+</p>
+<h2>Ouvrir la fenêtre d'édition
+</h2>
+<p>Nous décidons de faire remonter dans le temps l'ancrage historique de
+ cette fonte récente en transformant la partie gauche de la barre 
+horizontale du <strong>t</strong> en tracé oblique, ce qui fait référence dans certaines classifications typographiques aux <a target="_blank">linéales humanistiques</a><span class="InsertNoteMarker" id="InsertNoteID_20_marker21"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-modifier-une-police#InsertNoteID_20">2</a></sup></span>.
+</p>
+<p>Pour le dire en utilisant des termes typographiques, passer d'une 
+ascendante simple avec une traverse de part et d'autre vers un apex en 
+haut, une oblique de transition et une traverse à droite. Pour mieux 
+appréhender les termes typographiques, n'hésitez pas à vous reporter au 
+glossaire en fin d'ouvrage.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/the.png"></p>
+<p>Pour ce faire, double-cliquez (ou <em>Fenêtre &gt; Ouvrir fenêtre de glyphe</em>)
+ et la fenêtre d'édition de glyphe à proprement parler apparaît, ainsi 
+que la palette d'outils et la palette de calques. Par défaut, seulement 
+le contour de glyphe est affiché, avec ses différents points d'ancrage 
+et de contrôle. La logique de l'édition de la lettre est très proche de 
+celle d'un logiciel vectoriel courant comme Inkscape&nbsp;: elle repose 
+sur le déplacement des poignées associées à ces points. Pour voir le 
+glyphe avec une couleur de remplissage et pas uniquement en contour, 
+choisissez <em>Vue &gt; Voir &gt; Remplissage (Vue &gt; Show &gt; Fill) </em>de la fenêtre d'édition de glyphe.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/fenetre_glyphe.png"></p>
+<p>Avec le pointeur, déplacez un des points pour essayer, et annulez 
+l'opération. Puis sélectionnez les trois points qui vont être remplacés 
+par l'oblique en cliquant sur chacun tout en gardant la touche [<em>Maj</em>] enfoncée ou en traçant un rectangle autour de ces points (ils sont alors affichés sous forme de carrés verts).
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/004_t%252520116%252520venant%252520de%252520Fengardo%252520LETTRE%252520.png"></p>
+<p>Supprimez ces 3 points en appuyant sur la touche [<em>Suppr</em>] de votre clavier ou en ayant recours au menu <em>Édition &gt; Supprimer</em>, ce qui transforme le tracé de la lettre en contour ouvert et le remplissage disparaît.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/005_t%252520116%252520venant%252520de%252520Fengardo%252520%252520LETTR.html"></p>
+<p>Sélectionnez un des points terminaux nouvellement créés par la 
+suppression, puis avec l'outil plume, cliquez sur l'autre point final. 
+FontForge dessine le vecteur entre les deux et rétablit le remplissage 
+en refermant le tracé.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/006_t%252520116%252520venant%252520de%252520Fengardo%252520%252520LETTRE.png"></p>
+<p>Observez la compensation optique de la courbe du bas du <strong>t</strong>
+ (soit le fait que cette courbe descend plus bas que la ligne de base). 
+Vous pouvez compenser optiquement les formes pointues qui viennent 
+d'être produites en déplaçant légèrement les deux points vers le haut et
+ vers la gauche. Pour ne les déplacer qu'orthogonalement, utilisez les 
+touches flèche gauche et flèche haut.
+</p>
+<p>Puis transformez l'oblique rectiligne vers une courbe légèrement 
+concave. Sélectionnez le point du haut, l'apex, et pour obtenir les 
+points de contrôle, convertissez-le avec le menu <em>Point &gt; Convertir en point curviligne</em>. Deux points de contrôle sont créés, mais le point, devenu curviligne, arrondit maintenant de manière grotesque le sommet du <strong>t</strong>.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/007_t%252520116%252520venant%252520de%252520Fengardo%252520%252520LETTRE.png"></p>
+<p>Rétractez le point de contrôle de droite devenu inutile et représenté
+ par une croix rose, en le ramenant sur le point d'ancrage, ce qui le 
+fait disparaître. Déplacez le point d'ancrage pour créer la douce 
+cambrure que cette partie de la lettre appelle, ou déplacer directement 
+le trait oblique du haut de cette lettre (cette méthode est pratique 
+mais moins précise). Par acquis de conscience, convertissez-le en point 
+angulaire (menu <em>Point</em>) pour mieux le faire correspondre à sa nouvelle nature.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/008_t%252520116%252520venant%252520de%252520Fengardo%252520%252520LETTRE.png"></p>
+<p>Pour influer sur cette courbe plus fortement à partir de l'autre bout
+ de la courbe, adoptez une autre approche : clic-droit (ou cliquez avec 
+la touche <em>Ctrl<strong> </strong></em>appuyée) sur le point, et un menu très complet apparaît, offrant une série d'opérations possibles sur le point. Choisissez&nbsp;<em>Infos...</em> et découvrez la fenêtre <em>[Infos points]</em>
+ qui donne accès à toutes les caractéristiques de chaque point. À ce 
+stade, les deux points de contrôle ont toutes leurs valeurs à zéro. 
+Tentez d'entrer des nombres dans les deux champs <em>Décalage</em> et voyez apparaître un point de contrôle.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/009_Infos%2520points.png"></p>
+<p>Fermez alors la fenêtre et continuez à déplacer ce point à l'aide du pointeur jusqu'à obtenir la portion de courbe désirée.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/010_t%252520116%252520venant%252520de%252520Fengardo%252520%252520LETTRE.png"></p>
+<p>Le <strong>t</strong> semble à présent terminé. Il reste une étape 
+importante, celle de faire fonctionner ce dessin isolé en tant que 
+glyphe, c'est-à-dire de le faire cohabiter avec d'autres glyphes. En 
+d'autres mots, il faudra tester son action visuelle sur la composition 
+typographique, grâce à la fenêtre des métriques, accessible via le menu <em>Fenêtre &gt; Ouvrir la fenêtre de métriques</em>. Tapez un mot contenant plusieurs <strong>t</strong>,
+ au début, milieu et fin afin de les faire fonctionner avec différentes 
+proximités. Pour cacher la grille des métriques et se concentrer sur le 
+rendu visuel, menu <em>Vue &gt; Montrer la grille &gt; Cacher (Hide)</em>.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/011_Kerning%2520Metrics%2520For%2520Fengardo.png"></p>
+<p>Sans fermer cette fenêtre et pour mieux intégrer la nouvelle forme du <strong>t</strong>,
+ revenez dans la fenêtre d'édition de glyphe et essayez de biseauter les
+ deux pointes pour amener plus de cohérence avec le style de dessin de 
+lettre de départ&nbsp;:&nbsp;elle semble en effet trop pointue sur la 
+partie que nous avons modifiée en comparaison des autres glyphes.
+</p>
+<p>Au clic-droit n'importe où dans la fenêtre, choisissez <em>Ajouter un point angulaire</em>
+ et cliquez sur une portion de la courbe, près de l'apex. Puis reprenez 
+le pointeur et déplacez le point nouvellement créé, qui comporte deux 
+points de contrôle, dont un est inutile.
+</p>
+<p>Pour le rétracter, sélectionnez les deux points d'ancrage qui forment maintenant l'apex et allez dans le menu <em>Point &gt; Convertir en ligne</em> pour créer une petite portion de ligne. Puis alignez-les horizontalement avec <em>Élément &gt; Aligner &gt; Moyenne des points</em>.
+</p>
+<p>De plus en plus à l'aise, appliquez rapidement cette méthode sur la pointe gauche.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/012_t%252520116%252520venant%252520de%252520Fengardo%252520%252520LETTRE.png"></p>
+<p>Voilà le <strong>t</strong> modifié, et vous voyez que les modifications se sont progressivement affichées aussi dans la fenêtre de métrique.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/014_metrique1.png"></p>
+<p>Peut-être qu'à côté d'autres glyphes, cette nouvelle forme 
+fonctionnerait mieux si vous rameniez un peu la partie gauche vers le 
+fût du <strong>t</strong>, vers sa barre verticale centrale&nbsp;?
+</p>
+<p>Déplacez de 10 unités les deux points gauches qui forment maintenant 
+la pointe. L'oblique est un petit peu plus aiguë, la référence à la 
+calligraphie un peu plus nerveuse, ce qui semble intéressant. Mais 
+l'espace vide ainsi créé à gauche du glyphe est devenu un peu trop 
+important, il faut le réduire.
+</p>
+<p>Dans la fenêtre de métriques, réduisons de 10 unités la valeur de 
+l'approche gauche (ApprocheG) du t, ainsi que sa chasse (sa largeur) de 
+manière à ce que l'approcheD (droite) ne fasse pas les frais de cette 
+modification par compensation. Notre mot test semble maintenant mieux 
+inter-lettré. Bra-vo&nbsp;!
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/014_metrique1.png"></p>
+<p>Trois opérations sont maintenant nécessaires avant de pouvoir tester 
+la fonte en situation réelle, c'est-à-dire de l'utiliser pour composer 
+du texte dans une application&nbsp;:
+</p>
+<ul><li>générer la fonte à proprement parler&nbsp;;</li>
+  <li>permettre aux autres applications d'accéder à la fonte, et donc l'installer dans notre système&nbsp;;</li>
+  <li>la retrouver dans le menu fontes de cette application, c'est-à-dire lui donner un nom différencié.</li>
+</ul><p>Vous allez commencer par cette dernière étape, à l'aide de <em>Éléments &gt; Infos fontes</em>. Le nommage étant une étape importante et sur laquelle de nombreux enjeux reposent, voir le chapitre « <em>Recommandations de nommage »</em> à ce propos, vous pouvez utiliser un nom temporaire actuellement, par exemple <strong>Rennesgardo</strong>, à introduire dans les 3 champs <em>Nom de la fonte</em>, <em>Nom de la famille</em> et <em>Nom humain</em>.
+</p>
+<p style="text-align: justify;"><img src="ch016_comment-modifier-une-police_files/015_Infos%2520fonte%2520pour%2520Fengardo.png"></p>
+<p>Si votre fonte est destinée à être redistribuée rajoutez vos noms 
+dans le champ Copyright bien sûr, sans effacer le nom des autres 
+co-auteurs. Renseignez ensuite les éléments FONTLOG qui permettent de 
+mémoriser vos apports spécifiques. Pour intégrer cette information 
+directement dans le fichier FontForge, vous pouvez saisir l'information 
+en cliquant sur FONTLOG dans la colonne gauche de l'Infos Fonte et 
+entrant des informations par exemple sous la forme&nbsp;:
+</p>
+<p>- 2011-11-07 (votre nom) (RennesGardo)&nbsp; Version1.1.
+</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; modified t apex
+</p>
+<p>Copiez cette donnée, puis affichez le fichier FONTLOG livré avec le 
+dossier source de fonte (release), s'il existe, et ajoutez-y cette 
+information de manière à ce qu'elle soit visible à tout utilisateur, 
+même s'il n'utilise pas FontForge.
+</p>
+<p>Au moment de la validation, FontForge vous propose de choisir pour 
+vous un identifiant chiffré unique. C'est une étape optionnelle en effet
+ cet identifiant unique est peu utilisé.
+ /p&gt;
+</p><p>Vous allez maintenant générer la fonte avec <em>Fichiers &gt; Générer la fonte</em>. Vous pouvez choisir le format <em>.otf </em>appelé dans le menu <em>OpenType (CFF)</em>.
+ FontForge détecte sans doute une série de problèmes potentiels, à 
+corriger pour la version finale idéalement. Mais à ce stade, lisez la 
+liste d'erreurs détectées, puis confirmez l'enregistrement !
+</p>
+<p>Et enfin installez cette fonte sur votre système, peut-être par le 
+biais d'un gestionnaire de fontes comme FontMatrix voir le chapitre <em>« Outils complémentaires »</em>.
+</p>
+<p>C'est le moment, enfin, de tester votre fonte dans le logiciel de votre choix&nbsp;!
+</p>
+<pstyle justify=""><img src="ch016_comment-modifier-une-police_files/017_-home-pierreh-works-booksprint-fontes-libres-trop.png"><ol id="InsertNote_NoteList"><li id="InsertNoteID_8">http://www.akalollip.com/blog/?p=1673<span id="InsertNoteID_8_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-modifier-une-police#InsertNoteID_8_marker9">^</a></sup></span></li>
+  <li id="InsertNoteID_20">http://fr.wikipedia.org/wiki/Lin%C3%A9ale<span id="InsertNoteID_20_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/comment-modifier-une-police#InsertNoteID_20_marker21">^</a></sup></span></li>
+</ol></pstyle></div><ul class="menu-goes-here"><li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+<li class="booki-section">Méthodologie</li><li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+<li class="booki-section">Fondre avec Fontforge</li><li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+<li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+<li class="booki-section">Dessiner ses glyphes dans Inkscape</li><li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+<li class="booki-section">Annexes</li><li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+<li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Prise en main de FontForge" href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge"><img src="ch016_comment-modifier-une-police_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="Comment ajouter des glyphes à une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte"><img src="ch016_comment-modifier-une-police_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch016_comment-modifier-une-police_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

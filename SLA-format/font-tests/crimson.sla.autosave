@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCRIBUSUTF8NEW Version="1.4.1">
+    <DOCUMENT ANZPAGES="23" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" PRESET="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" ORIENTATION="0" PAGESIZE="Custom" FIRSTNUM="1" BOOK="1" AUTOTEXT="1" AUTOSPALTEN="1" ABSTSPALTEN="0.433133858267717" UNITS="2" DFONT="DejaVu Sans Book" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="72" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="Fontes Libres" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="1" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="Adobe RGB (1998)" DPPr="Fogra27L CMYK Coated Press" DPIn="Adobe RGB (1998)" DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="Adobe RGB (1998)" DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="0" LANGUAGE="French" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="0" SnapToGuides="0" SnapToGrid="0" MINGRID="20.0016" MAJGRID="100.0008" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="1" SHOWLAYERM="0" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0016" ScratchLeft="100.0008" ScratchRight="100.0008" ScratchTop="20.0016" GapHorizontal="0" GapVertical="40.0032" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.1389" dispY="0.1389" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="1" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
+        <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF 1.5" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PDF/X-3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="1" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <CheckProfile Name="PostScript" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
+        <COLOR NAME="Black" CMYK="#000000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Blue" RGB="#0000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Cool Black" CMYK="#990000ff" Spot="0" Register="0"/>
+        <COLOR NAME="Cyan" CMYK="#ff000000" Spot="0" Register="0"/>
+        <COLOR NAME="Green" RGB="#00ff00" Spot="0" Register="0"/>
+        <COLOR NAME="Magenta" CMYK="#00ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Red" RGB="#ff0000" Spot="0" Register="0"/>
+        <COLOR NAME="Registration" CMYK="#ffffffff" Spot="0" Register="1"/>
+        <COLOR NAME="Rich Black" CMYK="#996666ff" Spot="0" Register="0"/>
+        <COLOR NAME="Warm Black" CMYK="#00994cff" Spot="0" Register="0"/>
+        <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
+        <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
+        <HYPHEN/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="3" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="Fengardo Regular" FONTSIZE="10"/>
+        <STYLE NAME="HTML_default" LINESPMode="0" LINESP="13" VOR="5" NACH="5" KERN="0"/>
+        <STYLE NAME="HTML_h1" LINESPMode="0" LINESP="15" VOR="40" NACH="30" FONT="Fengardo Regular" FONTSIZE="18" KERN="0"/>
+        <STYLE NAME="HTML_p" LINESPMode="0" LINESP="15" NACH="14.17322835" FONT="Fengardo Regular" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
+        <STYLE NAME="HTML_h2" LINESPMode="0" LINESP="15" VOR="30" NACH="20" FONT="Fengardo Regular" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
+        <STYLE NAME="HTML_li_level-0" LINESPMode="0" LINESP="15" INDENT="27.0216" FIRST="0" FONT="Fengardo Regular" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
+        <STYLE NAME="HTML_h3" LINESPMode="0" LINESP="15" VOR="20" NACH="10" FONT="Fengardo Regular" FONTSIZE="14" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
+        <STYLE NAME="HTML_h4" LINESPMode="0" LINESP="15" VOR="10" NACH="5" FONT="Fengardo Regular" FONTSIZE="13" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Fengardo Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
+        <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" includePDFMarks="1" PSLevel="0" PDLanguage="0" markOffset="5.48612406879369e+303" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="Adobe RGB (1998)" ImageP="Adobe RGB (1998)" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="1" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Crimson Text Roman"/>
+            <Fonts Name="PropCourierSans Bold"/>
+            <Fonts Name="PropCourierSans Regular"/>
+            <Subset Name="Fengardo Italic"/>
+            <Subset Name="Fengardo Regular"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
+            <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
+            <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
+            <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
+            <LPI Color="Yellow" Frequency="133" Angle="90" SpotFunction="3"/>
+        </PDF>
+        <DocItemAttributes/>
+        <TablesOfContents/>
+        <PageSets>
+            <Set Name="Single Page" FirstPage="0" Rows="1" Columns="1"/>
+            <Set Name="Double Sided" FirstPage="1" Rows="1" Columns="2">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="3-Fold" FirstPage="0" Rows="1" Columns="3">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+            <Set Name="4-Fold" FirstPage="0" Rows="1" Columns="4">
+                <PageNames Name="Left Page"/>
+                <PageNames Name="Middle Left"/>
+                <PageNames Name="Middle Right"/>
+                <PageNames Name="Right Page"/>
+            </Set>
+        </PageSets>
+        <Sections>
+            <Section Number="0" Name="0" From="0" To="22" Type="Type_1_2_3" Start="1" Reversed="0" Active="1"/>
+        </Sections>
+        <MASTERPAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="0" NAM="Normal Left" MNAM="" Size="Custom" Orientation="0" LEFT="1" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <MASTERPAGE PAGEXPOS="100.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="1" NAM="Normal Right" MNAM="" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="20.0016" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="0" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="708.0048" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="1" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="708.0048" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="2" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="1396.008" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="3" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="1396.008" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="4" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="2084.0112" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="5" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="2084.0112" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="6" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="2772.0144" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="7" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="2772.0144" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="8" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="3460.0176" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="9" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="3460.0176" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="10" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="4148.0208" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="11" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="4148.0208" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="12" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="4836.024" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="13" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="4836.024" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="14" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="5524.0272" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="15" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="5524.0272" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="16" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="6212.0304" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="17" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="6212.0304" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="18" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="6900.0336" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="19" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="6900.0336" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="20" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="100.0008" PAGEYPOS="7588.0368" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="21" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGE PAGEXPOS="532.0008" PAGEYPOS="7588.0368" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="22" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="589.6008" YPOS="70.4016" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="1" BACKITEM="-1">
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Préface"/>
+            <para PARENT="HTML_h1"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="Fengardo Italic" CH="Voyage à travers Unicode : un espace international riche en diversité"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="Fengardo Italic" CH="Inspiré de "/>
+            <ITEXT FONT="Fengardo Italic" FEATURES="inherit underline" FCOLOR="Blue" CH="http://sincerelymichael.com/work/english/english.html"/>
+            <ITEXT FONT="Fengardo Italic" FCOLOR="Blue" CH=" [1]"/>
+            <ITEXT CH=" par Michael Ciancio."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="La lettre est la pièce minimale de l'expression écrite. C'est dire combien elle est nécessaire dans la vie de l'écriture. L'homme a eu le besoin d'écrire depuis la nuit des temps et l'histoire ne manque pas d'exemples montrant l'évolution des caractères depuis les origines jusqu'à nos jours. Si les caractères se combinent pour supporter une information (mots, phrases), leurs formes ne sont pas pour autant neutres, elles parlent. Il suffit de parcourir un livre pour s'en convaincre : titres, sous-titres, corps de texte… Prenant progressivement conscience des possibilités qui leur étaient offertes au cours de l'histoire, les locuteurs et les spécialistes de l'écriture ont commencé à documenter ou à créer des formes variées, chacun poursuivant un but particulier, grandement influencés par la culture et le contexte donné. On assiste alors lentement à la prolifération des typos surtout depuis l'avènement de l'ére informatique. Malheureusement, si des efforts constants sont faits pour rendre plus disponibles des fontes dans les langues largement parlées, d'autres langues moins connues et avec moins de locuteurs ne peuvent pas encore être utilisées sur un ordinateur parce que les glyphes qui les composent manquent encore jusqu'à aujourd'hui."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Ce livre veut être un guide pour celui qui ne trouve pas de fonte qui corresponde exactement à ses aspirations d'expression graphique, afin qu'il puisse aisément en adapter ou redessiner une ou plusieurs selon ses besoins. Il donne aussi aux locuteurs des langues qui ne disposent pas encore de fontes appropriées les pistes pour en trouver, en adapter ou en créer dans le but de faciliter l'usage par voie électronique et ainsi favoriser la préservation de la richesse culturelle de ces langues."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Les différents experts qui ont participé à sa rédaction n'ont pas manqué de donner au lecteur les rudiments nécessaires pour comprendre les aspects juridiques, techniques ainsi que toutes les attentions et intentions qu'il faut avoir à l'esprit en utilisant et en créant telle ou telle typo. Au-delà de la vonlonté de servir à tout utilisateur francophone d'ouvrage de référence technique précis en matière de création de fontes, ce manuel se veut également un outil indispensable de sensibilisation aux enjeux important du copyright et du droit d'auteur dans ce domaine."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Les fontes sont l'endroit magnifique où la connaissance, l'art, l'histoire, le code et le droit se rencontrent. C'est dire à quel point elles sont l'enjeu parfois trop muet d'attentes, de tensions et de désirs !"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Ceci est un livre libre et les pistes proposées sont libres, elles aussi. Les nombreux exemples illustrés et la sélection de ressources en annexe font de ce livre un guide pour tous ceux qui recherchent des explications claires sur un domaine riche et complexe ainsi que des réponses pratiques aux différentes problématiques correspondantes."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Bonne lecture, bonne découverte et bienvenue dans la communauté des utilisateurs et des créateurs de fontes libres !"/>
+            <para PARENT="HTML_default"/>
+            <breakframe/>
+            <ITEXT CH="Conventions"/>
+            <para PARENT="HTML_h1"/>
+            <ITEXT CH="Le domaine de la typographie est vaste. Son vocabulaire riche devient souvent un jargon obscur, sujet à interprétations diverses. Dans cet ouvrage, nous veillerons donc à bien expliquer le sens donné aux mots de base de la typographie et à nous tenir à ce lexique."/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="La typo"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="Il s'agit de la composante artistique, c'est-à-dire l'expression de la lettre, la façon de représenter l'alphabet. Ainsi, parler de création d'alphabet est une simplification abusive. Il s'agit le plus souvent de la création d'un style d'alphabet, et non d'un nouveau principe d'alphabet. Cette considération n'exclut pas une part de créativité. Elle se situe simplement au même niveau. Il faut bien distinguer la démarche de création et de standardisation d'un alphabet qui est l'aboutissement d'un travail faisant appel à la discipline scientifique de la linguistique descriptive réalise en partenariat avec les autorités locales et la création de typos à proprement parler."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Il existe toutefois des cas d'authentique création d'alphabet s'appuyant sur une approche typographique comme, par exemple, celle de l'alphabet pan-nigérian mis au point par Hermann Zapf de 1983 à 1985 en collaboration avec la linguiste Kay Williamson"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="1"/>
+            <ITEXT FCOLOR="Blue" CH=" [2]"/>
+            <ITEXT CH="."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Pour être tout à fait complet, il convient de préciser qu'un alphabet (pouvant être latin, arabe, grec, cyrillique, coréen, etc.) n'est qu'un type parmi d'autres de systèmes d'écriture (désignés sous le nom de "/>
+            <ITEXT FONT="Fengardo Italic" CH="scripts"/>
+            <ITEXT CH=" en anglais) au même titre que les systèmes logographiques (associant un signe à un mot comme pour les idéogrammes chinois, aussi utilisé en japonais et coréen, ou encore comme dans le cas des hiéroglyphes égyptiens), les systèmes syllabiques (comme les kanas japonais ou l'écriture cherokee) sans oublier les systèmes pictographiques correspondant à des codes signalétiques plus ou moins standardisés et non plus à des langues"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="2"/>
+            <ITEXT FCOLOR="Blue" CH=" [3]"/>
+            <ITEXT CH=". À cet égard, signalons le projet "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="ScriptSource.org"/>
+            <ITEXT FCOLOR="Blue" CH=" [4]"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="3"/>
+            <ITEXT FCOLOR="Blue" CH=" [5]"/>
+            <ITEXT CH=", un service collaboratif qui répertorie et détaille l'ensemble de la connaissance sur les différents systèmes d'écriture dans le monde ainsi que les différents standards internationaux correspondants: Unicode, ISO 639, ISO 15924, CLDR, etc."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="La fonte"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="La fonte, appelée ainsi car historiquement issue de la fonte de plomb et d'antimoine*, désigne aujourd'hui le fichier numérique grâce auquel on peut utiliser la typo. À noter qu'à une typo peut correspondre plusieurs fontes, qui sont autant de variantes. Les variantes les plus courantes sont le romain, le gras, l'italique et le gras italique, bien connues des utilisateurs de traitement de texte."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Le caractère"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="Le caractère désigne la zone standardisée où l'un des éléments constitutifs du système d'écriture est défini (il y a bien sûr souvent plusieurs caractères par fonte, afin que celle-ci soit utilisable pour former des mots à l'écran). "/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Le glyphe"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="Le glyphe est la forme graphique composée de contours que peut revêtir un caractère (il peut y avoir plusieurs glyphes par caractère, plusieurs "/>
+            <ITEXT FONT="Fengardo Italic" CH="a"/>
+            <ITEXT CH=" minuscules par exemple, ou plusieurs styles de chiffres). "/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Les termes volontairement écartés"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH="Nous avons pris le parti d'écarter les expressions "/>
+            <ITEXT FONT="Fengardo Italic" CH="police de caractères "/>
+            <ITEXT CH="et "/>
+            <ITEXT FONT="Fengardo Italic" CH="caractère typographique"/>
+            <ITEXT CH=" et compte tenu de la relative notoriété, voire de la popularité de ces expressions, nous tenons à expliquer ce choix ici."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Police de caractères"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="L'expression "/>
+            <ITEXT FONT="Fengardo Italic" CH="police de caractères"/>
+            <ITEXT CH=" date de l'époque de la typographie au plomb et a été forgée par analogie avec l'expression police d'assurances. Elle désigne le récapitulatif des caractères de la casse (meuble servant à stocker les caractères en plomb, avec en haut les capitales et en bas les minuscules, ou bas-de-casse ; ces expressions subsistant dans les logiciels, y compris les traitements de textes les plus récents, nous les explicitons ici pour mémoire). Bien que séduisante, cette analogie n'est aujourd'hui plus d'actualité dans la mesure où la liste des caractères d'une fonte est présentée automatiquement par l'ordinateur. La police n'a pas non plus vocation à maintenir un ordre alphabétique, paramétré en amont par le codage. Il n'est pas besoin de récapituler cela dans un document à part, sauf à établir un spécimen des différents caractères dont la fonte est composée, mais ce dernier a davantage une fonction pédagogique, voire promotionnelle, ce qui s'accompagne parfois du rappel de la grille tarifaire, cette pratique tendant toutefois à se perdre aujourd'hui. "/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Caractère typographique"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="L'expression "/>
+            <ITEXT FONT="Fengardo Italic" CH="caractère typographique"/>
+            <ITEXT CH=" est née de la prise en compte de l'aspect tautologique de l'expression "/>
+            <ITEXT FONT="Fengardo Italic" CH="police de caractères"/>
+            <ITEXT CH=" présentée ci-dessus. Cette expression, très usitée au sein de la communauté des fondeurs, tend implicitement à tisser une analogie entre la forme graphique d'une typo et la personnalité de son auteur, par glissement sémantique entre caractère au sens typographique et caractère au sens psychologique (tel que longuement exposé dans les "/>
+            <ITEXT FONT="Fengardo Italic" CH="Caractères"/>
+            <ITEXT CH=" de La Bruyère). Si donc cette expression est intellectuellement séduisante, elle peut également causer beaucoup de confusion dans l'esprit du public, notamment en raison des menus "/>
+            <ITEXT FONT="Fengardo Italic" CH="Table des caractères"/>
+            <ITEXT CH=" ou "/>
+            <ITEXT FONT="Fengardo Italic" CH="Insérer un caractère spécial"/>
+            <ITEXT CH=" par ailleurs très répandu dans les systèmes d'exploitation et dans les logiciels. Notons enfin que pour éviter d'alourdir le texte et le fil de la lecture du manuel, plusieurs termes appartenant au domaine de la typographie ou plus largement des logiciels et des pratiques libres ont été expliqués dans le chapitre Glossaire. Ils sont identifiés dans le corps du manuel par un astérisque."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="1. Frank Adebiaye, L'alphabet pan-nigérian, Graphê, n°42, mars 2009"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [6]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="2. Wikipédia et The Noun Project, une base de pictogramme collaborative - http://thenounproject.com/"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [7]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="3. ScriptSource: service collaboratif autour des systèmes d'écriture - http://scriptsource.org"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [8]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <breakframe/>
+            <ITEXT FONT="PropCourierSans Regular" CH="Vers un nouveau paradigme"/>
+            <para PARENT="HTML_h1"/>
+            <ITEXT FONT="Crimson Text Roman" FEATURES="inherit smallcaps" CH="e monde de la typographie"/>
+            <ITEXT FONT="Crimson Text Roman" CH=" vit actuellement un développement si important que des dizaines de fontes apparaissent chaque jour et sont mises à disposition immédiatement sur divers sites web. Il faut prendre ce constat comme l''indice d'un engouement grandissant pour la création de fontes. On dénombre ainsi aisément plusieurs dizaines de milliers de fontes disponibles dans des styles allant du plus classique au plus original, en passant par le style gothique, le style manuscrit et bien d'autres. Pour autant, la situation est loin d'être idéale sur bien des points."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="Crimson Text Roman" CH="L'expérience montre que le besoin reste présent pour des raisons qui ne sont d'ailleurs pas toujours sans importance. Le souhait de créer une forme plus belle pour une œuvre artistique le dispute à la nécessité d'adapter la forme d'un caractère aux besoins d'une langue africaine par exemple."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="Crimson Text Roman" CH=" La modification, la recréation, la récréation"/>
+            <ITEXT FONT="Crimson Text Roman" FEATURES="inherit underline superscript" FCOLOR="Blue" CH="1"/>
+            <ITEXT FONT="Crimson Text Roman" FCOLOR="Blue" CH=" [9]"/>
+            <ITEXT FONT="Crimson Text Roman" CH=" montrent à quel point la création de fontes est toujours d'actualité. Bien des graphistes souffrent de ne pas pouvoir et/ou de ne pas savoir manipuler les caractères comme ils le souhaitent."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="Crimson Text Roman" CH="La typographie est au demeurant un art très empreint de techniques avancées qui permettent à celui qui le maîtrise un tant soit peu de résoudre à son niveau bon nombre de problèmes comme ceux évoqués ci-dessous."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="PropCourierSans Regular" CH="Combler l'absence"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT FONT="Crimson Text Roman" CH="Bon nombre de fontes ne disposent pas de tous les caractères voulus ni des variantes souhaitées. Il peut alors s'avérer intéressant pour un graphiste d'accéder au dessin même du caractère, de le modifier, de le travailler afin de lui offrir des caractéristiques supplémentaires puis de le rendre accessible non seulement à lui-même, mais aussi à toute une communauté de graphistes qui pourrait en bénéficier aussi."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FONT="Crimson Text Roman" CH="Il faut aussi souligner le cas très répandu de nombreux pays, d'Afrique ou d'ailleurs (c'est même parfois le cas pour le français ou d'autres langues européennes dans une certaine mesure) où la multiplicité des langues et l'absence de caractères associés à certains signes et donc à certains sons constituent une barrière empêchant les locuteurs de ces langues d'accéder à l'information sous forme électronique, ceci limitant grandement - souvent jusqu'à la paralysie - l'expression culturelle, les échanges et les efforts d'éducation."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Permettre l'intercompréhension"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="Les caractères propres à certaines fontes sont absents d'autres fontes entravant la compréhension d'un texte ouvert dans un autre environnement. Ce qui fonctionne bien pour l'émetteur du message devient incompréhensible pour son destinataire. Nous sommes loin des considérations visuelles et graphiques, le fond même du message est inaccessible. C'est surtout le cas des fontes créées par certains amateurs pour un besoin précis sans prise en compte des enjeux de l'interopérabilité et la pérennité de leur travail (comme le soin de faire conformer leur fonte au standard Unicode)."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Personnaliser"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="Pour la réalisation d'une œuvre originale ou pour faire ressortir la personnalité d'un commanditaire, il peut être souhaitable de transformer une fonte existante. C'est souvent le cas dans la réalisation de titrages ou de logos où une variante d'une fonte existante est utilisée."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Pour des novices, il est, dans un premier temps, plus simple de partir de fontes existantes et de se familiariser avec les bons usages avant d'en venir à la création à proprement parler."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Renforcer sa création plastique"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="Dans leur diversité, les caractères sont également utilisés dans des affiches ou autres créations plus graphiques et ponctuelles, contenant moins d'information. Dans ce cas, les qualités plastiques l'emportent sur la contrainte de lisibilité. Cependant, il est utile de créer une fonte à partir de lettres ponctuelles pour la ré-exploiter ultérieurement ou dans d'autres contextes (via un enrichissement fonctionnel des variations contextuelles). De nombreux mouvements artistiques des années 20 ou 60 ont largement abordé ces problèmes qui perdurent actuellement dans les pratiques quotidiennes de nombreux graphistes."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Satisfaire son désir créatif"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="La modification ou la création de caractères est en elle-même un exercice amusant pour le graphiste qui peut le conduire à la création d'une fonte (et donc l'amenant à devenir fondeur lui-même). Cette nouvelle fonte ne manquera pas d'atouts personnels et ajoutera un vent de fantaisie et d'originalité comme celui qui souffle actuellement sur le petit monde de la typographique."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Quelles exigences pour la création de fontes ?"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH="Si vous voulez vous exercer à créer ou à modifier une fonte, et si vous êtes vraiment motivés, alors sachez que ce capital de motivation représente une des choses essentielles dans cette aventure. Compte tenu du temps nécessaire à la production d'une fonte, et du nombre de retouches parfois décourageantes, c'est votre envie d'aller jusqu'au bout qui vous donnera l'énergie indispensable. Cultivez donc cette envie autant que vous pourrez mais apprenez aussi à considérer un certain nombre de choses selon le type de support d'édition :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Viser la lisibilité"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="La recherche de lisibilité constitue une bonne raison pour créer des fontes. Si la lisibilité peut être appréhendée de différentes manières, elle vise en effet, dans tous les cas, à ce que la facilité et le rythme de lecture ne soient pas entravés par la composition :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" - Le type de texte à composer (selon qu'il s'agisse de titres, de logotypes, de textes courants) induit un type de fontes ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- L'allure générale du texte (appelée encore gris typographique*) devrait être homogène ce qui n'est pas toujours le cas, selon que l'on fasse varier la force* du corps (ou taille du texte) ou la langue du document. Aussi une fonte donnant un rendu correct dans une langue ne le donnera pas nécessairement dans une autre au vu des spécificités (taux d'exploitation des voyelles, ascendantes, descendantes, majuscules, espaces et blancs...) ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="- Changement de média : toutes les typos et toutes les fontes ne s'adaptent pas toujours à tous les médias. L'impression papier est plus précise et régulière qu'un affichage-écran. Il appartient au créateur de la fonte de définir la relation entre les deux (optimisation écran ou "/>
+            <ITEXT FONT="Fengardo Italic" CH="hinting*"/>
+            <ITEXT CH="), et cela n'est pas toujours fait. Les résultats de certains outils automatiques peuvent apporter un résultat correct mais qui reste insuffisant. "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="Forger une identité visuelle comme débouché typographique"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="Il s'agit à l'heure actuelle d'un domaine très porteur. Un texte composé dans telle ou telle typo ne donnera en effet pas la même impression au lecteur. Cette impression est bien sûr aussi dépendante de la culture du lecteur, mais du point de vue du graphiste, plusieurs points peuvent justifier la création typographique :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" - le besoin de se démarquer et de créer un caractère facilement reconnaissable. Il suffit de penser à la plupart des grandes marques, elles ont souvent une typo qui leur est spécifique et créée pour le besoin : Renault, Pepsi... dans ce cas, la typo sera souvent utilisée sur des textes courts et écrits en corps large. Plus récemment, il faut souligner les efforts de plusieurs projets communautaires du logiciel libre qui se sont doté d'une fonte libre spécifique - par exemple Ubuntu"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="2"/>
+            <ITEXT FCOLOR="Blue" CH=" [10]"/>
+            <ITEXT CH=" , Fedora"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="3"/>
+            <ITEXT FCOLOR="Blue" CH=" [11]"/>
+            <ITEXT CH=" , OpenSuse et GNOME"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="4"/>
+            <ITEXT FCOLOR="Blue" CH=" [12]"/>
+            <ITEXT CH=" - pour mieux véhiculer leur identité visuelle originale mais en s'inscrivant explicitement dans une approche collaborative afin de permettre à d'autres graphistes de participer au projet et à autoriser des déclinaisons de cette identité par les sous-projets de ces communautés. "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="- le besoin de donner une impression globale bien spécifique au document, en particulier lorsque le texte est long. Cette stratégie est très présente dans le monde de l'édition (journaux, livres, magazines) qui s'est largement engouffré dans cette voie au cours des 150 dernières années. Dans ce cas, le travail doit plutôt se focaliser sur du texte composé en petits corps, avec une attention toute particulière portée aux détails et aux blancs. "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="Avoir une bonne culture générale"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="Développer une identité visuelle ne suffit pas toujours. Il faut souvent que cette identité soit adaptée au contenu (émetteur, graphiste ou client) et l'interprétation qui peut en découler (récepteur, lecteur). Les problèmes culturels sont évidemment les moins quantifiables et les critères sont ici nombreux et subjectifs. Pour aider à déterminer les critères esthétiques d'une composition, les systèmes de classification (Thibaudeau, Vox, Codex 1980, ou autres) peuvent évidemment nous servir. Ici, l'expérience, l'analyse de documents et de fontes existantes ainsi que la culture générale sont les meilleures armes pour dénicher les meilleures corrélations culturelles."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Éviter le gaspillage"/>
+            <para PARENT="HTML_h3"/>
+            <ITEXT CH="À ces quelques points fondamentaux, il est possible d'ajouter un autre qui a toujours été présent, mais pas nécessairement autant revendiqué : la chasse au gaspillage."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="La nécessité de réduire les coûts de production autant que les soucis écologiques tendent à mettre en évidence le taux de couverture. Ce taux indique le pourcentage de papier couvert par de l'encre, le but étant d'avoir le taux le plus bas pour une lisibilité identique, soit un maximum de texte avec le minimum d'encre. On pourra alors aborder les fontes selon plusieurs critères (chasse, lisibilité à petit corps et taille d’œil, graisse(s), existence de condensé ou de versions light...). Ecofont est un exemple qui a poussé cette logique comme critère fondamental permettant d'économiser 20% d'encre dans des corps de textes courants (inférieur à 13 pts). Cet exemple est révélateur d'une sécularisation du monde typographique, ce dernier tendant désormais à inclure dans ses pratiques des motivations très largement extra-typographiques."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" 4. SUSCA, 2009"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [13]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="5. Projet de fonte libre ubuntu - http://font.ubuntu.com"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [14]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="6. Project de fonte libre Fedora - http://fedoraproject.org/wiki/Design/Fedora_Branding_Fonts"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [15]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="7. Projet de fonte libre GNOME - http://live.gnome.org/CantarellFonts"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [16]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <breakframe/>
+            <ITEXT CH="À propos de ce livre"/>
+            <para PARENT="HTML_h1"/>
+            <ITEXT CH="Les auteurs de ce livre à propos des fontes libres ont été guidés par les objectifs suivants :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- décrire le contexte historique, les attentes et les besoins exprimés à la fois par les graphistes et les utilisateurs face aux barrières de l'approche propriétaire dans l'usage et la création de typos et de fontes ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="- expliquer les enjeux et recommander une approche juridique validée par la communauté du logiciel libre ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="- donner des exemples pratiques pour tirer parti des méthodologies et des outils librement disponibles pour réaliser des fontes libres, les publier et en tirer profit sous diverses formes. "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="Un ouvrage collectif"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH="Ce livre sous licence libre est une production originale en français ; plusieurs co-auteurs francophones de différents pays ont participé à sa rédaction."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Le cœur de l'ouvrage de plus de 140 pages a été réalisé en 5 jours dans le cadre d'un BookSprint qui s'est tenu à Rennes (France) du 5 au 9 novembre 2011, grâce à l'initiative et avec le soutien de l'Organisation Internationale de la Francophonie"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="1"/>
+            <ITEXT FCOLOR="Blue" CH=" [17]"/>
+            <ITEXT CH=" ."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" (img, src: ../ch003_a-propos-de-ce-livre_files/groupe.JPG)"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_p"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Co-rédacteurs présents lors du BookSprint :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="- Frank Adebiaye "/>
+            <ITEXT FCOLOR="Blue" CH=" [18]"/>
+            <ITEXT CH="(Bénin / France), comptable-typographe, fondeur et auteur d'articles et de livres sur la typographie, dont une monographie consacrée à François Boltana, pionnier français de la typographie numérique, et éditée chez Atelier Perrousseaux. Il est également le fondateur de la fonderie "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Velvetyne"/>
+            <ITEXT FCOLOR="Blue" CH=" [19]"/>
+            <ITEXT CH=" , première fonderie libre en France ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Denis Jacquerye (Congo R.D. / Belgique), fondeur. A participé notamment au projet de création de la police libre "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="DejaVu"/>
+            <ITEXT FCOLOR="Blue" CH=" [20]"/>
+            <ITEXT CH=" ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="- Cédric Gémy"/>
+            <ITEXT FCOLOR="Blue" CH=" [21]"/>
+            <ITEXT CH=" (France), graphiste et formateur sur les logiciels libres graphiques, auteur de livres sur Gimp, Scribus et Inkscape, membre fondateur du LibreGraphicsMeeting, de FlossManuals Francophone et de l'"/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Association Francophone des graphistes libres"/>
+            <ITEXT FCOLOR="Blue" CH=" [22]"/>
+            <ITEXT CH=" ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Pierre Huyghebaert (Belgique), graphiste attaché à "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Speculoos"/>
+            <ITEXT FCOLOR="Blue" CH=" [23]"/>
+            <ITEXT CH=", professeur apprenant à "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="la Cambre"/>
+            <ITEXT FCOLOR="Blue" CH=" [24]"/>
+            <ITEXT CH=", membre de "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Open Source Publishing"/>
+            <ITEXT FCOLOR="Blue" CH=" [25]"/>
+            <ITEXT CH=" et futur chercheur dans le projet européen "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Libre Graphics Research Unit"/>
+            <ITEXT FCOLOR="Blue" CH=" [26]"/>
+            <ITEXT CH=" ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Boureima Kinda (Burkina Faso), chargé de publication de manuels scolaires en français et en langues nationales aux Editions Elan-D et utilisateur de logiciels libres de la chaîne graphique dans le cadre de son activité professionnelle ; "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Murielle Souyris (France), graphiste et formatrice sur les logiciels libres, cofondatrice de "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Libres à vous"/>
+            <ITEXT FCOLOR="Blue" CH=" [27]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Nicolas Spalinger (Suisse, France), membre du "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="NRSI (Non-Roman Script Initiative) SIL International"/>
+            <ITEXT FCOLOR="Blue" CH=" [28]"/>
+            <ITEXT CH=", co-auteur de l'"/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Open Font License"/>
+            <ITEXT FCOLOR="Blue" CH=" [29]"/>
+            <ITEXT CH=", membre de la "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Debian Fonts Task Force"/>
+            <ITEXT FCOLOR="Blue" CH=" [30]"/>
+            <ITEXT CH=". Mainteneur et éditeur de "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Planet Open Fonts"/>
+            <ITEXT FCOLOR="Blue" CH=" [31]"/>
+            <ITEXT CH=" (agrégateur anglophone de blogs des membres de la communauté internationale des fontes libres). Contributeur au "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Libre Graphics Meeting"/>
+            <ITEXT FCOLOR="Blue" CH=" [32]"/>
+            <ITEXT CH=". Contributeur au projet "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="ScriptSource.org"/>
+            <ITEXT FCOLOR="Blue" CH=" [33]"/>
+            <ITEXT CH=". Gérant de la SS2L (Société de Service en Logiciels Libres) "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="IndiGO Labs"/>
+            <ITEXT FCOLOR="Blue" CH=" [34]"/>
+            <ITEXT CH=" spécialisé dans les fontes libres, le web &amp; l'imprimé, l'internationalisation ainsi que la traduction. "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Facilitatrice du Booksprint :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Elisa de Castro Guerra, par ailleurs graphiste utilisant les logiciels libres, auteur de livres sur Inkscape, membre fondatrice de FlossManuals Francophone et de l'"/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="Association Francophone des graphistes libres"/>
+            <ITEXT FCOLOR="Blue" CH=" [35]"/>
+            <ITEXT CH=". "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Co-rédacteurs en ligne et contributions externes :"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" - Jil Daniel"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="2"/>
+            <ITEXT FCOLOR="Blue" CH=" [36]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Jean-Bernard Macon "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Christian Ambaud "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="(img, src: ../ch003_a-propos-de-ce-livre_files/groupe02.jpg)"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Un ouvrage vivant"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH=" Ce manuel est vivant : il évolue au fur et à mesure des contributions. Pour consulter la dernière version actualisée, nous vous invitons à visiter régulièrement le volet francophone de Flossmanuals"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="3"/>
+            <ITEXT FCOLOR="Blue" CH=" [37]"/>
+            <ITEXT CH=" et plus particulièrement sur la page d'accueil du livre Fontes Libres."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="N'hésitez pas à votre tour à améliorer ce manuel en nous faisant part de vos commentaires dans la liste de diffusion francophone de Flossmanuals, ou, si vous avez des talents de rédacteur et une bonne connaissance sur le sujet des fontes, à vous inscrire en tant que contributeur pour proposer la création de nouveaux chapitres."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Vous avez dit Booksprint ?"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH="Expérimentée et popularisée par la Floss Manuals Foundation dans le cadre de ses activités de création de manuels multilingues sur les logiciels et pratiques libres, la méthodologie du Booksprint permet de rédiger en un temps très court des livres de qualité."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Un groupe d'experts se retrouve dans un même lieu pour rédiger durant 3 à 5 jours un manuel. L’usage de la plate-forme de co-rédaction en ligne permet également à d'autres personnes intéressées de s’associer à distance à l’expérience."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Pour faciliter la structuration et la rédaction de ce manuel, les co-rédacteurs ont décidé de confronter leurs connaissances et leurs points de vue à deux persona, deux profils imaginaires de lecteurs auxquels ce livre pourrait s'adresser : une graphiste européenne - Mathilde - et un graphiste africain - Obasanjo. "/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Un manuel libre disponible sous plusieurs formats et supports"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH="Ce livre est disponible depuis le site de Flossmanuals sous plusieurs formes : livre imprimé, pages web, pdf et ePub, ce dernier format permettant de le consulter facilement sur des appareils mobiles."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Publié sous licence Creative Commons CC-BY-SA 2.0 fr et GPLv2, ce manuel peut être lu et copié librement."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- Creative Commons CC-BY-SA: Paternité et Partage à l'Identique : "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="http://creativecommons.org/licenses/by-sa/2.0/fr/"/>
+            <ITEXT FCOLOR="Blue" CH=" [38]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="- GNU GPL :"/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="http://www.gnu.org/copyleft/gpl.html"/>
+            <ITEXT FCOLOR="Blue" CH=" [39]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Vous consultez l'édition révisée et augmentée du 3 décembre 2011."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH=" Remerciements"/>
+            <para PARENT="HTML_h2"/>
+            <ITEXT CH=" Durant le processus de rédaction du manuel, le groupe de co-rédacteurs a été confronté à un besoin d'utiliser une fonte libre pour l'illustration des différentes méthodologies et pour réaliser des captures d'écran adaptées. Le créateur de fontes - Loïc Sander - a été contacté afin de libérer sa typo Fengardo"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="4"/>
+            <ITEXT FCOLOR="Blue" CH=" [40]"/>
+            <ITEXT CH=" et ainsi participer à l'élaboration de l'ouvrage. Nous lui témoignons ici toute notre gratitude pour avoir laissé ses fontes s'embarquer dans notre aventure."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="La réalisation de cet ouvrage s'est grandement appuyée sur FontForge"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="5"/>
+            <ITEXT FCOLOR="Blue" CH=" [41]"/>
+            <ITEXT CH=", formidable logiciel libre de création et d'édition de fontes sans équivalent créé par George Williams et généreusement mis à disposition et au service de la communauté."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="Il faut d'ailleurs souligner que pour les besoins des captures d'écrans, la traduction en français de FontForge initiée par Pierre Hanser &amp; Yannis Haralambous a été partiellement mise à jour par les auteurs du bookprint directement à partir de la version de développement. Les mises à jour se sont concentrées sur les différentes fonctionnalités couvertes par ce livre pour harmoniser les différents termes. Ces contributions seront reversées au projet FontForge pour en faire bénéficier tous les utilisateurs."/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="8. Organisation Internationale de la Francophonie - http://www.francophonie.org"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [42]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="9. Graphiste indépendant "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="http://jil.daniel.free.fr"/>
+            <ITEXT FCOLOR="Blue" CH=" [43]"/>
+            <ITEXT CH=" et blogueur "/>
+            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="http://bizyod.design.free.fr"/>
+            <ITEXT FCOLOR="Blue" CH=" [44]"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [45]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="10. http://fr.flossmanuals.net"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [46]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="11. http://www.akalollip.com/blog/?p=1673"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [47]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="12. http://fontforge.sourceforge.net/"/>
+            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="^"/>
+            <ITEXT FCOLOR="Blue" CH=" [48]"/>
+            <ITEXT CH=" "/>
+            <para PARENT="HTML_li_level-0"/>
+            <ITEXT CH="External Links"/>
+            <para PARENT="HTML_h4"/>
+            <ITEXT CH="[1] http://sincerelymichael.com/work/english/english.html"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[2] http://fr.flossmanuals.net/fontes-libres/terminologie#InsertNoteID_6"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[3] http://fr.flossmanuals.net/fontes-libres/terminologie#InsertNoteID_8"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[4] http://www.scriptsource.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[5] http://fr.flossmanuals.net/fontes-libres/terminologie#InsertNoteID_10"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[6] http://fr.flossmanuals.net/fontes-libres/terminologie#InsertNoteID_6_marker7"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[7] http://fr.flossmanuals.net/fontes-libres/terminologie#InsertNoteID_8_marker9"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[8] http://fr.flossmanuals.net/fontes-libres/terminologie#InsertNoteID_10_marker11"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[9] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_12"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[10] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_16"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[11] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_18"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[12] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_20"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[13] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_12_marker13"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[14] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_16_marker17"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[15] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_18_marker19"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[16] http://fr.flossmanuals.net/fontes-libres/modification-dune-police#InsertNoteID_20_marker21"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[17] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_31"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[18] http://www.fadebiaye.com/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[19] http://www.velvetyne.fr/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[20] http://dejavu-fonts.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[21] http://www.cgemy.com/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[22] http://www.afgral.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[23] http://www.speculoos.com/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[24] http://www.lacambre.be/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[25] http://osp.constantvzw.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[26] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre/www.lgru.net"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[27] http://www.libresavous.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[28] http://scripts.sil.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[29] http://scripts.sil.org/OFL"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[30] http://pkg-fonts.alioth.debian.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[31] http://planet.open-fonts.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[32] http://www.libregraphicsmeeting.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[33] http://scriptsource.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[34] http://www.indigo-labs.co/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[35] http://www.afgral.org/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[36] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_6"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[37] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_18"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[38] http://creativecommons.org/licenses/by-sa/2.0/fr/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[39] http://www.gnu.org/copyleft/gpl.html"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[40] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_11"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[41] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_14"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[42] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_31_marker32"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[43] http://jil.daniel.free.fr/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[44] http://bizyod.design.free.fr/"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[45] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_6_marker7"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[46] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_18_marker19"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[47] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_11_marker12"/>
+            <para PARENT="HTML_default"/>
+            <ITEXT CH="[48] http://fr.flossmanuals.net/fontes-libres/a-propos-de-ce-livre#InsertNoteID_14_marker15"/>
+            <para PARENT="HTML_default"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="143.2008" YPOS="758.4048" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="2" BACKITEM="0">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="589.6008" YPOS="758.4048" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="3" BACKITEM="1">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="3" PTYPE="4" XPOS="143.2008" YPOS="1446.408" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="4" BACKITEM="2">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="4" PTYPE="4" XPOS="589.6008" YPOS="1446.408" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="5" BACKITEM="3">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="5" PTYPE="4" XPOS="143.2008" YPOS="2131.4112" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="6" BACKITEM="4">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="6" PTYPE="4" XPOS="589.6008" YPOS="2134.4112" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="7" BACKITEM="5">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="7" PTYPE="4" XPOS="143.2008" YPOS="2822.4144" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="8" BACKITEM="6">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="8" PTYPE="4" XPOS="589.6008" YPOS="2822.4144" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="9" BACKITEM="7">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="9" PTYPE="4" XPOS="143.2008" YPOS="3510.4176" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="10" BACKITEM="8">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="10" PTYPE="4" XPOS="589.6008" YPOS="3510.4176" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="11" BACKITEM="9">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="11" PTYPE="4" XPOS="143.2008" YPOS="4198.4208" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="12" BACKITEM="10">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="12" PTYPE="4" XPOS="589.6008" YPOS="4198.4208" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="13" BACKITEM="11">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="13" PTYPE="4" XPOS="143.2008" YPOS="4886.424" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="14" BACKITEM="12">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="14" PTYPE="4" XPOS="589.6008" YPOS="4886.424" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="15" BACKITEM="13">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="15" PTYPE="4" XPOS="143.2008" YPOS="5574.4272" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="16" BACKITEM="14">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="16" PTYPE="4" XPOS="589.6008" YPOS="5574.4272" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="17" BACKITEM="15">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="17" PTYPE="4" XPOS="143.2008" YPOS="6262.4304" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="18" BACKITEM="16">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="18" PTYPE="4" XPOS="589.6008" YPOS="6262.4304" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="19" BACKITEM="17">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="19" PTYPE="4" XPOS="143.2008" YPOS="6950.4336" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="20" BACKITEM="18">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="20" PTYPE="4" XPOS="589.6008" YPOS="6950.4336" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="21" BACKITEM="19">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="21" PTYPE="4" XPOS="143.2008" YPOS="7638.4368" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="22" BACKITEM="20">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="22" PTYPE="4" XPOS="589.6008" YPOS="7638.4368" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="21">
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="589.2778" YPOS="149.2778" WIDTH="331" HEIGHT="170.7222" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.509230769230769" LOCALSCY="0.509230769230769" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../01-index_files/preface2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331 0 331 0 331 0 331 0 331 170.722 331 170.722 331 170.722 331 170.722 0 170.722 0 170.722 0 170.722 0 170.722 0 0 0 0 " NUMCO="16" COCOOR="-1 -8.33921 -1 -8.33921 330 -8.33921 330 -8.33921 330 -8.33921 330 -8.33921 330 179.061 330 179.061 330 179.061 330 179.061 -1 179.061 -1 179.061 -1 179.061 -1 179.061 -1 -8.33921 -1 -8.33921 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="590.2778" YPOS="879.281" WIDTH="331" HEIGHT="168.7238" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.777529032258065" LOCALSCY="0.777529032258065" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../ch001_terminologie_files/IlTypoFonte_2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331 0 331 0 331 0 331 0 331 168.724 331 168.724 331 168.724 331 168.724 0 168.724 0 168.724 0 168.724 0 168.724 0 0 0 0 " NUMCO="16" COCOOR="-1 -8.24159 -1 -8.24159 330 -8.24159 330 -8.24159 330 -8.24159 330 -8.24159 330 176.965 330 176.965 330 176.965 330 176.965 -1 176.965 -1 176.965 -1 176.965 -1 176.965 -1 -8.24159 -1 -8.24159 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="6" PTYPE="4" XPOS="589.822510822511" YPOS="2188.2" WIDTH="16.9307359307359" HEIGHT="25.7532467532465" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0.119683 0 0.119683 0 16.9307 0 16.9307 0 16.9307 0 16.9307 0 16.3469 25.0866 16.3469 25.0866 16.3469 25.0866 16.3469 25.0866 0 25.7532 0 25.7532 0 25.7532 0 25.7532 0.119683 0 0.119683 0 " NUMCO="16" COCOOR="0.119683 0 0.119683 0 16.9307 0 16.9307 0 16.9307 0 16.9307 0 16.9307 25.5866 16.9307 25.5866 16.9307 25.5866 16.9307 25.5866 0.119683 25.5866 0.119683 25.5866 0.119683 25.5866 0.119683 25.5866 0.119683 0 0.119683 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="PropCourierSans Bold" FONTSIZE="29" FEATURES="inherit smallcaps" CH="L"/>
+            <trail PARENT="HTML_default"/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+    </DOCUMENT>
+</SCRIBUSUTF8NEW>

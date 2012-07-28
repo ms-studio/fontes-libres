@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch023_vectorisation-dans-inkscape_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch023_vectorisation-dans-inkscape_files/prettify.js"></script>
+    <script type="application/javascript" src="ch023_vectorisation-dans-inkscape_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch023_vectorisation-dans-inkscape_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch023_vectorisation-dans-inkscape_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch023_vectorisation-dans-inkscape_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch023_vectorisation-dans-inkscape_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch023_vectorisation-dans-inkscape_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch023_vectorisation-dans-inkscape_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Prise en main d'Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape"><img src="ch023_vectorisation-dans-inkscape_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="Dessiner avec les courbes dans Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape"><img src="ch023_vectorisation-dans-inkscape_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content">
+  <h1>Vectorisation de texte dans Inkscape</h1>
+
+  <h2>Vectoriser un texte scanné dans Inkscape</h2>
+
+  <p>La vectorisation du texte sous forme d'image dans Inkscape 
+fonctionnera sur le même principe que dans Glyphtracer. Elle comportera 
+des avantages et des inconvénients qu'il faudra évaluer selon vos 
+besoins et le flux de production que vous adoptez :</p>
+
+  <p>Les avantages sont&nbsp;:</p>
+
+  <ul>
+    <li>Vectorisation de l'ensemble du texte.</li>
+
+    <li>Possibilité de retoucher à la géométrie des glyphes avant de les exporter.</li>
+
+    <li>Permettre la génération de variantes.</li>
+
+    <li>Permettre la définition de crénage* de base</li>
+  </ul>
+
+  <p>Les inconvénients sont&nbsp;:</p>
+
+  <ul>
+    <li>L'association dessin-glyphe est un peu moins automatisée.</li>
+
+    <li>Il n'y a pas d'enregistrement au format FontForge.</li>
+  </ul>
+
+  <p>La vectorisation dans Inskcape est une étape assez simple avec 
+quelques options dans lesquelles il faudra naviguer en fonction de la 
+qualité de l'image source et le résultat souhaitée. Dans l'exemple 
+ci-dessous, un titre issu d'un document scanné avec une résolution 
+suffisante a été importé dans Inkscape (<em>Fichier &gt; Importer</em>). La fenêtre de vectorisation peut-être affichée par le menu <em>Chemin &gt; Vectoriser le bitmap</em>.
+ Dans ce cas, comme dans de nombreux autres cas, une détection en 
+Niveaux de gris et deux passes (sous entendu analyse en deux couleurs 
+soit fond "blanc" et lettres "noires") a été choisie. Le résultat 
+s'affiche superposé à l'image importée (nous avons ici mis le résultat 
+décalé sous la fenêtre).</p>
+
+  <h2>Comment cela se passe dans Inkscape&nbsp;?</h2>
+
+  <p><img style="width: 528px; height: 620px;" src="ch023_vectorisation-dans-inkscape_files/Inkscape-vectorisation1.png"></p>
+
+  <p>Il ne reste alors plus qu'à retravailler le résultat vectorisé. 
+Nous avons à l'heure actuelle deux formes vectorielles : une pour chaque
+ couleur, le fond et les lettres. Il suffit de dégrouper (<em>Objet &gt;Dégrouper</em>).
+ Il est alors possible de sélectionner le fond et le supprimer. Les 
+lettres sont encore assemblées en une seule forme qu'il va être possible
+ de séparer en utilisant <em>(Chemin &gt;Séparer</em>).</p>
+
+  <p><img style="width: 473px; height: 117px;" alt="Séparation de caractères vectorisés dans Inkscape" src="ch023_vectorisation-dans-inkscape_files/Inkscape-vectorisation2.png">&nbsp;</p>
+
+  <p>Chaque forme géométrique composant le caractère est alors 
+régénérée. Les contre-poinçons* et boucle en paient le prix et se voient
+ remplis. Il va donc falloir les évider à nouveau. Pour cela 
+sélectionner le contour d'une lettre et son "intérieur" et utiliser <em>Chemin &gt; Différence</em>.</p>
+
+  <p><img style="width: 407px; height: 127px;" alt="Soustraction du contre-poinçon de la forme générale de la lettre e vectorisée" src="ch023_vectorisation-dans-inkscape_files/Inkscape-vectorisation3.png"></p>
+
+  <p>Enfin, l'utilisation de l'outil Nœud permettra la modification de 
+la forme des lettres si besoin pour les rendre plus conformes. 
+Téléchargez la version SVG de ce texte vectorisé à l'adresse <a title="base de texte vectorisé dans Inkscape" href="http://fr.flossmanuals.net/static/modern.svg">http://fr.flossmanuals.net//</a></p>
+
+  <h2>Vectorisation de texte écrit dans Inkscape</h2>
+
+  <p>Pour commencer votre travail, il est possible de partir d'une fonte
+ existante que vous souhaiterez modifier en produisant une simple 
+variation stylistique. Dans ce cas, Il sera possible de vectoriser le 
+texte écrit avant ou après avoir effectué les modifications avant 
+d'importer les contours dans FontForge ou de créer une police SVG.</p>
+
+  <h3>Vectorisation du chemin de texte</h3>
+
+  <p>La vectorisation du chemin de texte consiste simplement à 
+transformer un caractère écrit à l'aide de l'outil texte en forme 
+géométrie linéaire Bézier de manière à pouvoir en adapter la forme 
+librement. Imaginons que nous souhaitions créer une forme de lettre 
+basée sur Fengardo dont tous les caractères sont d'abord avec une 
+graisse moyenne (Fengardo n'est livrée qu'avec du black).</p>
+
+  <ol>
+    <li>Dans Inkscape et si possible avec le modèle de document fontforge_glyph, en prévision d'orientation future, prendre l'outil <em>Texte</em>,
+ puis écrire les lettres nécessaires à la future fonte, par exemple 
+prenons de a à z par facilité et cela dans la police Fengardo-regular. 
+Agrandissez le texte pour que la lettre soit à la bonne taille dans la 
+page.</li>
+
+    <li>Prenez ensuite l'outil <em>Noeud</em> (touche [<em>F2</em>]) et cliquez sur l'icône [<em>Convertir les objets sélectionnés en chemin</em>] [<em>Ctrl</em>]+[<em>Maj</em>]+[<em>C</em>]. Cette étape constitue la vectorisation du texte proprement dite. En cliquant sur une lettre avec l'outil <em>Noeud</em>, vous verrez apparaître les points qui composent la géométrie de la lettre.</li>
+
+    <li>En l'état, toutes les lettres sont encore associées en un 
+ensemble mais vous remarquerez que l'outil Texte n'agit plus dessus. 
+Pour pouvoir adapter la géométrie des lettres, il va falloir les rendre 
+indépendantes. Pour cela, utilisez <em>Objet &gt; Dégrouper</em> [<em>Ctrl</em>]+[<em>Maj</em>]+[<em>G</em>].</li>
+
+    <li>Pour épaissir légèrement les lettres, utilisez <em>Chemin &gt; Dilater</em>. Répétez l'opération si besoin.</li>
+  </ol>
+
+  <p>Vous pourrez alors utiliser cette nouvelle forme dans une fonte 
+SVG. Pour pouvoir fournir un modèle de fonte correcte à FontForge, il 
+faudra correctement centrer les lettres dans la page. Pour cela, 
+Affichez la fenêtre <em>Aligner et Distribuer</em> ... (menu <em>Objet</em>) puis choisissez l'option <em>Relativement à la page</em> puis cliquez sur le bouton <em>Centrer selon un axe vertical</em>
+ (troisième bouton de la première ligne). Il suffira de prendre les 
+formes une à une et de les associer en tant que courbes de glyphe au 
+caractère. Pour cela, reportez-vous à la section sur les SVG fonts dans 
+Inkscape.</p>
+
+  <p>Pour créer des variations, cela va être très facile. Nous allons voir ici quelques solutions.</p>
+
+  <h3>Vectorisation du contour de texte</h3>
+
+  <p>Avec Inkscape, il sera très facile de créer des fontes au fûts évidés.</p>
+
+  <ol>
+    <li>Dans Inkscape et si possible avec le modèle de document fontforge_glyph, en prévision d'orientation future, prendre l'outil <em>Texte</em>,
+ puis écrire les lettres nécessaires à la future fontes, par exemple 
+prenons de a à z par facilité et cela dans la police Fengardo-regular. 
+Agrandissez le texte pour que la lettre soit à la bonne taille dans la 
+page;</li>
+
+    <li>Affichez la fenêtre <em>Objet &gt; Remplissage et contour</em> pour avoir accès à toutes les propriétés qui nous seront nécessaires;</li>
+
+    <li>Dans l'onglet <em>Fond</em>, cliquez sur le bouton en forme de croix en haut à gauche, pour supprimer la couleur du texte;</li>
+
+    <li>Dans l'onglet <em>Contour</em>, cliquez sur le bouton suivant <em>Aplat</em>, qui va ajouter une couleur au contour;</li>
+
+    <li>dans l'onglet <em>Style de contour</em>, changez l'épaisseur du contour jusqu'à trouver un réglage qui vous plaise;</li>
+
+    <li>Utilisez le menu <em>Chemin &gt; Contour en chemin</em> [<em>Ctrl</em>]+[<em>Alt</em>]+[<em>C</em>]. Cette étape effectue la vectorisation des contours du texte seuls.</li>
+
+    <li>Comme dans l'exemple précédent dégroupez avec <em>Objet &gt; Dégrouper</em> [<em>Ctrl</em>]+[<em>Maj</em>]+[<em>G</em>] puis alignez les lettres sur la page.</li>
+  </ol>
+
+  <p><img src="ch023_vectorisation-dans-inkscape_files/InkscapeVecto.png"></p>
+
+  <p>La différence avec la vectorisation du chemin n'est pas toujours 
+très clair. Dans l'exemple, la le m du milieu est une vectorisation de 
+chemin et celui de droite une vectorisation de contour.</p>
+
+  <h3>Créer des variantes rapidement (condensé, oblique, tourné...)</h3>
+
+  <p>Même si cela n'est pas optimal en terme de création typographique, 
+les outils de transformation d'Inkscape vont permettre de modifier 
+rapidement l'aspect des lettres pour créer des variantes un peu brutes 
+mais sans perte de temps. Toutes les recettes que nous montrons ici 
+s'appliquent après l'étape de dégroupage pour assurer que la 
+transformation soit homogène sur chaque forme. Affichez la fenêtre <em>Objet &gt; Transformer</em> et cochez la case <em>Appliquer à chaque objet séparément</em>.</p>
+
+  <p>Condensé</p>
+
+  <p>Le condensé est une forme d'étroitisation d'un glyphe. En général 
+il s'accompagne d'une réduction de la chasse et de l'approche. Il est 
+donc possible d'utiliser un format de document moins large mais il 
+faudra de toutes façons affiner le résultat dans FontForge. Pour 
+condenser les lettres utilisez simplement l'onglet [<em>Dimensions</em>] et réduisez la largeur, par exemple à 80%.</p>
+
+  <p>Tourné</p>
+
+  <p>Nous donnons ici cette information à titre d'exemple car elle sera 
+d'une maigre utilité pour des fontes en raison de la perte de 
+lisibilité. Dans l'onglet [<em>Rotation</em>], notez aussi une valeur : 
+une valeur positive fait une rotation anti-horaire (dans le sens inverse
+ des aiguilles d'une montre).</p>
+
+  <p>Oblique</p>
+
+  <p>Le penché va permettre de simuler un oblique. L'onglet [<em>Inclinaison</em>] va permettre d'effectuer cette opération. L'oblique sera défini par l'utilisation de l'inclinaison horizontale.</p>
+
+  <p><img alt="Transformation de glyphes dans Inkscape" src="ch023_vectorisation-dans-inkscape_files/transformationGlyphes.png" height="416" width="571"></p>
+</div>
+
+<ul class="menu-goes-here">
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+
+  <li class="booki-section">Méthodologie</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+
+  <li class="booki-section">Fondre avec Fontforge</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+
+  <li class="booki-section">Dessiner ses glyphes dans Inkscape</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+
+  <li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Prise en main d'Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape"><img src="ch023_vectorisation-dans-inkscape_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="Dessiner avec les courbes dans Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape"><img src="ch023_vectorisation-dans-inkscape_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch023_vectorisation-dans-inkscape_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

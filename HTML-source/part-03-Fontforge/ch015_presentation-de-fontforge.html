@@ -1,0 +1,1263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch015_presentation-de-fontforge_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch015_presentation-de-fontforge_files/prettify.js"></script>
+    <script type="application/javascript" src="ch015_presentation-de-fontforge_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch015_presentation-de-fontforge_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch015_presentation-de-fontforge_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch015_presentation-de-fontforge_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch015_presentation-de-fontforge_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch015_presentation-de-fontforge_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch015_presentation-de-fontforge_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Installer FontForge" href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac"><img src="ch015_presentation-de-fontforge_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="Comment modifier un glyphe d'une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police"><img src="ch015_presentation-de-fontforge_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content">
+  <h1>Prise en main de FontForge</h1>
+
+  <p>FontForge est un logiciel d’édition vectorielle de fontes, prenant 
+en charge plusieurs formats standards. Il a été créé par Georges 
+Williams en 2000 et est fréquemment amélioré ou réparé par un groupe de 
+plus en plus large de développeurs et d'utilisateurs.</p>
+
+  <p>Plongeons dans FontForge. Son interface est très particulière et 
+apparaît plutôt comme repoussante, comme pour pas mal de graphistes que 
+des années de pratique d'interfaces standardisées à l'extrême ont rendus
+ rétifs à la différence et au contraste quand il s'agit d'outils. 
+Georges Williams s'en explique, entre autres dans une interview<span class="InsertNoteMarker" id="InsertNoteID_8_marker9"><sup><a href="http://fr.flossmanuals.net/fontes-libres/presentation-de-fontforge#InsertNoteID_8">1</a></sup></span> où il dit ce qu'on pourrait traduire par :</p>
+
+  <blockquote>
+    <p><em>Je pense que les idées qui sont derrière sont belles, et dans
+ un sens je trouve belle l'interface utilisateur. Je ne suis pas sûr que
+ personne d'autre au monde ne pense de la même manière, parce que c'est 
+quelque chose que je veux pour moi en particulier, mais je pense que 
+c'est beau</em>...</p>
+  </blockquote>
+
+  <p>Cette manière d'être auteur d'un outil illustre bien la position 
+particulière, très personnelle et en même temps généreuse, de quelqu'un 
+qui développe un outil technique tout en sachant très bien qu'il s'agit 
+d'un objet culturel, et que c'est même son enjeu principal.</p>
+
+  <h2>Accueil</h2>
+
+  <p>Lorsque vous lancez FontForge, une fenêtre d’accueil s’ouvre 
+d’abord, suivi du dialogue [Ouvrir] qui vous permet de naviguer dans vos
+ dossiers, d’y ouvrir un fichier ou d’ouvrir un fichier récemment 
+ouvert dans une session précédente.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Accueil.png"></p>
+
+  <p>Cette fenêtre d’accueil se ferme automatiquement – il est aussi 
+possible de la désactiver dans les Préférences (menu [Préférences],
+ section [Généralités], [Écran d’accueil]).</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Ouvrir%252520-%252520Debut%252520Dossier%252520personne.png">&nbsp;</p>
+
+  <p>Le dialogue <em>Ouvrir</em> débute par défaut dans votre dossier personnel.</p>
+
+  <p>Si vous lancez FontForge à partir de la ligne de commande, le dialogue débute dans le dossier courant de la ligne de commande.</p>
+
+  <p>Ce dialogue, bien que spécifique à FontForge, est construit comme
+ la plupart des dialogues de sélection de fichiers. Il vous permet 
+aussi de créer une nouvelle fonte avec le bouton [Nouvelle fonte].</p>
+
+  <p>Dans la partie supérieure, des boutons vous permettent de naviguer
+ dans les dossiers (avec les boutons [Dossier personnel], [Dossier 
+parent]), de modifier les préférences propres à cette fenêtre de 
+dialogue.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Dossier%2520personnel.png"></p>
+
+  <p>Le bouton [Dossier personnel] renvoie à votre dossier personnel lorsque que vous êtes dans un autre dossier courant.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Menu%2520dossier.png"></p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Menu%2520dossier%2520liste.png"></p>
+
+  <p>Le bouton [Menu de dossier] permet de retourner dans le dossier 
+précédent, dans le dossier suivant ou d’ajouter le dossier courant à 
+votre liste de favoris ou encore de le retirer de cette liste, s’il en 
+fait partie. Par défaut trois dossiers sont déjà dans votre liste de 
+favoris, mais il est possible qu’ils n’existent pas ou ne soient pas 
+accessibles, selon votre configuration.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Ouvrir%252520-%252520Dossier%252520courant%252520et%25252.png"></p>
+
+  <p>Le bouton [Dossier courant] affiche le nom du dossier courant. 
+Lorsque vous cliquez dessus, il vous affiche la liste des dossiers 
+parents.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Dossier%2520parent.png"></p>
+
+  <p>Le bouton [Dossier parent] remplace le dossier courant pour son 
+dossier parent. Par exemple, si vous êtes dans le dossier 
+/home/utilisateur/Bureau, cliquer sur ce bouton vous placera dans le 
+dossier /home/utilisateur.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Preferences.png">&nbsp;</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Preferences%2520liste.png"></p>
+
+  <p>Le bouton [Préférences] vous permet de changer les paramètres 
+d’affichage du dialogue. Vous pouvez choisir de montrer les fichiers 
+cachés, de choisir si les dossiers sont en premier dans la liste ou 
+dans le même ordre alphabétique que les fichiers, ou encore si les 
+dossiers sont dans une liste à gauche et les fichiers dans une liste à
+ droite.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Liste%2520des%2520dossiers_1.png"></p>
+
+  <p>Par défaut, il y a une liste unique où les dossiers et les 
+fichiers sont triés selon l'ordre alphabétique. Le dossier parent est 
+accessible en double-cliquant sur l’icône ou l'étiquette. Si vous 
+double-cliquez sur l’icône ou le nom d’un dossier, vous y accédez. De 
+même, si vous double-cliquez sur un fichier, celui-ci est sélectionné, 
+son nom s’affiche dans le champ du nom de fichier.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Ouvrir%252520-%252520Liste%252520des%252520dossiers%25252.png"></p>
+
+  <p>Vous pouvez sélectionner plusieurs fichiers, en cliquant sur leur 
+nom et en maintenant la touche Maj enfoncée. Leurs noms s’afficheront 
+dans le champ de nom de fichier, séparés par un point-virgule.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Nom%2520de%2520fichier.png"></p>
+
+  <p>Vous pouvez aussi utiliser le champ de nom de fichier. Il se 
+complète automatiquement dès que vous renseignez les premières lettres
+ du nom. Si plusieurs noms de fichiers commencent de la même façon, une
+ liste s’affiche jusqu’à ce que le nom corresponde à un seul fichier. 
+Vous pouvez aussi utiliser ce champ pour changer le dossier courant.</p>
+
+  <p>Un filtre vous permet d’afficher uniquement certains formats de 
+fichiers. Par défaut, FontForge affiche tous les fichiers de fontes 
+qu’il peut ouvrir.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Ouvrir%2520-%2520Nommage%2520liste.png"></p>
+
+  <p>Le bouton de [Nommage] vous permet de modifier les noms de glyphes lorsque vous ouvrez un fichier. Nous vous le déconseillons.</p>
+
+  <h2>Fenêtre de font</h2>
+
+  <p>C'est la fenêtre principale. Elle se présente sous la forme d’une 
+table de glyphes, organisés selon le codage de leur emplacement. Le 
+codage définit le nombre d’emplacements et la place des glyphes dans ces
+ emplacements. Ils peuvent varier sensiblement d'un codage à l'autre. 
+C'est pourquoi nous recommandons le codage Unicode et décrivons comment
+ vérifier qu’il est bien utilisé et comment le sélectionner dans la 
+description des menus.</p>
+
+  <p>Les informations permettant d’identifier les cases de glyphes sont affichées.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Fonte%252520-%252520glyphe%252520e%252520infos%252520surv.png"></p>
+
+  <p>Sous la barre de menu de la fenêtre de fonte se situe la barre 
+d’infos de sélection. Elle affiche la valeur d’index, son équivalent 
+hexadécimal, le code du caractère Unicode correspondant, le nom de 
+glyphe et le nom du caractère Unicode correspondant. On peut également 
+accéder à ces informations via une infobulle qui s’affiche si vous 
+laissez le curseur une seconde sur une case, comme illustré ci-dessus.</p>
+
+  <p>Ainsi dans l'exemple proposé, l'infobulle affiche :</p>
+
+  <ul>
+    <li>101 - la valeur d’index de la case dans les glyphes de la fonte ;</li>
+
+    <li>0x0065 - cette même valeur en hexadécimal ;</li>
+
+    <li>U+0065 - le code du caractère Unicode correspondant (celui qui 
+sera utilisé par d’autres applications avec la fonte finale générée)
+ ;</li>
+
+    <li>e - le nom du glyphe ;</li>
+
+    <li>LATIN SMALL LETTER E - le nom du caractère Unicode correspondant.</li>
+  </ul>
+
+  <p>Les informations de l’infobulle sont identiques à celles de la 
+barre d'infos. Parfois certaines informations spécifiées dans le 
+standard Unicode sont aussi indiquées. Ici, ces informations renvoient 
+aux caractères Unicode U+212E et U+212F.</p>
+
+  <p>Vous pouvez <strong>sélectionner plusieurs glyphes</strong> en maintenant la touche [Majuscule] enfoncée lorsque vous cliquez ou cliquez-glissez sur les glyphes à sélectionner.</p>
+
+  <p>Les étiquettes au-dessus de chaque case peuvent être modifiées 
+pour correspondre à ces données (menu Vue -&gt; Titrer les Glyphes 
+avec / <em>View</em> &gt; <em>Label Glyph by</em>).</p>
+
+  <table style="width: 100%; border: 1px solid rgb(0, 0, 0); border-collapse: collapse;" cellpadding="5">
+    <caption>
+      Type d’étiquettes de case de glyphe
+    </caption>
+
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">
+          &nbsp;
+
+          <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Fonte%2520-%2520etiquette%2520par%2520dessin.png"></p>
+        </td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Par <strong>dessin</strong> du caractère Unicode (avec la fonte qui le possède sur votre ordinateur).<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">
+          &nbsp;
+
+          <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Fonte%2520-%2520etiquette%2520par%2520nom.png"></p>
+        </td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Par <strong>nom</strong> du glyphe.<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Fonte%2520-%2520etiquette%2520par%2520Unicode.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Par valeur hexadécimale du code <strong>Unicode</strong> (ici U+0040, et U+0041).<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Fonte%2520-%2520etiquette%2520par%2520Unicode.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Par valeur hexadécimale de l’<strong>index</strong> des glyphes de la fonte, qui dépend le plus souvent du codage que vous utilisez, ici Unicode.<br></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Cette même étiquette peut indiquer si des modifications 
+apportées n'ont pas encore été sauvegardées dans le fichier. Des 
+informations supplémentaires concernant les <em>hints</em>* et les 
+calques sont fournies. La couleur de ces indications est le bleu pour 
+les courbes cubiques* et le rouge pour les courbes quadratiques* (la 
+différence entre ces deux types de courbes est expliquée dans « Prise 
+en main de FontForge »).</p>
+
+  <table style="width: 100%; border: 1px solid rgb(0, 0, 0); border-collapse: collapse;" cellpadding="5">
+    <caption>
+      Indications types des étiquettes de case
+    </caption>
+
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Fonte%252520-%252520glyphe%252520A%252520non%252520sauve_.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">
+          <p>Le glyphe modifié n’est pas sauvegardé. Ici, pour le 
+glyphe du A, le fond de l’étiquette de case change de couleur. Il est 
+coloré et les bords gauche et droit sont de couleur plus claire.<br></p>&nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Fonte%252520-%252520glyphe%252520A%252520sauve%252520mais.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">
+          <p>Si les contours ont été enregistrés dans le fichier, mais que les <em>hints</em> manquent, les bords gauche et droit de l’étiquette sont colorés. Vous pouvez ajouter les <em>hints</em> automatiquement (menu <em>Hints &gt; Génération automatique de hints</em>), les ajouter manuellement ou laisser FontForge les ajouter au moment de l'export du fichier de fonte.<br></p>&nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Fonte%252520-%252520gylphe%252520A%252520non%252520sauve%25.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Si les contours n’ont pas été enregistrés dans le fichier, mais que les <em>hints</em> ont été ajoutés.</td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Fonte%252520-%252520glyphe%252520A%252520avec%252520arrie.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">
+          &nbsp;
+
+          <p>Quand vous avez un calque arrière, le fond de l’étiquette est gris foncé.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Ces indications sont surtout utiles pour se rappeler de sauvegarder les fichiers de travail fréquemment.</p>
+
+  <h3>Menus</h3>
+
+  <h4>Menu <em>Fichier</em></h4>
+
+  <p>Le fonctionnement de ce menu est standard, il permet d’accéder aux dialogues <em>Ouvrir</em>, <em>Sauvegarder</em> ou <em>Fermer</em> le fichier de fonte en cours. Ce menu permet aussi de générer le fichier de fonte utilisable par les autres applications.</p>
+
+  <h4>Menu <em>Fichier &gt; P<strong>références</strong></em></h4>
+
+  <p>Les préférences sont accessibles par le menu <em>Fichier</em>. 
+Elles permettent notamment de configurer des outils scripts ou greffons 
+supplémentaires, et de changer l’apparence générale de FontForge.</p>
+
+  <p>Les nouvelles fontes créées par FontForge sont automatiquement en
+ codage ISO 8859-1 (latin-1), mais nous recommandons tout au long de ce 
+livre d’utiliser le codage ISO 10646-1 (Unicode, BMP). Vous pouvez 
+modifier ce paramètre de codage par défaut dans les <em>Préférences</em> (menu <em>Préférences</em> &gt; section <em>Nouvelle fonte</em> &gt; <em>Codage</em> <em>nouvelle fonte</em>). Il est aussi possible de modifier ce codage une fois la fonte créée, à l’aide du menu <em>Codage</em>, décrit plus bas.</p>
+
+  <p>Quand vous modifiez une fonte pour ajouter les lettres accentuées, dans la section <em>Accents</em> du menu <em>Préférences</em>,
+ le paramètre [PreferSpacingAccents] est à désactiver. Ce paramètre 
+permet de composer ces lettres accentuées à partir de bons glyphes et 
+caractères Unicode, que nous vous recommandons d’ajouter dans les 
+bonnes pratiques.</p>
+
+  <h4>Menu <em>Fichier &gt; Générer fonte(s)</em></h4>
+
+  <p>Ce dialogue vous permet de générer un fichier de fonte utilisable
+ dans d’autres applications. Nous recommandons de générer des fontes 
+souvent pour les tester avant la version finale. Vous pourrez donc 
+générer ce fichier, l’installer et tester la fonte dans une 
+application rechargée. Voir le chapitre « Comment créer une fonte ».</p>
+
+  <h4>Menu <em>Édition</em></h4>
+
+  <p>Ce menu permet d’appliquer les opérations traditionnelles 
+d’édition ainsi que beaucoup d’opérations spécifiques à 
+FontFo&nbsp;ge :</p>
+
+  <ul>
+    <li>annuler, rétablir la dernière modification apportée à la sélection ;</li>
+
+    <li>copier, couper, ou coller les contours (du et vers le calque Avant) ;</li>
+
+    <li>copier et coller une référence à un glyphe dans un autre ;</li>
+
+    <li>copier et coller des données métriques (chasse, approche, etc.) ;</li>
+
+    <li>supprimer les contours des glyphes sélectionnés ;</li>
+
+    <li>copier des contours entre les calques ;</li>
+
+    <li>d’autres opérations propres aux références ;</li>
+
+    <li>modifier les données copiées par défaut via l’opération copier/coller, par exemple les métadonnées en plus des contours.</li>
+  </ul>
+
+  <h4>Menu <em>Élément</em></h4>
+
+  <p>Ce menu permet d’accéder à plusieurs dialogues dont :</p>
+
+  <ul>
+    <li>les dialogues <em>Infos fonte</em> et <em>Glyph infos</em> (lorsqu’un seul glyphe est sélectionné), décrits plus loin dans <strong>Dialogues communs</strong> ;</li>
+
+    <li>des dialogues de validations, décrits ci-dessous ;</li>
+
+    <li>plusieurs dialogues de transformations, décrits dans <strong>Menu de la fenêtre de glyphes</strong>.</li>
+  </ul>
+
+  <p>Le sous-menu <em>Autres Infos &gt; Montrer les dépendances</em> vous permet de voir la liste des glyphes se référant au glyphe sélectionné.</p>
+
+  <p>Vous pourrez aussi accéder au sous-menu <em>Validation &gt; Chercher problèmes.</em></p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Chercher%252520problemes%252_002.png"></p>
+
+  <p>Cette boîte de dialogue vous permet de chercher et de trouver des 
+problèmes ne respectant pas les spécifications des différents formats 
+de fichiers de fonte. Par exemple, il vous indique les contours qui sont
+ dans le mauvais sens, les points superposés, les points aux 
+coordonnées non arrondies, les courbes sans point aux extrémités 
+horizontales ou verticales.</p>
+
+  <p>Ainsi nous vous recommandons de vous assurer que les coordonnées 
+des points de contours soient arrondies au nombre entier le plus proche 
+[Non-Integral coordinates], ou d’éviter d’avoir deux points trop 
+proches (comme les points superposés par exemple).</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Chercher%252520problemes%252520-.png"></p>
+
+  <p>Nous vous recommandons aussi de vous assurer qu’il n’y a pas de 
+chemins sécants (contours qui se chevauchent). Dans la fenêtre de 
+glyphe ou dans celle de la fonte, vous pouvez supprimer les contours 
+sécants à l’aide du menu <em>Élément &gt; Recouvrements &gt; Effacer recouvrements</em>.</p>
+
+  <p>Les dialogues concernant les bitmaps ne sont pas détaillés dans le présent ouvrage.</p>
+
+  <p>Les dialogues du sous-menu <em>Styles</em> concernent des opérations de transformations automatiques de FontForge pour la création de variantes de fonte.</p>
+
+  <p>Le sous-menu <em>Transformations</em> contient le dialogue important <em>Transformer</em>.
+ Il vous servira fréquemment pour appliquer des transformations 
+géométriques précises aux glyphes que vous souhaitez modifier. Ce 
+dialogue est décrit dans la section <strong>Dialogues communs</strong>.</p>
+
+  <p>Le sous-menu <em>Corriger direction</em> fonctionne comme celui du menu <em>Élément</em> de la fenêtre de glyphe.</p>
+
+  <p>Le sous-menu Assembler vous permettra de laisser FontForge créer 
+automatiquement les glyphes sélectionnés avec plusieurs opérations.</p>
+
+  <ul>
+    <li><em>Créer glyphe accentué</em> créera les glyphes à partir de 
+ses parties, si celles-ci sont présentes dans d'autres glyphes. Par 
+exemple, Pour le Ô (U+00D4), FontForge utilisera les contours du O et 
+les contours du circonflexe présent avec une référence (décrit dans le 
+chapitre « Comment ajouter des glyphes a une fonte ») . Si vous avez le 
+circonflexe avec chasse (U+005E) et le circonflexe sans chasse (U+0302),
+ FontForge utilisera le circonflexe avec chasse par défaut, cependant 
+nous recommandons d'utiliser les ancres OpenType et de désactiver ce 
+paramètre par défaut dans le menu <em>Fichiers &gt; Préférences &gt; Accents &gt; PreferSpacingAccent</em>
+ afin que le circonflex sans chasse soit utilisé. Avec les ancres le 
+caractère précomposé Ô (U+00D4) sera donc identique à son équivalent, la
+ chaine composée à la volée, Ô (U+004F, U+0302).</li>
+
+    <li><em>Construire un glyphe composite</em> fait la même chose mais avec les contours sans références, il copie donc les contours point par point.</li>
+  </ul>
+
+  <h4><em>Menu Outils</em></h4>
+
+  <p>Ce menu, désactivé par défaut, est prévu pour accueillir des outils personnalisables.</p>
+
+  <p>Si vous ajoutez des scripts ou greffons à FontForge, vous pouvez y
+ accéder depuis ce menu. Vous pouvez faire ces scripts en python par 
+exemple et les déposer dans le dossier utilisateur dans un sous-dossier 
+python (par exemple /home/utilisateur/.FontForge/monscript.py).</p>
+
+  <h4><em>Menu Hints</em></h4>
+
+  <p>Ce menu permet de modifier les <em>hints</em> ou instructions d’optimisation à l’écran des fontes. Il permet d’ajouter, de retirer ou de modifier les <em>hints</em> utilisés dans les formats .<em>otf</em>, ou <em>.ttf</em>. FontForge ajoute automatiquement les <em>hints</em> lorsque vous travaillez avec des courbes cubiques*, ce qui peut être désactivé dans les Préférences (menu <em>Préférences &gt;</em> section <em>Créer &gt; Hints automatiques</em>).</p>
+
+  <h4><em>Menu Codage</em></h4>
+
+  <p>L’agencement des glyphes peut être modifié en fonction des 
+différents codages proposés ou d'un codage personnalisé, mais nous 
+recommandons d’utiliser le codage 10646-1 Unicode BMP, offrant 
+actuellement la meilleure couverture des langues du monde.</p>
+
+  <h4>Menu <em>Vue</em></h4>
+
+  <p>Ce menu permet de modifier les préférences d’affichage de la 
+fenêtre de fonte, comme la taille des cases de la grille, l’affichage 
+des glyphes dans les cases. Il permet également d'atteindre une case 
+spécifique, de changer les étiquettes utilisées pour les cases 
+(Dessin du glyphe s’il est présent dans une fonte installée sur votre 
+ordinateur, nom du glyphe, valeur Unicode, valeur dans l’index des 
+glyphes de la fonte).</p>
+
+  <h4>Menu <em>Métriques</em></h4>
+
+  <p>Ce menu permet de modifier les métriques* des glyphes sélectionnés.</p>
+
+  <h4>Menus <em>CID</em> et <em>MM</em></h4>
+
+  <p>Nous n’abordons pas ces fonctionnalités dans ce livre.</p>
+
+  <h2>Fenêtre de glyphe</h2>
+
+  <p>La fenêtre de glyphe permet de modifier le contour d’un glyphe. 
+Elle s’ouvre lorsque vous double-cliquez sur un glyphe dans la fenêtre 
+de fonte, et elle est initialement spécifique à un emplacement de 
+glyphe dans la fenêtre de fonte. Vous pouvez en ouvrir plusieurs. Une 
+même fenêtre de glyphe peut aussi avoir plusieurs onglets spécifiques
+ à plusieurs glyphes. Cela permet de travailler avec plusieurs 
+fenêtres, ou une seule.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520vide.png"></p>
+
+  <p>Cette fenêtre a un menu similaire à celui de la fenêtre de 
+fonte, avec quelques différences. Vous pouvez donc accéder aux mêmes 
+menus principaux que la fenêtre de fonte, mais les sous-menus sont 
+légèrement différents. Certaines opérations sont disponibles dans 
+les deux, et d'autres, par exemple <em>Remplacer par références,</em> est uniquement disponible dans la fenêtre de fonte.</p>
+
+  <h3>Composants de la fenêtre de glyphe</h3>
+
+  <ul>
+    <li>Menu (Fichier, Édition, etc.) ;</li>
+
+    <li>Onglets des glyphes ouverts ;</li>
+
+    <li>Informations du curseur (position, déplacement, etc.) ;</li>
+
+    <li>Règle horizontale en haut, et verticale à gauche (avec position du curseur) ;</li>
+
+    <li>Canevas contenant le contour :</li>
+
+    <li style="list-style: none; display: inline">
+      <ul>
+        <li>point et lignes des contours les joignant,</li>
+
+        <li>ligne de base,</li>
+
+        <li>approche gauche (depuis x=0) et approche droite (jusqu’à la chasse).</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520-%2520glyphe%2520a_3.png"></p>
+
+  <p>Dans la capture d’écran précédente, les onglets des glyphes des 
+lettres « a minuscule » et « o minuscule » sont ouverts. Pour ouvrir 
+plusieurs onglets, vous pouvez taper la touche du caractère à ouvrir, 
+avec le clavier, par exemple : dans le fenêtre de glyphe du « o », si 
+vous tapez la touche a, l'onglet du caractère « a » s’ouvre. Vous pouvez
+ aussi utiliser le dialogue <em>Aller au glyphe</em> (décrit plus bas) disponible dans le menu <em>Vue</em>.</p>
+
+  <p>La zone principale de la fenêtre est le canevas de dessin. Cette 
+zone affiche le calque sélectionné et les contours qu’il contient sont 
+modifiables. Les autres calques peuvent être visibles mais leurs 
+contours ne le sont pas. Les contours du calque <em>Guide</em> sont aimantés et communs à tous les glyphes, donc indépendamment de la fenêtre de glyphe.</p>
+
+  <h4>Fenêtre d’outils et fenêtre de calques&nbsp;</h4>
+
+  <p>Ces deux fenêtres sont uniquement affichées lorsqu’une fenêtre de glyphe est ouverte et mise à l’avant (<em>focus</em>).
+ La fenêtre de calques vous permet de sélectionner le calque de 
+travail ou de cacher ou de rendre visible certains calques ; voir « 
+Comment créer une fonte ».</p>
+
+  <table style="border: 1px solid rgb(0, 0, 0); border-collapse: collapse;" cellpadding="5" height="447" width="181">
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;Mode normal<br></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;Mode Spiro<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520-%2520Outils.png">&nbsp;</td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520-%2520Outils%2520Spiro.png"></td>
+      </tr>
+
+      <tr>
+        <td valign="top">
+          <h2>Calques<img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520-%2520Calque_1.png"><br></h2>
+        </td>
+
+        <td valign="top"><br></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Selection.png"></p>
+
+  <p>L’outil <strong>Pointer</strong> sert à sélectionner ou déplacer des points sélectionnés.</p>
+
+  <p>Pour sélectionner un point, il faut cliquer dessus. Celui-ci 
+change de couleur pour devenir jaune. Pour sélectionner un ou plusieurs
+ points, il faut cliquer-glisser en parcourant la zone couvrant les 
+points que vous désirez sélectionner. Un rectangle se forme à partir 
+de votre cliquer-glisser comme sa diagonale.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520selectionner%252520plusieurs%25252.png"></p>
+
+  <p>Vous pouvez aussi sélectionner plusieurs points en cliquant sur chacun d’eux avec la touche Majuscule enfoncée.</p>
+
+  <p>Pour déplacer le ou les points sélectionnés, cliquer-glisser un des points sélectionnés à l’endroit désiré.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520deselectionner%252520plusieurs%252.png"></p>
+
+  <p>Vous pouvez aussi retirer des points de la sélection. Vous pouvez 
+cliquer sur chacun de ses points en maintenant la touche Majuscule 
+enfoncée, ou cliquer-glisser comme décrit précédemment un rectangle 
+entourant les points à désélectionner.</p>
+
+  <table style="width: 100%; border: 1px solid rgb(0, 0, 0); border-collapse: collapse;" cellpadding="5">
+    <caption>
+      Points superposés
+    </caption>
+
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">
+          &nbsp;
+
+          <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520points%252520superposes%252520-%2525.png"></p>
+        </td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Deux points sont ici superposés - ce qui est difficile à voir à l’œil nu, car ils semblent ne faire qu'un.<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520points%252520superposes%252520_004.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Quand vous cliquez sur le point apparent, seul le <strong>point du</strong> <strong>dessus</strong> est <strong>sélectionné</strong>. Le point sélectionné jaune est rempli par le point moins élevé (en rouge).<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520points%252520superposes%252520_002.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Quand vous cliquez-glissez pour sélectionner les <strong>deux points,</strong> ils apparaîssent comme un seul point jaune.<br></td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520points%252520superposes%252520_003.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Si les deux points sont sélectionnés et que vous déselectionnez le point du dessus (avec clic + Majuscule), seul le <strong>point du dessous</strong> est <strong>sélectionné</strong>.<br></td>
+      </tr>
+    </tbody>
+  </table><br>
+
+  <p>Lorsque deux points sont superposés ou quasi-superposés (ils ont 
+des coordonnées identiques ou très proches), il est parfois difficile 
+de sélectionner un seul de ces points. Si vous cliquez sur les points 
+superposés, celui qui a été ajouté au contour en dernier, 
+c’est-à-dire celui qui a le numéro de point (<em>number point</em>) le
+ moins élevé est sélectionné et l’autre ne l'est pas. Mais si vous 
+souhaitez sélectionner l’autre point, vous pouvez le faire en 
+sélectionnant les points avec un cliquer-glisser sur les deux points, 
+et désélectionner le point avec le numéro de point le moins élevé.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Agrandir.png">&nbsp;</p>
+
+  <p>L’outil <strong>Agrandir</strong> permet d’agrandir ou de zoomer 
+(sur) une zone spécifique sur laquelle vous cliquez. Pour faire 
+l’opération inverse avec le même outil, cliquez tout en enfonçant la 
+touche Alt.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Main%2520%2520levee.png"></p>
+
+  <p>L’outil <strong>Dessiner à la main levée</strong> permet de dessiner un contour et ses points automatiquement en cliquant-glissant. Il est difficile à maîtriser.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Defiler.png"></p>
+
+  <p>L’outil <strong>Faire défiler la main</strong> permet de 
+cliquer-glisser la zone affichée dans la fenêtre de glyphe. Il est 
+utile lorsque vous avez agrandi ou zoomé (sur) une zone spécifique.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Point%2520curviligne.png">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Point%2520curviligne%2520hv.png"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Point%2520angulaire.png"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Point%2520tangent.png"> (Mode normal)</p>
+
+  <p>Les outils <strong>Ajouter un point curviligne</strong>, <strong>Ajouter un point de contrôle quasiment horiz./vert.</strong>, <strong>Ajouter un coin</strong>, <strong>Ajouter un point tangent</strong>
+ permettent d’ajouter des points au glyphe. Pour ajouter le premier 
+point d’une nouvelle courbe, il suffit de cliquer. Pour ajouter un point
+ à une courbe existante, sélectionnez le point d’attache et cliquez : 
+une courbe ou une ligne sera créée entre le point d’attache et le 
+nouveau point.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Point%2520et%2520glisser.png"> (Mode normal)</p>
+
+  <p>L’outil <strong>Ajouter un point puis glisser</strong> permet 
+d’ajouter un point curviligne en cliquant et de modifier ses points de 
+contrôle en glissant. Il permet de dessiner rapidement des 
+contours&nbsp; en forme de courbes.</p>
+
+  <p><strong>Contour formé des différents types de points</strong></p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Exemples%252520.png"></p>
+
+  <ul>
+    <li>point angulaire dans le coin en haut à droite ;</li>
+
+    <li>point de tangente au milieu à droite terminant une ligne rectiligne ;</li>
+
+    <li>point curviligne dans la courbe en bas à droite ;</li>
+
+    <li>point curviligne horiz./vert. en bas ;</li>
+
+    <li>point curviligne dans la courbe en bas à gauche ;</li>
+
+    <li>point curviligne horiz./vert. au milieu à gauche ;</li>
+
+    <li>point curviligne dans la courbe en haut à gauce ;</li>
+
+    <li>point de tangente en haut débutant une ligne rectiligne.</li>
+  </ul>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Point%252520cur.png"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Point%25252_002.png"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Point%252520ang.png"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Point%252520pre.png"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Point%252520nex.png"><strong>(Mode Spiro)</strong></p>
+
+  <p>Les outils d’ajout de point en mode Spiro* permettent des dessiner 
+des courbes interdépendantes dont la tension correspond à un tracé 
+calligraphique. Elles peuvent donner à votre dessin une apparence plus 
+naturelle. Le meilleur moyen de comprendre comment elles fonctionnent 
+est de dessiner avec. Nous recommandons de les utiliser dans les couches
+ de brouillon, lorsque vous vectorisez vos dessins numérisés.</p>
+
+  <p><strong>Contour formé des différents types de points Spiro</strong></p>
+
+  <ul>
+    <li>point angulaire en haut à droite ;</li>
+
+    <li>point next constraint au milieu à droite terminant une ligne rectiligne ;</li>
+
+    <li>point curviligne G2 en bas à droite ;</li>
+
+    <li>point curviligne en bas ;</li>
+
+    <li>point curviligne G2 en bas à gauche ;</li>
+
+    <li>point curviligne au milieu à gauche ;</li>
+
+    <li>point curviligne G2 en haut à droite ;</li>
+
+    <li>point <em>prev constraint</em> en haut débutant une ligne rectiligne.</li>
+  </ul>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Mode%2520Spiro.png"></p>
+
+  <p>Le bouton <strong>Spiro</strong> permet de passer en mode de 
+courbes Spiro. Il modifie les boutons des outils d’ajout de points 
+précédents et les points des contours (cependant ceux-ci restent les 
+mêmes si rien n’est modifié avant de désactiver le mode Spiro).</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Scinder.png"></p>
+
+  <p>L’outil <strong>Scinder</strong> permet de scinder les courbes 
+entre deux points, en créant deux points séparés aux intersections de
+ la ligne dessinée avec le cliquer-glisser et les courbes.</p>
+
+  <table style="width: 100%; border: 1px solid rgb(0, 0, 0); border-collapse: collapse;" cellpadding="5">
+    <caption>
+      <strong>Scinder des courbes</strong>
+    </caption>
+
+    <tbody>
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outil%252520-%252520Scinder%252520av.png"></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outil%252520-%252520Scinder%2525_002.png">&nbsp;</td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outil%252520-%252520Scinder%252520ap.png">&nbsp;</td>
+      </tr>
+
+      <tr>
+        <td style="border: 1px solid rgb(0, 0, 0);">Cliquer-glisser avec Scinder<br></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Des nouveaux points séparant les courbes sont créés<br></td>
+
+        <td style="border: 1px solid rgb(0, 0, 0);">Ces points peuvent être déplacés (ou supprimés)<br></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Mesurer.png"></p>
+
+  <p>L’outil <strong>Mesurer</strong> permet d’obtenir des informations sur les distances tracées avec un cliquer-glisser, par exemple entre deux points.</p>
+
+  <p>Il permet de redimensionner les contours composés des points 
+sélectionnés. Si aucun point n’est sélectionné, tous les points et 
+contours du glyphe sont redimensionnés.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Mettre%2520a%2520lechelle.png">&nbsp;<img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Symetrie.png"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Pivoter.png"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Pencher.png"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Projection%25203D.png"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Perspective.png"></p>
+
+  <p>Les outils de transformations <strong>Mettre sélection à l’échelle</strong>, <strong>Symétrie</strong>, <strong>Pivoter</strong>, <strong>Pencher</strong>, <strong>Projection 3D</strong> et <strong>Perspective</strong> permettent de modifier la sélection, ou tous les contours du glyphe, si rien n'est sélectionné.</p>
+
+  <p>Avec ces outils, si vous maintenez la touche Majuscule enfoncée, 
+la mise à l’échelle se fait de manière uniforme (horizontalement, 
+verticalement ou les deux), la rotation et l'inclinaison se font par 
+angles ou en escalier. Pour les outils de projection 3D et en 
+perspective, il faut cliquer-glisser respectivement à partir du point 
+de projection et du point de fuite.</p>
+
+  <p>Ces outils de transformations sont généralement rapides mais 
+imprécis. Il est donc difficile, ou même impossible, d’appliquer 
+exactement la même transformation sur plusieurs sélections. Bien que 
+les valeurs des transformations soient affichées, la manipulation du 
+curseur rend difficile la répétition.</p>
+
+  <p>Pour des transformations exactes et précises, nous recommandons d’utiliser le menu <em>Élément</em> &gt; <em>Transformations</em> &gt; <em>Transformer</em>. Les mêmes opérations sont disponibles avec les paramètres numériques.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Rectangle.png"> ou <img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Ellipse.png"></p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Polygone.png"> ou <img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Outils%2520-%2520Etoile.png"></p>
+
+  <p>Les outils <strong>Rectange ou ellipse</strong>, et <strong>Polygone ou étoile</strong>
+ permettent de dessiner des formes géométriques avec un 
+cliquer-glisser partant du centre de ces formes. Chacun des deux boutons
+ permet d’avoir deux outils. Il faut double-cliquer sur le bouton pour 
+passer d’un outil à l’autre, par exemple avec le bouton Rectangle ou 
+ellipse, si une ellipse est représentée sur le bouton, l’opération 
+créé une ellipse, et un double-clic sur le bouton le change pour 
+afficher un rectangle et son opération crée un rectangle. 
+Double-cliquez sur ces boutons pour ouvrir leurs dialogues de 
+paramètres respectifs.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Outils%252520-%252520Raccourcis%2525.png"></p>
+
+  <p><strong>Panneau des raccourcis</strong></p>
+
+  <p>Sous les outils se situent des informations indiquant l'outil 
+sélectionné et les opérations disponibles avec deux boutons de la 
+souris : le bouton gauche (Mse1), le bouton gauche avec la touche Ctrl 
+enfoncée (^Mse1), le bouton du milieu (Mse2), et le bouton du milieu 
+avec la touche Ctrl enfoncée (^Mse2). Ces raccourcis permettent de 
+combiner plus facilement plusieurs opérations sans changer d’outil. Par
+ exemple, lorsque l'un des outils d’ajout de point est sélectionné :</p>
+
+  <ul>
+    <li>le clic gauche applique la première opératio&nbsp; ;</li>
+
+    <li>le clic gauche avec la touche Ctrl enfoncée applique l’opération de l’outil Sélectionne&nbsp; ;</li>
+
+    <li>le bouton du milieu applique l’opération de l’outil Agrandrir&nbsp;;</li>
+
+    <li>et le bouton du milieu avec la touche Ctrl enfoncée applique l’opération de l’outil Mesurer.</li>
+  </ul>
+
+  <h3>Menu de la fenêtre de glyphe</h3>
+
+  <p>La plupart des menus de la fenêtre de glyphes sont les mêmes que 
+ceux de la fenêtre de fonte. Vous pourrez donc ouvrir, fermer, 
+enregistrer le fichier ; copier, coller les contours, etc. dans ce menu.</p>
+
+  <h4>Menu <em>Fichier</em></h4>
+
+  <p>Dans la fenêtre de glyphe, ce menu vous permet aussi d’exporter le glyphe courant dans un autre fichier.</p>
+
+  <h4>Menu <em>Édition</em></h4>
+
+  <p>Dans la fenêtre de glyphe, ce menu vous permet de faire beaucoup d’opérations differentes de celui de la fenêtre de fonte.</p>
+
+  <p>Des opérations vous permettent de <strong>convertir</strong> le type de point des points sélectionnés, par exemple modifier le point curviligne sélectionné en un autre type de point.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520-%2520premier%2520point.png"></p>
+
+  <p>Une opération vous permet de changer le <strong>premier point</strong>
+ d’un contour. Ce premier point sera considéré comme le point le plus 
+en dessous, il est brun et a une flèche brune indiquant la direction du
+ contour à son côté. Cette flèche indique la direction du contour. 
+Voir la description du menu <em>Élément</em> pour comprendre l’utilité de cette flèche ou de la direction de contour.</p>
+
+  <p>Il est possible d’<strong>ajouter une ancre*</strong>&nbsp; depuis ce menu. Voir la description du dialogue <em>Ajouter une ancre</em> dans «&nbsp;Comment créer une fonte&nbsp;».</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520convertir%252520courbe%252520en%2525.png"></p>
+
+  <p>Les opérations <strong>Convertir en Ligne</strong> (Make Line) et <strong>Convertir en Arc</strong> (Make Arc) permettent de relier deux points sélectionnés par une ligne ou par une courbe.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520convertir%252520en%252520ligne%25252.png"></p>
+
+  <p>L’opération <strong>Convertir en Ligne</strong> peut aussi convertir une courbe existante en ligne droite.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520convertir%252520courbe%252520e_002.png"></p>
+
+  <p>L’opération <strong>Convertir en Courbe</strong> peut aussi convertir une ligne existante en courbe.</p>
+
+  <p>Astuce&nbsp;:&nbsp;vous pouvez aussi convertir une ligne en courbe en cliquant-glissant son tracé et non ses points.</p>
+
+  <p>L’opération <strong>Nommer le contour</strong> vous permet de nommer le contour ou de modifier son nom. Ce nom sera affiché à côté du contour.</p>
+
+  <h4>Menu <em>Élément</em></h4>
+
+  <p>En plus des dialogues, ce menu permet d’appliquer plusieurs opérations aux éléments formant le glyphe.</p>
+
+  <p>Les dialogues <em>Infos fontes</em> et <em>Glyph info</em> sont décrits plus bas dans la section «&nbsp;Dialogues communs&nbsp;».</p>
+
+  <p>L’opération <em>Infos</em> ouvrira le dialogue Infos points si un seul point est sélectionné, et <em>Infos ancre</em>
+ si une seule ancre est sélectionnée. Cette opération est aussi 
+disponible via le menu contextuel (en cliquant-droit sur le point ou 
+l’ancre).</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Dialogue%2520-%2520Infos%2520points.png"></p>
+
+  <p>Le dialogue <em>Info points</em> vous permet de modifier 
+précisément les coordonnées d’un point et de ses points de contrôle. Il
+ vous permet aussi de modifier le type du point. Vous pouvez aussi 
+passer au point suivant ou au point précédent dans le glyphe (même 
+s’ils font partie de contours différents). Des données propres aux <em>hints</em> sont accessibles dans des onglets, mais nous ne décrivons pas leur usage car les <em>hints</em> automatiques sont disponibles.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Dialogue%2520-%2520Infos%2520ancre.png"></p>
+
+  <p>Le dialogue <em>Infos ancre</em> vous permet de spécifier de 
+quelle ancre il s’agit (selon les noms des ancres dans la fonte), de 
+modifier les coordonnées de celle-ci ou de spécifier son comportement 
+(Marque, Glyphe de base, etc.). Vous pouvez aussi passer à d’autres 
+ancres présentes dans le glyphe courant ; pour un exemple 
+d'application, voir «&nbsp;Comment créer une fonte&nbsp;».</p>
+
+  <p style="text-align: justify;">Le menu <strong>Montrer les dépendances</strong> est le même que celui de la fenêtre de fonte.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Glyphe%2520-%2520Element%2520-%2520Direction.png"></p>
+
+  <p>Les opérations de modification de direction de contour vous permettent de corriger l'ordre des points d'un contour.</p>
+
+  <p>Ces opérations permettent de corriger certains problèmes de 
+remplissage du glyphe. Ce remplissage est fait d'une manière 
+intéressante. La direction d'un contour défini duquel de ces côtés est 
+rempli. Quand le contour est fermé, tout ce qui est tracé à droite de la
+ flèche brune du premier point sera rempli.</p>
+
+  <ul>
+    <li>Si un contour va dans le <strong>sens horaire</strong>, ce qui est à gauche sera vide. Il indique donc l'<strong>extérieur</strong>.</li>
+
+    <li>Si un contour va dans le <strong>sens antihoraire</strong>, ce qui est à gauche sera vide. Il indique donc l'<strong>intérieur</strong>.</li>
+  </ul>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Direction%252520de%252520conto_002.png"></p>
+
+  <p>Souvent quand plusieurs contours sont dessinés, on en pense pas à 
+tracer le contour extérieur dans le sens horaire, et le contour 
+intérieur dans le sens antihoraire. Si les deux contours ont été tracé 
+dans le même sens, le dessin n'aura pas de vide intérieur.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Glyphe%252520-%252520Direction%252520de%252520contour%252.png"></p>
+
+  <p>Pour corriger cela sans redessiner le contour qui est dans le 
+mauvais sens, vous pouvez utiliser les différentes opération de 
+direction de contour.</p>
+
+  <p><em>Clockwise</em> (sens horaire) et <em>Sens contraire à la montre</em> (sens antihoraire) vous permette de spécifier les sens du contour sélectionné.</p>
+
+  <p>L'opération <em>Corriger direction</em> laissera FontForge deviner dans quelle direction le contour sélectionné doit être pour un remplissage correct.</p>
+
+  <p>L'opération <em>Reverse direction</em> (inverser la direction) inversera la direction du contour sélectionné.</p>
+
+  <h2>Fenêtre de métriques</h2>
+
+  <p>Accessible depuis la séquence <em>Fenêtre</em> &gt; <em>Ouvrir fenêtre de métriques</em>,
+ la fenêtre de métriques permet de modifier les propriétés 
+métriques de la fonte par glyphe, mais aussi de modifier certaines 
+fonctionnalités OpenType. De plus c’est un très bon outil pour 
+prévisualiser les glyphes avec des contours remplis. Nous recommandons 
+d’ailleurs d'avoir cette fenêtre ouverte aux côtés de la fenêtre de 
+glyphe, lorsque vous modifiez un glyphe. Cela permet de voir directement
+ et plus facilement le résultat de chaque modification et de choisir si 
+elle est à annuler ou non.</p>
+
+  <p>Pour un exemple d'application, voir « Comment créer une fonte ».</p>
+
+  <h2>Dialogues communs</h2>
+
+  <h3>Infos fonte</h3>
+
+  <p>La fenêtre <em>Infos fonte</em> permet de configurer toutes les 
+propriétés de la fonte, ainsi que ses fonctionnalités avancées. Les 
+données sont organisées par onglets. Chaque onglet regroupe des 
+informations correspondantes à un même standard. Certains standards ne
+ concernent pas le type de format de fonte que nous conseillons dans ce 
+document. Nous ne décrivons que les sections pertinentes pour la 
+création de fontes destinées au public le plus large possible.</p>
+
+  <h4>Section PS Names</h4>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Infos%252520fontes%252520-%252_003.png"></p>
+
+  <p>Cet onglet vous permet de modifier les noms de la fonte utilisés 
+par les différent logiciels et les différents systèmes d'exploitation.</p>
+
+  <p>Le <em>Nom de la fonte</em>&nbsp;est en fait le nom de la fonte du 
+format PostScript* que les applications recourant à la norme PostScript 
+utilisent, sans que l’utilisateur en soit forcément conscient. Celui-ci 
+ne doit pas contenir d’espace, par exemple « NomChoisi », « 
+NomChoisiSans » ou « NomChoisiSansCondensed ». Le nom de style y est 
+attaché par un trait d’union, par exemple « NomChoisi-Italic » ou « 
+NomChoisiSans-Italic ». Par défaut, c’est ce nom qui est utilisé par 
+FontForge pour nommer le nom du fichier .<em>sfd</em> source, par 
+exemple « NomChoisi.sfd », « NomChoisi.sfd » ou « NomChoisiCondensed.sfd
+ » et « NomChoisi-Italic », si le style est spécifié dans le nom.</p>
+
+  <p>Le <em>Nom de famille</em>&nbsp;est celui de la famille de fonte, 
+qui est affiché dans l’interface graphique du système d'exploitation ou 
+du logiciel. Il s'agit du nom que l’utilisateur voit dans le menu 
+déroulant des fontes installées. Les différents styles d’une même 
+famille de fontes doivent avoir le même nom de famille. Par exemple « 
+Nom Choisi » pour NomChoisi.sfd, NomChoisi-Italic.sfd ou 
+NomChoisi-BoldItalic.sfd.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Infos%252520fontes%252520-%252520P.png"></p>
+
+  <p>Le <em>Nom humain</em>&nbsp;est celui que l’utilisateur voit dans 
+certaines applications qui listent les fontes d’une même 
+famille&nbsp;séparément, et celui qui identifie exactement ce style dans
+ la famille de fontes, par exemple : « Nom Choisi » et « Nom Choisi 
+Italic ».</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Infos%252520fontes%252520-%252_002.png"></p>
+
+  <p>Le champ <em>Graisse</em>&nbsp; correspond à la graisse et non à la
+ variante. Par exemple, si le nom humain de la fonte est « Nom Choisi 
+Italic », celui-ci est « Regular », cet italique ayant une graisse 
+régulière. En revanche, si le nom humain est « Nom Choisi Bold », 
+celui-ci est «&nbsp;Bold&nbsp;».</p>
+
+  <p>Le champ <em>Version</em> contient le numéro de version de la fonte.</p>
+
+  <p>Le champ <em>sfnt Revision</em> est un champ similaire à <em>Version</em>
+ et peut être laissé vide, FontForge se chargeant de le compléter 
+automatiquement par la suite avec les autres informations fournies.</p>
+
+  <p>Le champ <em>Copyright</em> contient les informations concernant 
+les droits d’auteurs. (d'autres champs permettent d'indiquer plus 
+précisément les noms et URLs des auteurs, fonderies et licenses 
+correspondants, voir la section « Noms TTF »).</p>
+
+  <h4>Section Général</h4>
+
+  <p>La section <em>Général</em> permet de spécifier quelques 
+paramètres du fichier de fonte à générer, qui sont également utilisés 
+par les autres logiciels pour afficher correctement la fonte.</p>
+
+  <p>Les valeurs Ascendantes et Descendantes doivent correspondre aux niveaux de vos ascendantes* et descendantes*.</p>
+
+  <p>La valeur Cadratin (EM) correspond à l’em, c’est-à-dire la taille
+ de corps* de la fonte. Sa valeur doit être supérieure à 1000. Selon 
+le format de fichier généré, certaines valeurs sont préférables. 
+Pour le format OTF que nous recommandons, la valeur 1000 convient 
+parfaitement. Si vous optez pour un format TTF, afin d’optimiser la 
+fonte pour l’écran à l’aide d’instruction de Hinting, des valeurs 
+comme 1024 ou 2048 sont plus appropriées.</p>
+
+  <h4>Section <em>Calques</em></h4>
+
+  <p>La section <em>Calques</em> permet de modifier le type de contour 
+des calques, d’ajouter ou de supprimer des calques. Nous recommandons 
+d’utiliser un calque en courbe cubique pour le dessin, par exemple un 
+calque Brouillon de type <em>Foreground</em>.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Infos%252520fonte%252520-%252520Ca.png"></p>
+
+  <p>Vous pouvez renommer les calques en cliquant sur leurs noms. Vous pouvez en ajouter en cliquant sur &lt;Nouvelle&gt;.</p>
+
+  <p>Par défaut, FontForge ne propose que des calques de même type, 
+uniquement cubique ou uniquement quadratique. Vous pouvez cependant 
+activer le mode <em>Mixed</em> pour avoir des calques de types 
+différents dans le même fichier. Cela peut être utile lorsque vous 
+travaillez sur une fonte à générer à la fois en quadratique (fichier .<em>ttf</em>) et en cubique (fichier .<em>otf</em>).</p>
+
+  <h4>Section OS/2</h4>
+
+  <p>La section OS/2 permet de spécifier plusieurs paramètres du 
+fichier que vous vous apprêtez à générer, et qui sont utilisés par les 
+autres logiciels pour sélectionner ou afficher correctement la fonte. 
+Certains de ses paramètres ne sont pas pertinents pour la création de 
+fontes destinées à un large public.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Infos%252520fonte%252520-%252520OS.png"></p>
+
+  <p>Vous pouvez notamment configurer la Graisse OS/2. Celle-ci est 
+généralement remplie automatiquement par FontForge selon le nom de 
+Graisse que vous utilisez dans <em>Infos fonte</em> &gt; <em>PS Names</em>.</p>
+
+  <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Infos%252520fonte%252520-%2525_002.png"></p>
+
+  <p>Dans l’onglet <em>Métriques</em>, vous pouvez modifier les 
+paramètres de métriques comme les interlignes. Pour spécifier un 
+interlignage supérieur à la taille du corps* de fonte, ajoutez une 
+valeur positive à <em>Offset typo</em> pour Ascendantes. Pour spécifier un interlignage inférieur à la taille du corps de fonte, ajoutez une valeur négative à <em>Offset typo</em> pour Descendantes. Ces valeurs modifient la hauteur des lignes écrites avec la fonte dans les applications.</p>
+
+  <h4>Section Noms TTF</h4>
+
+  <p>Les noms TTF sont remplis par défaut par FontForge et correspondent aux valeurs données dans l’onglet <em>PS2 Names</em>
+ (Noms PS2). Les noms TTF peuvent aussi être indiqués dans plusieurs 
+langues. Ces noms, provenant des noms PS2, sont par défaut en anglais, 
+c'est-à-dire dans la locale English (US). Leurs équivalents dans 
+d’autres langues peuvent être ajoutés et sont visibles avec les 
+interfaces dans ces langues.</p>
+
+  <p>Voir chapitre « Comment créer une fonte » pour un exemple d'application.</p>
+
+  <h4>Section Lookup</h4>
+
+  <p>Cette section vous permet d’ajouter ou de modifier des fonctionnalités avancées OpenType, organisées en deux catégories :</p>
+
+  <ul>
+    <li>les fonctionnalités de substitution (substitution contextuelle,
+ substitution propre à une langue spécifique, variante stylistique, 
+etc.) ;</li>
+
+    <li>les fonctionnalités de positionnement (crénage, positionnement d’ancre).</li>
+  </ul>
+
+  <p>Les lookups sont des correspondances de fonctionnalités OpenType 
+qui sont utilisés lorsque la fonte est affichée dans une application. 
+Elles sont dans deux catégories. Les fonctionnalités de substitution 
+dans l’onglet GSUB, et les fonctionnalités de positionnement dans 
+l’onglet GPOS.</p>
+
+  <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/GSUB_spec.png"></p>
+
+  <p>Nous décrivons comment ajouter quelques fonctionnalités de substitution :</p>
+
+  <ul>
+    <li>forme sans point d’un caractère (par exemple le i et le i sans 
+point) utilisé dans la composition de lettre accentué à la volée ;</li>
+
+    <li>forme propre à une langue spécifique.</li>
+
+    <li style="list-style: none; display: inline">
+      <p>Ces fonctionnalités sont structurées en tables&nbsp;</p>
+
+      <p>Chaque <strong>table</strong> contient des fonctionnalités 
+propres à un ensemble de systèmes d’écriture ou de langues définis. 
+Il arrive que des fonctionnalités soient appliquées dans une langue, 
+mais pas dans une autre. Ceci correspond aux habitudes typographiques 
+qui peuvent varier d’une culture à une autre.</p>
+
+      <p>Dans chaque table propre à un groupe système d’écriture/langue, les fonctionnalités sont organisées en sous-table.</p>
+
+      <p>A noter que l'on peut directement inclure des fonctionnalités 
+OpenType via l'import d'un fichier externe de fonctionnalités OpenType :
+ ex. fichier <a target="_blank" href="http://fr.flossmanuals.net/fontes-libres/presentation-de-fontforge/static/Mitchell2.fea">Mitchell2.fea</a>.<span class="InsertNoteMarker" id="InsertNoteID_16_marker17"><sup><a href="http://fr.flossmanuals.net/fontes-libres/presentation-de-fontforge#InsertNoteID_16">2</a></sup></span></p>
+
+      <p><img src="ch015_presentation-de-fontforge_files/ajout_features_opentype_spec.png"></p>
+    </li>
+  </ul>
+
+  <div style="margin-left: 2em">
+    <h3>Dialogue infos glyphe</h3>
+
+    <p>Ce dialogue vous permet de modifier les données spécifiques au 
+nom du glyphe et à son caractère Unicode correspondant. Plusieurs de 
+ces sections concernent les fonctionnalités OpenType de substitutions.</p>
+
+    <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Glyph%252520Info%252520-%252520Uni.png"></p>
+
+    <p>Le nom du glyphe et sa valeur Unicode vous sont utiles si vous 
+ajoutez de nouvelles cases de glyphes. Vous pouvez leur donner un nom, 
+par exemple, « A.c2sc » pour le glyphe du A en petite majuscule.</p>
+
+    <h3>Dialogue transformer</h3>
+
+    <p>Le dialogue <em>Transformer</em> vous permet d’appliquer les mêmes opérations de transformations géométriques que les outils de la fenêtre d’<em>Outils</em>
+ (dans la fenêtre de glyphe) : déplacer, pivoter, mise à l’échelle 
+uniforme ou non, symétrie, inclinaison, projection 3D et perspective. 
+Mais vous pouvez spécifier leurs paramètres de manière précise et 
+reproductible.</p>
+
+    <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Transformer%252520-%252520Deplac.png"></p>
+
+    <h3>Glyph info</h3>
+
+    <p>L’onglet <em>Lookup (ou Substitutions)</em> vous permet d’ajouter
+ ou de modifier les fonctionnalités OpenType avancées de substitutions
+ (GSUB : formes alternatives ou contextuelles des glyphes, etc.)</p>
+
+    <p>L'onglet Positionnement vous permet d’ajouter ou de modifier les 
+fonctionnalités OpenType avancées de positionnement (GPOS : crénage, 
+positionnement de diacritiques, etc.).</p>
+
+    <h3>Générer fonte(s)</h3>
+
+    <p>Ce dialogue vous permet de générer un fichier fonte utilisable 
+par les autres applications, fichier que vous devez installer sur votre 
+ordinateur ou tester dans FontMatrix.</p>
+
+    <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%2520-%2520Dialogue%2520-%2520Generer%2520fonte.png"></p>
+
+    <p>Ce dialogue se compose comme le dialogue Ouvrir pour la 
+navigation de dossier, avec quelques options et boutons 
+supplémentaires. Le format de fichier que nous recommandons est 
+OpenType CFF (format OpenType .<em>otf</em> contenant des courbes cubiques).</p>
+
+    <p><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Generer%252520fonte%252520-%252520.png"></p>
+
+    <p>D’autres formats sont disponibles, notamment le format .<em>ttf</em> (format TrueType/OpenType contenant des courbes quadratiques) optimisé pour l’écran.</p>
+
+    <p style="text-align: justify;"><img src="ch015_presentation-de-fontforge_files/FF%252520-%252520Dialogue%252520-%252520Generer%252520fonte%252520-%25_002.png"></p>
+
+    <p>En cliquant sur le bouton [Options], vous pouvez modifier les paramètres de génération.</p>
+
+    <p>FontForge peut par exemple valider les contours ou métadonnées 
+de la fonte avant de générer le fichier. Ces tests de validation sont 
+aussi disponibles dans le menu <em>Élément &gt; Validation</em> dans la fenêtre de fonte. Voir la section de fenêtre de fonte pour une description de ce dialogue.</p>
+  </div>
+
+  <ol id="InsertNote_NoteList">
+    <li id="InsertNoteID_8">'<em>I think the ideas behind it are 
+beautiful in my mind — and in some sense I find the user interface 
+beautiful. I’m not sure that anyone else in the world does, because it’s
+ what I want, but I think it’s beautiful.</em>' - Interview de George 
+Williams par OSP 
+http://ospublish.constantvzw.org/typo/i-think-the-ideas-behind-it-are-beautiful-in-my-mind<span id="InsertNoteID_8_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/presentation-de-fontforge#InsertNoteID_8_marker9">^</a></sup></span></li>
+
+    <li id="InsertNoteID_16">static/Mitchell2.fea<span id="InsertNoteID_16_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/presentation-de-fontforge#InsertNoteID_16_marker17">^</a></sup></span></li>
+  </ol>
+</div>
+
+<ul class="menu-goes-here">
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+
+  <li class="booki-section">Méthodologie</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+
+  <li class="booki-section">Fondre avec Fontforge</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+
+  <li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+
+  <li class="booki-section">Dessiner ses glyphes dans Inkscape</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Installer FontForge" href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac"><img src="ch015_presentation-de-fontforge_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="Comment modifier un glyphe d'une fonte" href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police"><img src="ch015_presentation-de-fontforge_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch015_presentation-de-fontforge_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

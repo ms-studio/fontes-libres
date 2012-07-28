@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch009_organiser-ses-sources_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch009_organiser-ses-sources_files/prettify.js"></script>
+    <script type="application/javascript" src="ch009_organiser-ses-sources_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch009_organiser-ses-sources_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch009_organiser-ses-sources_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch009_organiser-ses-sources_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch009_organiser-ses-sources_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch009_organiser-ses-sources_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch009_organiser-ses-sources_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Recommandations de nommage" href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage"><img src="ch009_organiser-ses-sources_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="La valise des fontes" href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement"><img src="ch009_organiser-ses-sources_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content">
+  <h1>Organiser ses sources</h1>
+
+  <p>La création de fonte est une démarche particulière. La fonte, plus 
+que tout autre élément, est prévue pour être partagée, utilisée par 
+d'autres personnes dans divers contextes et parfois indépendamment du 
+sens et du style qu'elle véhicule initialement. Il est donc 
+particulièrement important d'avoir une gestion précise du fichier de 
+fonte lui-même, par exemple en terme de révision, mais aussi de 
+documents annexes comme la licence, des exemples de production et bien 
+sûr de la documentation à destination des utilisateurs et des autres 
+créateurs.</p>
+
+  <p>De manière à faciliter l'utilisation de la fonte ou de sa 
+modification, certaines règles d'organisation peuvent être mises en 
+place, et certaines méthodologies ont déjà été adoptées par de nombreux 
+créateurs. Faire le choix de suivre ces conventions permet de faciliter 
+l'usage et les modifications futures par d'autres créateurs.</p>
+
+  <p>Dans le logiciel libre, indépendamment du petit monde de la typographie, Debian<span class="InsertNoteMarker" id="InsertNoteID_6_marker7"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_6">1</a></sup></span>&nbsp;,
+ un projet majeur de création et de maintenance d'un système 
+d'exploitation libre GNU/Linux, largement reconnu pour sa qualité et son
+ attachement aux valeurs du logiciel libre, par l'intermédiaire de son 
+équipe dédiée au travail sur les fontes libres: la Debian Fonts Task 
+Force<span class="InsertNoteMarker" id="InsertNoteID_44_marker45"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_44">2</a></sup></span>&nbsp;,
+ met à disposition une recommendation d'arborescence pour une fonte 
+libre idéale, livrée avec un maximum de sources et dans une structure 
+bien cohérente, documentée et facilitant la maintenance à long-terme.</p>
+
+  <p>Il faut aussi souligner le service en ligne mise à disposition par 
+cet équipe: la génération hebdomadaire, et ce depuis plusieurs années, 
+d'une revue précise de toutes les fontes présentes dans tout le système 
+Debian pour exposer -&nbsp; via une section dédié de leur site web<span class="InsertNoteMarker" id="InsertNoteID_47_marker48"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_47">3</a></sup></span>&nbsp;&nbsp;
+ - pour chaque fichier de fonte disponible les fonctionnalités, les 
+langues prises en comptes, les auteurs et contributeurs, les styles, les
+ fonctionalités avancées le cas échéant et bien sûr un specimen 
+permettant d'évaluer les formes des glyphes de la fonte en question: 
+c'est une resource qui vient en complément d'autres catalogues de fontes
+ avec cette particularité essentielle: toutes les fontes repertoriés 
+sont libres (sauf erreur involontaire qui sera corrigée) et rapidement 
+installables si l'on utilise Debian ou Ubuntu ou alors rapidement 
+téléchargeables.</p>
+
+  <h2>Bien ranger ses fichiers</h2>
+
+  <p>Pour le créateur de fontes débutant, cette structure recommandée<span class="InsertNoteMarker" id="InsertNoteID_8_marker9"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_8">4</a></sup></span>
+ peut être perçue comme trop rigoureuse. En effet, elle exprime des 
+recommandations qui prennent en compte des cas de figure complexes et 
+relativement exceptionnels des projets majeurs de développement de fonte
+ libre.</p>
+
+  <p>Une version simplifiée de structure destinée à un premier projet de fonte libre peut être utilisée.</p>
+
+  <p>Pour une fonte, comme celle que nous utiliserons comme exemple dans
+ le chapitre « Comment modifier une fonte », nommée Rennesgardo, nous 
+aurons donc&nbsp;:</p>
+
+  <ul>
+    <li>FONTLOG.txt</li>
+
+    <li>Rennesgardo-I.ttf&nbsp;&nbsp; (I pour Italque)</li>
+
+    <li>Rennesgardo-R.ttf&nbsp;&nbsp; (R pour Roman ou Regular)</li>
+
+    <li>OFL-FAQ.txt</li>
+
+    <li>OFL.txt</li>
+
+    <li>developer-documentation</li>
+
+    <li style="list-style: none; display: inline">
+      <ul>
+        <li>contribuer.html&nbsp;</li>
+
+        <li>design.html</li>
+      </ul>
+    </li>
+
+    <li>documentation</li>
+
+    <li style="list-style: none; display: inline">
+      <ul>
+        <li>documentation.html</li>
+
+        <li>Rennesgardo-specimen.pdf</li>
+
+        <li>Rennesgardo-specimen.png</li>
+      </ul>
+    </li>
+
+    <li>sources</li>
+
+    <li style="list-style: none; display: inline">
+      <ul>
+        <li>Rennesgardo-I.sfd</li>
+
+        <li>Rennesgardo-R.sfd</li>
+      </ul>
+    </li>
+
+    <li>web/</li>
+
+    <li style="list-style: none; display: inline">
+      <ul>
+        <li>Rennesgardo-webfont-exemple.css</li>
+
+        <li>Rennesgardo-webfont-exemple.html</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>À la racine du répertoire, on place les fichiers de fonte 
+utilisables au format choisi en général ttf ou otf. On les accompagnera 
+de la licence d'utilisation (ici OFL.txt et souvent accompagné d'un FAQ:
+ Foire Aux Questions expliquant divers aspects pratiques), d'un fichier 
+README qui peut par exemple contenir des informations succinctes et un 
+fichier FONTLOG donnant un aperçu plus détaillé de divers aspects du 
+projet et contenant des recommandations d'usage de l'auteur à 
+destination des utilisateurs et des contributeurs potentiels.</p>
+
+  <p>Les fichiers <strong>FONTLOG</strong> servent tout particulièrement à présenter et à établir l'historique de la fonte. Chaque changement effectué dans la fonte et <em>versionné</em>
+ est souvent ajouté à ce fichier, avec le numéro de version, les glyphes
+ ajoutés et les glyphes modifiés, ou les autres types de changement, en 
+général classés par bloc et accompagnés du nom de l'auteur. Le nom de 
+fichier FONTLOG est l'équivalent pour les fontes libres des fichiers 
+NEWS, CHANGELOG, HACKING, CONTRIBUTING souvent présents dans les 
+logiciels libres habituels. Si vous ne trouvez pas de fichier FONTLOG, 
+regardez dans les autres fichiers dont les noms sont en majuscules).</p>
+
+  <p>Le fichier FONTLOG se place dans la logique inverse des tendances 
+des fonderies propriétaires où une part du travail réalisé n'est tout 
+simplement pas mentionné et où la culture du secret prévaut. Les 
+créateurs de typo expérimentés signent souvent le travail réalisé par 
+d'autres personnes dont les noms sont passés sous silence. À l'inverse 
+dans un projet de fonte libre, tous les contributeurs ont droit à la 
+reconnaissance de leur participation.</p>
+
+  <p>Le dossier <strong>developer-documentation/</strong> donne des indications aux personnes qui ont besoin de modifier la fonte, d'y rajouter des glyphes ou d'en créer un dérivé.</p>
+
+  <p>Le dossier <strong>documentation/</strong> contiendra des 
+informations à l'usage plus particulier des utilisateurs qui n'ont pas 
+pour objectif de modifier la fonte. On y trouvera entre autres des 
+fichiers exemples dans lesquels la typo est utilisée qui peuvent être 
+réalisés dans différents logiciels et mis à disposition dans divers 
+formats.</p>
+
+  <p>Dans <strong>sources/</strong>, on placera les fichiers FontForge 
+au format .sfd ainsi que tous les autres types de fichiers qui 
+permettront aux contributeurs de pouvoir modifier facilement la fonte.</p>
+
+  <p>Enfin, on pourra ajouter dans <strong>web/</strong> un exemple 
+d'utilisation de la fonte lorsqu'elle est référencée dans une page web 
+ainsi qu'un fichier webfont optimisé WOFF (Web Open Font Format) avec 
+les métadonnées correspondantes. Cela peut permettre aux utilisateurs 
+d'en évaluer le rendu tout en leur servant de modèle pour une éventuelle
+ utilisation sur leurs propres sites.</p>
+
+  <h2>Classifier ses releases en fonction du public visé</h2>
+
+  <p>La fonderie SIL<span class="InsertNoteMarker" id="InsertNoteID_49_marker50"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_49">5</a></sup></span>&nbsp;
+ qui travaille activement sur l'internationalisation des fontes et 
+publie une série de fontes trés complexes livrées avec beaucoup de 
+sources comprenant divers formats a établi une classification de 
+releases en gradation pour mieux distinguer les usages et faciliter 
+l'accés aux utilisateurs et aux contributeurs potentiels :</p>
+
+  <ul>
+    <li><strong>foo-1.23</strong> pour les utilisateurs (contenant l'arborescence des fichiers finaux qui peuvent aussi être utilisés en tant que sources).</li>
+
+    <li><strong>foo-1.23-web</strong>: avec un dossier web/ pour les 
+webfonts au format WOFF et les exemples/modèles HTML/CSS (en plus de 
+l'arborescence orientée utilisateur)</li>
+
+    <li><strong>foo-1.23-developer</strong> : pour les 
+designers/ingénieurs-linguistiques pour étendre, modifier et 
+personnaliser la fonte à partir du maximum de sources disponibles en 
+plus dans sources/ et une documentation plus technique. (en plus de 
+l'arborescence orientée utilisateur et le dossier web/)</li>
+  </ul>
+
+  <h2>Quelques conseils</h2>
+
+  <p>La création d'une fonte est une étape particulièrement longue, en 
+particulier si l'on souhaite qu'elle couvre le maximum de langues. Cette
+ tâche est quasiment impossible à faire pour une personne seule, 
+d'autant plus qu'elle impliquerait une connaissance de tous les systèmes
+ d'écriture qui existent. Pour cette raison, il nous semble que tout 
+créateur de fonte a intérêt à publier sa fonte sous une licence libre de
+ manière à ce que quiconque puisse l'étendre et la compléter, l'auteur 
+original pouvant bénéficier ainsi de ces apports. Cette stratégie 
+donnant-donnant (ou gagnant-gagnant) ne peut fonctionner que si l'auteur
+ initial facilite la tâche pour les éventuels contributeurs. C'est pour 
+faciliter cette prise en main que nous proposons plus haut cette 
+organisation-type.</p>
+
+  <p>Il est nécessaire de rappeler les points suivants&nbsp;:</p>
+
+  <ul>
+    <li>Créez vos fontes dans des logiciels dont l'acquisition ne 
+constituera pas un frein : favorisez FontForge ou inkscape ou d'autres 
+logiciels libres et/ou gratuits mais pérennes qui assureront un flux de 
+production homogène, simple et incitatif.</li>
+
+    <li>Utilisez au maximum des formats ouverts qui dans la mesure du 
+possible ne limitent pas l'usage à une seule plate-forme (Mac, Windows, 
+GNU/Linux...) de manière à augmenter l'audience de votre fonte. Ces 
+formats font en général l'objet d'un consensus parmi les éditeurs de 
+logiciels et sont assurés d'une certaine pérennité et sont en général 
+indépendants du logiciel qui a servi à les créer.</li>
+
+    <li>Livrez le maximum de sources : vos esquisses stylistiques, des 
+explications sur les objectifs et les choix artistiques, des dessins 
+vectoriels de glyphes, par exemple dans Inkscape, et bien sûr les 
+fichiers FontForge et autres fichiers similaires. Ces fichiers 
+permettront une modification plus simple de la fonte, et permettront 
+aussi un meilleur respect de l'esprit que vous souhaitez insuffler à 
+votre projet. Pour en savoir plus, lisez le chapitre consacré aux 
+formats ouverts.</li>
+
+    <li>Ensuite, si vous êtes un peu débrouillard vous trouverez ici et 
+là ou fabriquerez peut-être des petits outils ou scripts permettant de 
+faciliter ou d'évaluer l'évolution de la fonte. Mettre à disposition ces
+ outils fera gagner un temps précieux aux contributeurs et permettra 
+d'assurer que votre flux de production sera pris en compte de manière à 
+assurer de meilleurs aller-retours entre vous et les autres 
+collaborateurs. Si nécessaire, renseignez ces informations dans un 
+fichier du dossier developer-documentation/. Même si cela reste souvent 
+complexe, il est utile de considérer comment vous pouvez aussi décrire 
+votre méthodologie de construction de la version finale voire de livrer 
+vos scripts de construction le cas échéants.</li>
+  </ul>
+
+  <h2>Où et comment publier son travail&nbsp;?</h2>
+
+  <p>Il existe plusieurs possibilités pour publier votre travail en tant
+ qu'auteur de fonte et de lui donner un plus grande envergure. Une fois 
+que vous êtes satisfait de votre travail et que vous pensez qu'un oeil 
+extérieur pourra vous apporter quelque chose, vous pouvez bien sûr en 
+parler sur votre blog ou réseau social et le cas échéant héberger 
+vous-même votre fonte ainsi que ses sources et sa documentation dans un 
+section dédiée de votre site web ou sur votre propre serveur.</p>
+
+  <p>Alternativement, plusieurs services d'hébergements s'offrent à vous
+ si vous souhaitez confier cela à quelqu'un d'autres afin qu'il en 
+prenne soin pour à votre place:</p>
+
+  <p>vous pouvez choisir des services communautaires de cataloguage comme OpenFontLibrary - <a href="http://www.openfontlibrary.org/">http://www.openfontlibrary.org</a>&nbsp;
+ ou d'autres services similaires. Vous pouvez contacter une fonderie 
+sensible aux valeurs et aux avantages des fontes libres pour voir si ils
+ sont intéressés par votre travail et pourraient l'accueillir.&nbsp;</p>
+
+  <p>Vous pouvez bénéficier des services sponsorisés d'hébergement et de développement publics tels que Launchpad.net - <a href="http://www.launchpad.net/">http://www.launchpad.net</a> ,&nbsp; Google Code - <a href="http://code.google.com/">http://code.google.com</a>&nbsp; fedorahosted.org - <a href="http://www.fedorahosted.org/">http://www.fedorahosted.org</a>&nbsp; , Sourceforge.net - <a href="http://www.sourceforge.net/">http://www.sourceforge.net</a>, Savanah - <a href="http://savannah.gnu.org/">http://savannah.gnu.org/</a>&nbsp; , GNA! - <a href="http://www.gna.org/">http://www.gna.org</a>&nbsp;
+ ou autres et bénéficier de toutes les fonctionnalités qu'ils offrent et
+ des nombreux utilisateurs qui y sont déja présents (tous ces services 
+d'hébergements permettent de choisir explicitement la licence OFL pour 
+son projet de logiciel libre).</p>
+
+  <ol id="InsertNote_NoteList">
+    <li id="InsertNoteID_6"><a href="http://www.debian.org/">http://www.debian.org</a> (Site officiel) <span id="InsertNoteID_6_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_6_marker7">^</a></sup></span></li>
+
+    <li id="InsertNoteID_44">Debian Font Task Force - <a href="http://pkg-fonts.alioth.debian.org/">http://pkg-fonts.alioth.debian.org</a><span id="InsertNoteID_44_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_44_marker45">^</a></sup></span></li>
+
+    <li id="InsertNoteID_47">Debian Fonts Task Force weekly font review - <a href="http://pkg-fonts.alioth.debian.org/review">http://pkg-fonts.alioth.debian.org/review</a><span id="InsertNoteID_47_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_47_marker48">^</a></sup></span></li>
+
+    <li id="InsertNoteID_8">structure des sources de recommandée par Debian via sa Debian Fonts Task Force&nbsp; : <a href="http://anonscm.debian.org/viewvc/pkg-fonts/foo-open-font-sources/">http://anonscm.debian.org/viewvc/pkg-fonts/foo-open-font-sources/</a>&nbsp; (contenant des éléments explicatifs supplémentaires et susceptible d'évoluer en fonction de besoins)<span id="InsertNoteID_8_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_8_marker9">^</a></sup></span></li>
+
+    <li id="InsertNoteID_49">SIL Non-Roman Script Initiative - <a href="http://scripts.sil.org/FontDownloads">http://scripts.sil.org/FontDownloads</a><span id="InsertNoteID_49_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/organiser-ses-sources#InsertNoteID_49_marker50">^</a></sup></span></li>
+  </ol>
+</div>
+
+<ul class="menu-goes-here">
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+
+  <li class="booki-section">Méthodologie</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+
+  <li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+
+  <li class="booki-section">Fondre avec Fontforge</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+
+  <li class="booki-section">Dessiner ses glyphes dans Inkscape</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Recommandations de nommage" href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage"><img src="ch009_organiser-ses-sources_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="La valise des fontes" href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement"><img src="ch009_organiser-ses-sources_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch009_organiser-ses-sources_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/prettify.js"></script>
+    <script type="application/javascript" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Vectorisation d'une fonte dans Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="SVG fonts dans Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content">
+  <h1>Dessiner avec les courbes dans Inkscape</h1>
+
+  <p>Dans la prise en main nous avons vu comment créer la géométrie des 
+glyphes à partir de formes géométriques. Il est bien évident que les 
+possibilités offertes par cette méthode ne seront pas toujours 
+suffisantes. Traitons ici des options permettant de dessiner des formes 
+géométriques moins régulières à l'aide des courbes de Bézier, de l'outil
+ de calligraphie, des courbes Spiro et des effets de chemin.</p>
+
+  <h2>Présentation du dessin de courbes de Bézier</h2>
+
+  <p>Les courbes de Bézier sont l'élément fondamental du dessin dans 
+Inkscape, comme en Postscript. Toute forme tracée non géométrique sera 
+transformée en courbe de Bézier. Ainsi, les outils Crayon, Plume 
+(Bézier), Calligraphie, Gomme permettent tous d'en produire.</p>
+
+  <p>l'outil Crayon s'utilise simplement en glissant la souris, bouton 
+gauche enfoncé. Pour donner au trait une épaisseur moins homogène que 
+son épaisseur par défaut, il suffit de dessiner une première forme, de 
+la copier (<em>Edition &gt; Copier</em>), de choisir dans ses options Formes, l'option <em>À partir du presse-papier</em>. cette option existe aussi pour l'outil de Courbe de Bézier.</p>
+
+  <p>L'effet appliqué à crayon sous forme d'une épaisseur pourra être 
+paramètrée dans la fenêtre d'Éditeur d'effet de chemin&nbsp; (menu [<em>Chemin</em>]).</p>
+
+  <p style="text-align: justify;"><img alt="Utilisation du crayon et des effets de chemin" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/InkscapeCrayon.png" height="466" width="642"></p>
+
+  <h2>Utiliser les courbes spiro dans Inkscape</h2>
+
+  <p>Dans Inkscape comme dans FontForge, les courbes spiro permettent de
+ dessiner des courbes parfaitement continues pour des polices "rondes". 
+Les deux logiciels fonctionnent de la même façon de ce point de vue; ce 
+qui améliore grandement la compatibilité des logiciels. Les options de 
+courbes Spiro sont disponibles dans les outils crayon et courbe de 
+Bézier. Traditionnellement l'outil crayon est prévu pour suivre les 
+mouvements de la souris et l'outil courbe de bézier défini les courbes 
+par le positionnement exact de points. Pour la création de fontes, on 
+utilisera en général la seconde méthode. L'option Spiro disponible dans 
+la barre d'option de ces deux outils efface partiellement la 
+différenciation entre ces outils en appliquant une sur-couche très 
+forte. Les courbes créées à l'aide de cette option sont d'une très 
+grande pureté mais dessiner avec est surprenant au début. N'hésitez pas à
+ vous entraîner ou à retoucher vos courbes pour arriver au résultat 
+souhaité.</p>
+
+  <p>Ci-dessous, un simple trait au crayon pouvant servir de base pour un "<em><strong>e</strong></em>"
+ transformé avec Spiro à droite. En-dessous, un effet de forme génère 
+une épaisseur au trait. On voit clairement la modification du trait 
+entre le crayon standard et le crayon avec l'option Spiro. Des 
+irrégularités ont été effacées et la courbe a été renforcée et 
+uniformisée.</p>
+
+  <p style="text-align: justify;"><img style="width: 379px; height: 396px;" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-spiro.png"><img style="width: 332px; height: 82px;" alt="Séparation de caractères vectorisés dans Inkscape" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-vectorisation2.png"></p>
+
+  <h2>Utiliser l'outil Calligraphie</h2>
+
+  <p>Cet outil, issu du programme Dynadraw, implémente une technique de 
+dessin dynamique qui applique un ﬁltre simple a la position de la 
+souris. Ici, la brosse se transforme comme un objet physique avec une 
+masse, une vitesse et une friction. En les changeant, de nombreux types 
+de contours peuvent voir le jour. Cela rend facile le dessin de 
+contours, doux et consistant et permet à l'aide d'une tablette graphique
+ de compléter les possibilités offertes par le crayon</p>
+
+  <dl>
+    <dt>Fleche gauche et droite</dt>
+
+    <dd>Ajuste la largeur</dd>
+
+    <dt>Fleche haut et bas</dt>
+
+    <dd>Ajuste l’angle</dd>
+
+    <dt>Ctrl</dt>
+
+    <dd>Crée un guide, permettant de créer des lignes régulièrement 
+espacées comme des hachures. Sélectionnez d’abord le chemin initial de 
+référence puis en passant à l’outil Calligraphie, appuyez sur [<em>Ctrl</em>].
+ Un cercle centré sur la souris apparaît alors :&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp; celui-ci afﬁche la distance entre le chemin à 
+venir et le chemin existant. Cliquez et glissez pour dessiner un nouveau
+ chemin aligné sur le précédent.</dd>
+
+    <dt>Alt (ou Alt+Shift)</dt>
+
+    <dd>[<em>Alt</em>] active l’option d’afﬁnnage. Avec celle-ci, il est
+ possible de réduire de façon dynamique la largeur d’un chemin en 
+glissant simplement la souris sur les chemins à modiﬁer. De façon 
+similaire, [<em>Shift</em>]+[<em>Alt</em>] Permet d’élargir le chemin :<br>
+    [<em>Home</em>] Place la largeur au minimum, c’est-à-dire 1.<br>
+    [<em>End</em>] Place la largeur au maximum, c’est-à-dire 100.</dd>
+  </dl>
+
+  <p>Les options de l’outil sont accessibles dans la barre options 
+d’outils. Cet outil s'utilisant de préférence avec une tablette 
+graphique, de nombreux essais seront nécessaire pour arriver à un 
+résultat souhaité.</p>
+
+  <p style="text-align: justify;"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/InkscapeCalligraphie.png"></p>
+
+  <h2>Dessiner des courbes de Bézier</h2>
+
+  <p>Les <strong>courbes de Bézier</strong> sont un des plus fantastique outil dans <strong>Inkscape</strong>. Elles permettent de dessiner toute forme libre avec une grande précision.</p>
+
+  <h2>Utilisation</h2>
+
+  <p>Pour créer une courbe de Bézier dans Inkscape, cliquer sur l'icône <img alt="Outil stylo" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-PenTool-bezier_2_94cf0-fr-old.html" height="30" width="25"> dans la barre d'outils, ou appuyer sur <strong><span class="keyboard_shortcuts">b</span></strong> ou <span class="keyboard_shortcuts">[<em>Maj</em>]</span>+[<span class="keyboard_shortcuts"><em>F6</em>]</span>.</p>
+
+  <p>Cliquer avec le bouton gauche pour créer le premier nœud.</p>
+
+  <p><img alt="Dessin du premier noeud" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-PenTool-002_0256f-fr-old.html" height="85" width="154"></p>
+
+  <p>La ligne rouge est le tracé en cours d'édition. La ligne verte 
+représente le tracé fini entre deux noeuds. Une fois le chemin terminé, 
+la couleur rouge se changera en sa couleur réelle de contour.</p>
+
+  <p>Pour dessiner un segment, cliquer à nouveau plus loin - à l'endroit
+ où le segment doit se terminer. Inkscape dessine alors une ligne droite
+ entre ces deux points.</p>
+
+  <p><img alt="Dessin dun segment" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-PenTool-003_cd545-fr-old.html" height="72" width="112"></p>
+
+  <h3>Effacer un segment</h3>
+
+  <p>Pour effacer le dernier segment ou nœud, appuyez sur <strong><span class="keyboard_shortcuts">Suppr</span></strong>.</p>
+
+  <h3>Dessiner une courbe</h3>
+
+  <p>Pour dessiner une courbe, gardez le bouton appuyé après avoir 
+cliqué puis déplacer le pointeur pour faire apparaitre les poignées de 
+contrôle. Ils sont placés symétriquement en définissant une courbe lisse
+ parfaite, de façon à ce que vous n'ayez à déplacer qu'une <strong>poignée</strong>.</p>
+
+  <h3>Terminer le tracé</h3>
+
+  <p>Pour arrêter le dessin de la courbe, cliquer sur le premier nœud de
+ la courbe globale (pour dessiner une forme fermée). Clic droit ou 
+double-clic de la souris finira le tracé en rajoutant un dernier nœud. <span class="keyboard_shortcuts">"Entrée"</span> terminera le tracé sans rajouter de nouveau noeud.</p>
+
+  <p><img alt="Dessiner une courbe, illustration 2" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-PenTool-006_6f90b-fr-old.html" height="112" width="283"><img alt="Dessiner une courbe, illustration 1" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/005_2146a.jpg" height="93" width="267">&nbsp;</p>
+
+  <h3>Poursuivre un chemin</h3>
+
+  <p>Pour continuer un chemin qui a été dessiné auparavant, appuyez sur <strong><span class="keyboard_shortcuts">b</span></strong> pour activer l'outil de Bézier, cliquez sur une des extrémités de la courbe et poursuivez le dessin.</p>
+
+  <p>Un chemin dessiné avec l'outil de Bézier peut être poursuivi à l'aide de l'outil crayon avec <span class="keyboard_shortcuts">[<em>F6</em>]</span> si nécessaire.</p>
+
+  <h2>Astuces</h2>
+
+  <p>Le chemin obtenu peut alors être édité avec n'importe quel autre outil, et en particulier l'outil nœud avec <span class="keyboard_shortcuts">[<em>F2</em>]</span>.</p>
+
+  <h2>Modifier la courbe avec l'outil Noeud et la fenêtre Aligner-Distribuer</h2>
+
+  <p>Il est cependant difficile de dessiner d'emblée la forme souhaitée 
+sans erreur, quelque soit l'outil utilisé pour la produire. Il sera 
+souvent&nbsp; nécessaire de retoucher à la forme.</p>
+
+  <p>L'outil Nœuds&nbsp; sert a sélectionner et manipuler les <span>nœuds</span> afin de pouvoir modifier précisément la forme des <strong>chemins</strong>
+ ou des courbes.&nbsp; En plus de permettre de modifier la position des 
+nœuds, des poignées s'affichent de part et d'autre du nœud quand il est 
+sélectionné pour définir la direction des segments qui partent de ce 
+nœud.</p>
+
+  <h3>Comment l'utiliser</h3>
+
+  <dl>
+    <dt>L'outil est accessible via l'icône&nbsp; <img alt="OutilNoeuds01.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-OutilNoeuds01-fr-old.html" height="30" width="29"> situé dans la barre des outils, sur la gauche de la fenêtre Inkscape ou via les raccourcis clavier [<em>F2</em>] ou <strong>N</strong>.</dt>
+
+    <dt>L'appel à cet outil provoque l'apparition d'une barre d'options disponibles pour cet outil sous la barre des menus.</dt>
+
+    <dt><img alt="Outil_Noeuds_Options.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Outil_Noeuds_Options-fr-old.html" height="26" width="633"></dt>
+  </dl>
+
+  <p>Nous allons détailler cette barre d'options. Elle comporte 23 
+options de traitement des nœuds sélectionnés. Nous allons analyser 
+chacune de ces options en partant de celle située le plus à gauche de la
+ barre et progresser vers la droite.</p>
+
+  <h4>Ajouter un Nœud</h4>
+
+  <blockquote>
+    <p><img alt="Noeud01.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud01-fr-old.html" height="39" width="31">Crée un nouveau nœud <em>au <strong>milieu du segment compris</strong> entre deux nœuds</em> sélectionnés.</p>
+
+    <p>Un <strong>double-clic</strong> sur le chemin sélectionné permet de placer un nouveau nœud <em>à la position du curseur</em> sur le chemin.</p>
+  </blockquote>
+
+  <h4>Supprimer un Nœud</h4>
+
+  <blockquote>
+    <p><img alt="Noeud02.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud02-fr-old.html" height="34" width="32">Supprime
+ les nœuds sélectionnés et joint les nœuds adjacents par une courbe de 
+Bézier (Ce n'est pas une ligne droite mais une courbe de Bézier 
+rectiligne !).</p>
+
+    <p>Raccourcis clavier : [<span class="keyboard_shortcuts"><span class="keycap"><em>Ctrl</em>]</span></span>+[<span class="keyboard_shortcuts"><span class="keycap"><em>Suppr</em>]</span></span> ou [<span class="keyboard_shortcuts"><em><span class="keycap">Ctrl</span></em>]</span><span>+</span>[<span class="keyboard_shortcuts"><span class="keycap"><em>Backspace</em>]</span>.</span>&nbsp;</p>
+
+    <p>Pour préserver au mieux le chemin d'origine, sélectionnez le nœud et presser [<span class="keyboard_shortcuts"><span class="keycap"><em>Suppr</em>]</span></span> ou [<span class="keyboard_shortcuts"><span class="keycap"><em>Backspace</em>]</span></span>, ou encore [<span class="keyboard_shortcuts"><span class="keycap"><em>Ctrl</em>]</span></span>+[<span class="keyboard_shortcuts"><span class="keycap"><em>Alt</em>]</span></span>+Click sur le nœud.</p>
+  </blockquote>
+
+  <h4>Joindre les Nœuds</h4>
+
+  <blockquote>
+    <p><img alt="Noeud03.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud03-fr-old.html" height="35" width="40">Fusionne deux - et seulement deux - <strong>nœuds terminaux</strong> en un seul sur un <em>chemin fermé</em>, ou <strong>deux nœuds terminaux</strong>, chacun situé <em>sur un chemin différent</em>, déplaçant les deux nœuds&nbsp; en un point médian (au milieu de la distance séparant les deux nœuds sélectionnés).</p>
+
+    <p><span class="keyboard_shortcuts"><span class="keycap">La combinaison des touches</span></span> [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">J</span></span></em>] donne le même résultat (survoler l'un des nœuds préservera sa position de sorte que seul l'autre nœud sera déplacé).</p>
+  </blockquote>
+
+  <h4><span class="term">Scinder en Nœud en deux</span></h4>
+
+  <blockquote>
+    <p><img alt="Noeud04.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud04-fr-old.html" height="37" width="32">Cet
+ outil scinde le chemin au niveau du nœud secondaire 
+sélectionné.&nbsp;Le chemin reste entier. Pour obtenir deux chemins 
+distincts, vous devez séparer les chemins. Les nœuds restent superposés 
+mais distincts. Ils peuvent être manipulés indépendamment l'un de 
+l'autre.</p>
+
+    <p>Aussi accessible par le raccourci clavier [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">B</span></span></em>].</p>
+  </blockquote>
+
+  <h4><span class="term">Joindre les Nœuds avec un nouveau Segment</span></h4>
+
+  <blockquote>
+    <p><img alt="Noeud05.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud05-fr-old.html" height="39" width="36">Ajoute un segment rectiligne de chemin entre deux nœuds ouverts.&nbsp;</p>
+  </blockquote>
+
+  <h4>Supprimer le segment entre deux nœuds non terminaux</h4>
+
+  <blockquote>
+    <p><img alt="Noeud06.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud06-fr-old.html" height="34" width="30">Supprime
+ le segment de tracé entre deux nœuds sélectionnés, laissant les nœuds 
+ouverts (ou non connectés) mais le chemin reste entier tant que vous 
+n'avez n'en avez pas séparés les éléments.</p>
+  </blockquote>
+
+  <h4><span class="term">Rendre les nœuds sélectionnés anguleux (convertis en point de rebroussement</span>)</h4>
+
+  <blockquote>
+    <p><img alt="Noeud07.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud07-fr-old.html" height="38" width="38">Change un ou plusieurs nœuds sélectionnés en <strong>point de rebroussement</strong> ou <strong>nœud anguleux</strong>.
+ Les chemins sur des nœuds forment un angle plutôt qu'un arc et les 
+poignées de nœud peuvent être déplacées indépendamment l'une de l'autre.</p>
+
+    <p>Aussi accessible par le raccourci clavier [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">C</span></span></em>].</p>
+  </blockquote>
+
+  <h4><span class="term">Rendre les nœuds sélectionnés doux</span></h4>
+
+  <blockquote>
+    <p><img alt="Noeud08.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud08-fr-old.html" height="36" width="25">Change un()des nœud(s) sélectionnés en nœud(s) doux.</p>
+
+    <p>Aussi disponible par [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">S</span></span></em>].</p>
+
+    <p>Les chemins passant par des nœuds doux ont un arc continu au 
+niveau du nœud, mais les poignées du nœud peut avoir des longueurs 
+différentes et donc être manipulées indépendamment de l'une de l'autre.</p>
+  </blockquote>
+
+  <h4><span class="term">Rendre les nœuds sélectionnés symétriques</span></h4>
+
+  <blockquote>
+    <p><img alt="Noeud09.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud09-fr-old.html" height="32" width="33">Change un(des) nœud(s) sélectionnés en des nœud(s) symétriques.</p>
+
+    <p>Aussi disponible par [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">Y</span></span></em>].</p>
+
+    <p>Les chemins passant par des nœuds symétriques ont un arc continu passant au travers du nœud et les <em>poignées</em> ont la <em>même longueur</em>. La modification d'une poignée se répercute symétriquement sur l'autre.</p>
+  </blockquote>
+
+  <h4>Rendre les segments sélectionnés droits</h4>
+
+  <blockquote>
+    <p><img alt="Noeud11.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud11-fr-old.html" height="30" width="29">Change un(des) segment(s) sélectionné(s) (entre deux nœuds adjacents) dans un chemin en segment(s) de droite.</p>
+
+    <p>Aussi accessible par le raccourci clavier [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">U</span></span></em>].</p>
+  </blockquote>
+
+  <h4>Rendre les segments sélectionnés courbes</h4>
+
+  <blockquote>
+    <p><img alt="Noeud12.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud12-fr-old.html" height="35" width="30">Change un(des) segment(s) sélectionné(s) (entre deux nœuds adjacents) dans un chemin en courbe(s) de Bézier.</p>
+
+    <p>Aussi disponible par [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">U</span></span></em>].</p>
+  </blockquote>
+
+  <h4><span class="term">Convertir l'objet sélectionné en chemin</span></h4>
+
+  <blockquote>
+    <p><img alt="Noeud13.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud13-fr-old.html" height="36" width="34">Convertit un objet qui n'est pas déjà un chemin, comme une <em>Forme Vivante (Live Shape)</em>
+ ou un objet de texte, en chemin. (Cette commande crée effectivement le 
+texte en mode "de contour", enlevant la dépendance aux polices de 
+caractères installées. Le texte n'est plus composé de caractères mais 
+devient un objet, un ensemble de chemins éditables qui peuvent être 
+édités comme n'importe quel autre chemin tracé.)</p>
+
+    <p>Aussi accessible par le raccourci clavier [<span class="keyboard_shortcuts"><span class="keycap"><em>Maj</em>]</span></span>+[<span class="keyboard_shortcuts"><span class="keycap"><em>Ctrl</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">C</span></span></em>].</p>
+  </blockquote>
+
+  <h4>Convertir le contour de l'objet sélectionné en chemin</h4>
+
+  <blockquote>
+    <p><img alt="Noeud14.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud14-fr-old.html" height="40" width="33">Crée
+ un contour autour d'un chemin&nbsp; en, créant des chemins combinés 
+parallèles séparés par la largeur du trait. On obtient une surface 
+délimitée par les deux chemins parallèles. Chacun des chemins est 
+éditable.</p>
+
+    <p>Aussi accessible par le raccourci clavier [<span class="keyboard_shortcuts"><span class="keycap"><em>Alt</em>]</span></span>+[<span class="keyboard_shortcuts"><span class="keycap"><em>Ctrl</em>]</span></span>+[<em><span class="keyboard_shortcuts"><span class="keycap">C</span></span></em>].</p>
+  </blockquote>
+
+  <h4>Coordonnée x de la sélection</h4>
+
+  <blockquote>
+    <p><img alt="Noeud15.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud15-fr-old.html" height="40" width="94">Cette
+ fenêtre d'affichage et de modification de la coordonnée x de la 
+sélection n'est pas accessible dans l'outil de modification des nœuds si
+ aucun nœud n'est sélectionné sur le chemin actif.</p>
+
+    <p>Si plusieurs nœuds sont sélectionnés sur le chemin, alors c'est 
+le centre de la surface enveloppant les nœuds sélectionnés qui sert de 
+point de référence pour l'affichage de la coordonnée.</p>
+
+    <p>La valeur contenue dans cette fenêtre peut être modifiée soit en 
+introduisant une valeur directement au clavier, soit en utilisant les 
+flèches situées sur la droite de la fenêtre.</p>
+  </blockquote>
+
+  <h4>Coordonnée y de la sélection&nbsp;</h4>
+
+  <blockquote>
+    <p><img alt="Noeud16.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud16-fr-old.html" height="40" width="82">Cette
+ fenêtre d'affichage et de modification de la coordonnée y de la 
+sélection n'est pas accessible dans l'outil de modification des nœuds si
+ aucun nœud n'est sélectionné sur le chemin actif.</p>
+
+    <p>Si plusieurs nœuds sont sélectionnés sur le chemin, alors c'est 
+le centre de la surface enveloppant les nœuds sélectionnés qui sert de 
+point de référence pour l'affichage de la coordonnée.</p>
+
+    <p>La valeur contenue dans cette fenêtre peut être modifiée soit en 
+introduisant une valeur directement au clavier, soit en utilisant les 
+flèches situées sur la droite de la fenêtre.</p>
+  </blockquote>
+
+  <h4>Sélection de l'unité de longueur utilisateur</h4>
+
+  <blockquote>
+    <p><img alt="Noeud17.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud17-fr-old.html" height="33" width="55">Cette
+ fenêtre d'affichage et de sélection de l'unité de longueur utilisateur 
+est accessible et modifie, en temps réel, les valeurs contenues dans les
+ deux fenêtres d'affichage des coordonnées x et y.</p>
+  </blockquote>
+
+  <h4>Afficher/masquer les poignées de Béziers des objets sélectionnés</h4>
+
+  <blockquote>
+    <p><img alt="Noeud22.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud22-fr-old.html" height="38" width="33">Bouton inverseur qui montre/cache les poignées du nœud sélectionné en mode d'édition.</p>
+  </blockquote>
+
+  <h4>Affiche le paramètre de l'effet de chemin suivant en mode édition</h4>
+
+  <blockquote>
+    <p><img alt="Noeud20.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud20-fr-old.html" height="39" width="34">navigue dans la liste de paramètres pour un <em>ECTR</em> (Effet de Chemin en Temps Réel) (<em>LPE Live path effects</em> en anglais). Si vous avez crée un cycle d'effets à appliquer à un chemin dans la fenêtre de l'éditeur d'effets de chemin (<em>LPE Live path effects</em>),
+ chaque étape suivante dans le processus d'effets sera affichée au moyen
+ de chemins rouges ou verts ou des types de poignées spécifiques.</p>
+
+    <p>Si aucun cycle d'effet n'est appliqué, ce bouton est inactif.</p>
+  </blockquote>
+
+  <h4>Afficher/masquer les chemins de découpe des objets sélectionnés</h4>
+
+  <blockquote>
+    <p><img alt="Noeud18.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud18-fr-old.html" height="35" width="30">Bouton inverseur qui montre/cache les chemins de découpe des objets sélectionnés en mode d'édition.</p>
+  </blockquote>
+
+  <h4>Afficher/masquer les objets sélectionnés</h4>
+
+  <blockquote>
+    <p><img alt="Noeud19.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud19-fr-old.html" height="39" width="32">Bouton inverseur qui montre/cache les objets sélectionnés en mode d'édition.</p>
+  </blockquote>
+
+  <h4>Afficher/masquer les poignées de transformation</h4>
+
+  <blockquote>
+    <p><img alt="Noeud21.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud21-fr-old.html" height="37" width="32">Affiche/masque
+ les poignées de transformation pour les nœuds (au moins deux nœuds 
+consécutifs) en mode d'édition. Cet outil permet de transformer (taille,
+ inclinaison) d'un chemin compris entre deux nœuds sélectionnés sans 
+quitter le mode d'édition des nœuds.</p>
+  </blockquote>
+
+  <h4>Afficher/masquer les poignées de Bézier</h4>
+
+  <blockquote>
+    <p><img alt="Noeud22.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud22-fr-old.html" height="38" width="33">Bouton inverseur qui montre/cache les poignées de Bézier des objets sélectionnés en mode d'édition.</p>
+  </blockquote>
+
+  <h4>Afficher/masquer les chemins de contour</h4>
+
+  <blockquote>
+    <p><img alt="Noeud23.png" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-NodeTool-Noeud23-fr-old.html" height="32" width="32">Bouton inverseur qui montre/cache le chemin de contours (en rouge) de l'objet sélectionné en mode d'édition.</p>
+  </blockquote>
+
+  <h3>La fenêtre Aligner</h3>
+
+  <p>Aligner et distribuer permet le déplacement d'une sélection d'un ou
+ plusieurs objets, de les aligner et répartir équitablement par rapport à
+ un objet de référence (<em>ancre</em>). La boîte de dialogue <em><span class="dialog">Aligner et distribuer</span></em> propose plusieurs façons d'appliquer ces fonctions aux sélections d'objets.</p>
+
+  <p><img alt="Boîte de dialogue Aligner et distribuer" src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/Inkscape-AlignandDistribute-BoiteAlignerEtDistribuer-fr-old.html" height="419" width="283"></p>
+
+  <p>La boîte de dialogue <span class="dialog">Aligner et distribuer</span> peut être ouverte avec le raccourci clavier <span class="keyboard_shortcuts">[<em>Maj</em></span>]+<span class="keyboard_shortcuts">[<em>Ctrl</em></span>]+<span class="keyboard_shortcuts">[<em>A</em>]</span>, en sélectionnant <span class="menu"><em>Objet</em></span> &gt; <span class="menu"><em>Aligner et distribuer</em></span>, ou encore en cliquant sur l'icône suivante dans la barre d'outils&nbsp;:</p>
+
+  <p>Assurez-vous que tous vos objets ou points soient sélectionnés. 
+L'ordre de la sélection est important et dépend de l'objet que vous 
+souhaitez utiliser comme ancre et du paramètre <em>Relativement à</em>.</p>
+
+  <h4>Paramètre « Relativement à »</h4>
+
+  <p>Les objets peuvent être alignés et distribués relativement à différents paramètres par défauts&nbsp; :</p>
+
+  <ul>
+    <li>au dernier ou au premier objet sélectionné&nbsp;;</li>
+
+    <li>au plus gros ou au plus petit objet&nbsp;;</li>
+
+    <li>à la page&nbsp;;</li>
+
+    <li>au dessin (tous les objets à l'intérieur du document)&nbsp;;</li>
+
+    <li>la sélection d'objets.</li>
+  </ul>
+
+  <p>En général, on choisira par rapport à la page lorsque l'on veut 
+positionner par rapport au cadratin, par rapport à la sélection pour les
+ formes créées seulement.</p>
+
+  <p>La fenêtre d'alignement peut être un peu longue à prendre en main 
+étant donné la quantité d'options disponibles. Elle apporte cependant à 
+terme un gain réel en temps de travail ainsi qu'une précision 
+irréprochable.</p>
+
+  <p>Ci-dessous un exemple consistant à rendre plus régulier un m qui 
+aurait été mal dessiné. Les noeuds sélectionnés à l'outil Noeud sont 
+entourés d'un petit rond de manière à mieux montrer l'action des options
+ dans leur contexte.</p>
+
+  <p><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/InkscapeNoeud.png"></p>
+</div>
+
+<ul class="menu-goes-here">
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+
+  <li class="booki-section">Méthodologie</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+
+  <li class="booki-section">Fondre avec Fontforge</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+
+  <li class="booki-section">Dessiner ses glyphes dans Inkscape</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+
+  <li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Vectorisation d'une fonte dans Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="SVG fonts dans Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape"><img src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch024_dessiner-avec-les-courbes-spiro-dans-inkscape_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

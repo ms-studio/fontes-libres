@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head>
+    <title>Floss Manuals francophone - Lire</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="http://fr.flossmanuals.net/fontes-libres/_templates/fm_resources/fl2.ico" type="image/x-icon">
+    <link type="text/css" href="ch020_outils-complementaire_files/prettify.css" rel="Stylesheet">
+    <script type="application/javascript" src="ch020_outils-complementaire_files/prettify.js"></script>
+    <script type="application/javascript" src="ch020_outils-complementaire_files/jquery-1.js"></script>
+    <script type="application/javascript" src="ch020_outils-complementaire_files/fm_book.js"></script>
+    <link rel="stylesheet" href="ch020_outils-complementaire_files/fm_book.css" type="text/css">
+  </head>
+
+  <body onload="prettyPrint();">
+    <div id="home">
+      <a href="http://fr.flossmanuals.net/"><img src="ch020_outils-complementaire_files/back-home.png" alt="Accueil Floss Manuals francophone"></a>
+    </div>
+
+    <div id="pdf">
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.epub"><img src="ch020_outils-complementaire_files/epub.png" alt="Exporter au format epub"></a>
+      <a href="http://fr.flossmanuals.net/_booki/fontes-libres/fontes-libres.pdf"><img src="ch020_outils-complementaire_files/pdf.png" alt="Exporter au format PDF"></a>
+      <a href="http://fr.flossmanuals.net/fontes-libres/_all"><img src="ch020_outils-complementaire_files/print.png" alt="Imprimer le manuel"></a>
+    </div>
+
+    <div id="index-book-title">
+     Fontes libres
+    </div>
+
+    <div id="main">
+      <div class="navbar">
+        <div class="arrow top left">
+          <a title="Formats ouverts" href="http://fr.flossmanuals.net/fontes-libres/ch019_formats"><img src="ch020_outils-complementaire_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow top right">
+          <a title="Prise en main d'Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape"><img src="ch020_outils-complementaire_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="fm-content">
+        <div id="main-content">
+  <h1>Outils complémentaires</h1>
+
+  <p>Dans ce chapitre nous présentons succinctement différents logiciels
+ pour modifier ou créer une fonte. Fontforge est le logiciel libre dédié
+ à cela, mais il n'est pas le seul dans la boîte à outils du créateur de
+ fontes. D'autres logiciels ont des spécificités appréciables pour 
+différents aspects de la création et de la maintenance d'un projet de 
+fonte libre.</p>
+
+  <h2>Outils de numérisation</h2>
+
+  <p>Dans le cadre de notre livre, la numérisation est l'action de 
+transformer le dessin d'une ou plusieurs lettres en caractère pour notre
+ fonte.</p>
+
+  <h3>Glyphtracer</h3>
+
+  <p>Glyphtracer est un logiciel permettant de vectoriser des lettres 
+scannées ou sous forme d'images numériques et de les ouvrir dans 
+FontForge pour générer une fonte à partir de ces formes. Pour l'utiliser
+ il vous faudra&nbsp;:</p>
+
+  <ul>
+    <li>Glyphtracer que vous pouvez télécharger sur son dépôt Launchpad<span class="InsertNoteMarker" id="InsertNoteID_33_marker34"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_33">1</a></sup></span></li>
+
+    <li>il faut que l'interpréteur python soit pré-installé (c'est le cas sur tous les *nix en général)</li>
+
+    <li>il faut aussi que Potrace soit présent (<em>apt-get install python potrace</em>)</li>
+  </ul>
+
+  <p>Pour installer Glyphtracer, décompressez le ficher téléchargé et 
+dans un terminal, allez vers ce dossier puis entrez la commande&nbsp;: <em>sudo python setup.py install</em></p>
+
+  <p>Vous pouvez ensuite lancer Glyphtracer par vos moyens habituels.</p>
+
+  <ol>
+    <li>Glyphtracer ouvre une petite fenêtre dans laquelle vous pouvez 
+saisir le nom de votre fonte, spécifier dans quelle image votre texte 
+scanné à été enregistré et enfin spécifier le nom du fichier de fonte au
+ format FontForge sfd.
+
+      <p style="text-align: justify;"><img alt="Sélection de fichier dans Glyphtracer" src="ch020_outils-complementaire_files/Glyphtracer-creer.png" height="228" width="514"></p>
+    </li>
+
+    <li>Glyphtracer analyse l'image et ouvre une fenêtre dans laquelle 
+chaque lettre sera encadrée. En bas, quelques boutons vont permettre 
+d'associer les caractères aux glyphes.</li>
+
+    <li>À gauche, choisir le bloc de référence. à droite du bouton [<em>Next Glyph</em>], le caractère à définir apparaît (par défaut <strong><em>a</em></strong> si vous êtes dans le bloc [<em>Latin lower case</em>]).
+
+      <p style="text-align: justify;"><img alt="Association des lettres et glyphes dans glyphtracer" src="ch020_outils-complementaire_files/Venetian-glyphtracer650.png" height="298" width="650"></p>
+    </li>
+
+    <li>Cliquez alors sur une lettre <em><strong>a</strong></em> de 
+qualité dans votre image, pour l'associer. Glyphtracer passe 
+immédiatement au glyphe suivant. Continuez ainsi pour chaque lettre et 
+chaque bloc.</li>
+
+    <li>Si certains glyphes ne sont pas présents dans votre texte, vous pouvez les passer en cliquant sur le bouton [<em>Next Glyph</em>].</li>
+
+    <li>Lorsque vous avez récupéré les glyphes possibles ou recherchés, cliquez sur le bouton [Generate SFD file].</li>
+
+    <li>Vous pouvez alors ouvrir cette fonte dans fontforge pour la modifier plus précisément.
+
+      <p style="text-align: justify;"><img style="width: 540px; height: 195px;" alt="Ouverture du résultat de glyphtracer dans fontforge" src="ch020_outils-complementaire_files/glyphtracer2fontforge.png"></p>
+    </li>
+  </ol>
+
+  <p>Glyphtracer analyse seulement des images avec une profondeur de 1 
+bit par pixel. De nombreux logiciels permettent d'enregistrer ainsi. 
+Dans Gimp, allez dans <em>Image &gt; Mode &gt; Couleurs Indexées</em> et choisissez <em>Utiliser la palette noir &amp; Blanc</em> (1-bit) puis enregistrez dans <em>Fichier &gt; Enregistrer sous</em>. Choisissez un format sans perte comme png pour que les contours des lettres restent facilement analysables par Glyphtracer.</p>
+
+  <h3>Fonzie</h3>
+
+  <p>Fonzie<span class="InsertNoteMarker" id="InsertNoteID_35_marker36"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_35">2</a></sup></span> est un outil de numérisation analogue à Glyphtracer développé par Pierre Marchand.</p>
+
+  <h3>Autotrace dans Fontforge</h3>
+
+  <p>Autotrace est un outil de numérisation analogue à Glyphtracer développé par Martin Weber.</p>
+
+  <p>À noter qu'il existe une version intégrée dans FontForge<span class="InsertNoteMarker" id="InsertNoteID_37_marker38"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_37">3</a></sup></span>&nbsp; et une version autonome<span class="InsertNoteMarker" id="InsertNoteID_39_marker40"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_39">4</a></sup></span>&nbsp;.</p>
+
+  <h2>Outils de dessin</h2>
+
+  <h3>Inkscape</h3>
+
+  <p>Inkscape est un logiciel de dessin vectoriel performant dont le 
+format d'enregistrement plain SVG est un format standard qui contient 
+une recommandation concernant les fontes. Inkscape intègre des options 
+permettant de créer les caractères (courbes de Bézier à la PostScript, 
+courbes Spiro, éditeur de fontes SVG) compatibles avec FontForge. Plus 
+loin dans le manuel nous lui consacrons une section entière.</p>
+
+  <h2>Outils d’optimisation</h2>
+
+  <h3>Ttfautohint</h3>
+
+  <p>Ttfautohint<span class="InsertNoteMarker" id="InsertNoteID_7_marker8"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_7">5</a></sup></span>&nbsp;
+ est un logiciel permettant d'optimiser automatiquement les instructions
+ de correction d'affichage (hinting) en tirant parti des fonctionnalités
+ de FreeType. Une interface graphique est en cours de création.</p>
+
+  <h3>Autohint dans Fontforge</h3>
+
+  <p>La fonction autohint de Fontforge permet d’automatiser certains aspects de l'optimisation de l'affichage (<em>hinting)</em>.
+ Des boîtes de dialogues dédiées permettent d'étudier, de tester et de 
+modifier ces instructions. Mais cela reste un domaine relativement ardu.</p>
+
+  <h2>Outils de gestion</h2>
+
+  <h3>FontMatrix</h3>
+
+  <p>FontMatrix<span class="InsertNoteMarker" id="InsertNoteID_9_marker10"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_9">6</a></sup></span>&nbsp; est un logiciel destiné à faciliter la gestion de sa propre collection de fontes.</p>
+
+  <p>Il permet d'explorer, de comparer et de classer ses fontes selon 
+divers critères tout en examinant en détail leurs différentes 
+caractéristiques. FontMatrix établit une classification initiale en 
+fonction des informations lues dans les métadonnées des fontes qui ont 
+été détectées.</p>
+
+  <h4>Trouver une fonte selon des critères internes</h4>
+
+  <p>Pour trouver une fonte selon des critères internes aux métadonnées,
+ il faudra utiliser les propriétés renseignées par les auteurs. Dans 
+FontMatrix, dans le panneau de gauche, il suffit de choisir la propriété
+ dans la liste placée en haut, par exemple [<em>License Info URL</em>] et de noter à côté la valeur recherchée, par exemple : <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a>&nbsp; pour trouver les fontes que leurs auteurs ont choisi de distribuer sous license OFL. Appuyez sur [<em>Entrée</em>] pour valider la recherche. Dans la liste en dessous, seules les fontes correspondant aux critères vont apparaître.</p>
+
+  <p><img style="width: 580px; height: 395px;" alt="Interface de FontMatrix pour la sélection de fonte" src="ch020_outils-complementaire_files/FontmatrixTrouver1-1.png"></p>
+
+  <p>Pour affiner la recherche vous pouvez de la même façon choisir 
+d'autres critères et utiliser les cases AND et/ou OR pour mentionner si 
+vous souhaitez cumuler ces critères pour exclure (AND) ou inclure les 
+nouvelles possibilités (OR).</p>
+
+  <h4>Trouver une fonte selon un classement personnel</h4>
+
+  <p>Le classement personnel dans FontMatrix utilise la méthode répandue
+ des Tags (étiquettes). Pour créer vos propres étiquettes, affichez la 
+fenêtre correspondante (<em>View &gt; Tag</em>). Dans le bas de la fenêtre, saisissez la nouvelle étiquette dans le champ en bas et cliquez sur le bouton [<em>Ajouter l'étiquette</em>] (<em>Add tag</em>).
+ Elle apparaît alors dans la liste. Pour l'appliquer à certaines fontes,
+ il suffira de sélectionner ces fontes et de cocher sur la case 
+correspondant aux étiquettes à appliquer. Une fonte peut évidemment 
+posséder plusieurs étiquettes.</p>
+
+  <p>Une fois cette étape préparatoire franchie, il est facile de 
+trouver les fontes qui correspondent à un tag (étiquette). Dans la liste
+ des options de recherche, il suffit de choisir [<em>Tags</em>]. FontMatrix affiche alors la liste des étiquettes parmi <span style="background-color: rgb(255, 255, 255);">lesquel</span><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">le</span><span style="background-color: rgb(255, 255, 255);">s</span>
+ vous pouvez choisir. Dans l'exemple, on peut voir ici que trois fontes 
+correspondent à la recherche sur l'étiquette EauxEtRiviere. On peut voir
+ que la fonte sélectionnée est aussi étiquetée ITSAP.</p>
+
+  <p style="text-align: justify;"><img style="width: 577px; height: 393px;" src="ch020_outils-complementaire_files/FontmatrixTrouverTag-1.png"></p>
+
+  <h4>Activation de fontes</h4>
+
+  <p>Cette méthode est en partie utile pour activer les fontes sur un 
+temps donné d'utilisation sans avoir à les installer-désinstaller. Cela 
+permet d'avoir des listes moins longues à l'intérieur des logiciels et 
+de travailler plus vite. Pour les rendre disponibles, il suffira de 
+cocher les cases à gauche des fontes souhaitées dans la liste générale.</p>
+
+  <h4>Analyse de fontes</h4>
+
+  <p>Si l'onglet [<em>Information de fonte]</em> donne accès aux informations métadonnées saisies par l'auteur de la fonte, l'onglet [<em>Glyphes</em>] permet à l'utilisateur d'analyser le contenu de la fonte.</p>
+
+  <p>Il est possible de rechercher de deux façons :</p>
+
+  <ul>
+    <li>soit par bloc Unicode, auquel cas il est possible de choisir le 
+bloc de référence dans lequel le glyphe attendu est sensé se trouver</li>
+
+    <li>soit par recherche de caractère; il suffit alors de noter la 
+valeur unicode précédée de U+ dans le champ de recherche en haut à 
+droite de l'onglet par exemple le U+0192 pour le florin, U+0066 pour le f
+ etc.</li>
+  </ul>Lorsqu'un caractère est sélectionné, il est possible de cliquer 
+dessus pour l'afficher en grand. FontMatrix montre en même temps la 
+ligne de base et la casse par des traits bleus.
+
+  <p>Si les caractères que vous cherchez ne sont pas disponibles dans 
+cette fonte, il sera préférable d'en choisir une autre, ou si celle-ci 
+est libre, de la modifier.</p>
+
+  <p style="text-align: justify;"><img style="width: 586px; height: 418px;" src="ch020_outils-complementaire_files/FontmatrixGlyphe-1.png"></p>
+
+  <h4>Comparaison de fontes</h4>
+
+  <p>Enfin, pour la personne qui doit choisir entre diverses fontes, il 
+va être possible de faire une comparaison dynamique de glyphes par 
+superposition. Cela aide à l'analyse précise des glyphes tant pour le 
+créateur qui aimerait s'inspirer d'une fonte existante que pour 
+l'utilisateur exigeant qui veut faire un choix mûrement réfléchi.</p>
+
+  <p>Pour cela, il suffit de :</p>
+
+  <ol>
+    <li>Sélectionnez une première fonte dans la liste, puis d'aller dans l'onglet [<em>Comparer</em>](<em>Compare</em>)</li>
+
+    <li>Cliquez sur le bouton [<em>Ajouter</em>] (<em>Add</em>) puis dans la partie inférieure sous le bouton <em>choisir une couleur de remplissage</em>, par exemple et d'autres caractéristiques d'identification.</li>
+
+    <li>Recommencez avec une autre fonte sélectionnée.</li>
+
+    <li>Pour choisir le glyphe à comparer, dans la liste tout en bas à droite, déroulez pour sélectionner celui qui vous intéresse.</li>
+  </ol>Il ne reste alors plus qu'à regarder.
+
+  <p style="text-align: justify;"><img style="width: 530px; height: 438px;" src="ch020_outils-complementaire_files/FontmatrixComparer-1.png"></p>
+
+  <p>On peut aussi comparer le rendu de certains caractères ou de 
+phrases ou de paragraphes entiers dans diverses langues à partir de 
+modèles de texte déjà fournis.</p><img style="width: 565px; height: 307px;" src="ch020_outils-complementaire_files/fontmatrix-unicode.png">
+
+  <p style="text-align: justify;"><img style="width: 659px; height: 429px;" src="ch020_outils-complementaire_files/fontmatrix-info.png"></p>
+
+  <h2>Scripts et petits utilitaires divers</h2>
+
+  <p>Fontforge dispose d'une interface en python<span class="InsertNoteMarker" id="InsertNoteID_22_marker23"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_22">7</a></sup></span>,
+ un langage de programmation utilisé par beaucoup d'autres logiciels 
+libres dans le domaine de la création et du graphisme. Cela permet 
+d'automatiser certaines tâches et de créer des petits scripts permettant
+ d'accéder à certaines fonctionnalités de FontForge directement.</p>
+
+  <p>Un module perl Font:TTF<span class="InsertNoteMarker" id="InsertNoteID_20_marker21"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_20">8</a></sup></span>&nbsp; permet aussi l'utilisation de toute une série d'utilitaires pour diagnostiquer, modifier et ajuster des fontes.</p>
+
+  <p>Pour réaliser un script python afin d'accéder aux éléments d'une 
+fonte pour les modifier ou les analyser, il est nécessaire d'avoir des 
+notions en :</p>
+
+  <ul>
+    <li>langage interprété python, et d'avoir python installé<span class="InsertNoteMarker" id="InsertNoteID_6_marker7"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_6">9</a></sup></span>, ce qui devrait être le cas sur la majorité des distributions Linux</li>
+
+    <li>méthodes mises à disposition par FontForge pour accéder aux éléments</li>
+
+    <li>en fonte et glyphes et en particulier sur les composants et la nomenclature auxquels ils se référent.</li>
+  </ul>
+
+  <p>Quelques exemples de ces scripts sont publiés sur: utilities.open-fonts.org<span class="InsertNoteMarker" id="InsertNoteID_24_marker25"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_24">10</a></sup></span>&nbsp;</p>
+
+  <ol id="InsertNote_NoteList">
+    <li id="InsertNoteID_33"><a href="https://launchpad.net/glyphtracer">https://launchpad.net/glyphtracer</a><span id="InsertNoteID_33_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_33_marker34">^</a></sup></span></li>
+
+    <li id="InsertNoteID_35"><a href="http://oep-h.com/fonzie">http://oep-h.com/fonzie</a>/<span id="InsertNoteID_35_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_35_marker36">^</a></sup></span></li>
+
+    <li id="InsertNoteID_37"><a href="http://fontforge.sourceforge.net/autotrace.html">http://fontforge.sourceforge.net/autotrace.html</a><span id="InsertNoteID_37_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_37_marker38">^</a></sup></span></li>
+
+    <li id="InsertNoteID_39"><a href="http://sourceforge.net/projects/autotrace">http://sourceforge.net/projects/autotrace</a>/<span id="InsertNoteID_39_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_39_marker40">^</a></sup></span></li>
+
+    <li id="InsertNoteID_7"><a href="http://www.freetype.org/ttfautohint/">http://www.freetype.org/ttfautohint/</a> <span id="InsertNoteID_7_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_7_marker8">^</a></sup></span></li>
+
+    <li id="InsertNoteID_9"><a href="http://www.fontmatrix.net/">http://www.fontmatrix.net</a><span id="InsertNoteID_9_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_9_marker10">^</a></sup></span></li>
+
+    <li id="InsertNoteID_22"><a href="http://fontforge.sourceforge.net/python.html#fontforge">http://fontforge.sourceforge.net/python.html#fontforge</a><span id="InsertNoteID_22_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_22_marker23">^</a></sup></span></li>
+
+    <li id="InsertNoteID_20"><a href="http://search.cpan.org/dist/Font-TTF">http://search.cpan.org/dist/Font-TTF</a>/<span id="InsertNoteID_20_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_20_marker21">^</a></sup></span></li>
+
+    <li id="InsertNoteID_6"><a href="http://www.python.org/">http://www.python.org</a><span id="InsertNoteID_6_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_6_marker7">^</a></sup></span></li>
+
+    <li id="InsertNoteID_24"><a href="http://utilities.open-fonts.org/">http://utilities.open-fonts.org</a> <span id="InsertNoteID_24_LinkBacks"><sup><a href="http://fr.flossmanuals.net/fontes-libres/outils-complementaire#InsertNoteID_24_marker25">^</a></sup></span></li>
+  </ol>
+</div>
+
+<ul class="menu-goes-here">
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/index">Préface</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch001_terminologie">Conventions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch002_modification-dune-police">Vers un nouveau paradigme</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch003_a-propos-de-ce-livre">À propos de ce livre</a></li>
+
+  <li class="booki-section">Méthodologie</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch005_licences">Licences</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch006_bonne-pratiques-autour-des-usages">Intentions et attentions</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch007_bonnes-pratiques-des-createurs">Bonnes pratiques des fondeurs</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch008_mecanisme-de-nomage">Recommandations de nommage</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch009_organiser-ses-sources">Organiser ses sources</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch010_embarquement">La valise des fontes</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch011_ecologie-dune-police-libre">Écosystème des fontes libres</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch012_fonderie">Fonderies et modèles économiques</a></li>
+
+  <li class="booki-section">Fondre avec Fontforge</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch014_installer-fontforge-sur-mac">Installer FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch015_presentation-de-fontforge">Prise en main de FontForge</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch016_comment-modifier-une-police">Comment modifier un glyphe d'une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch017_comment-ajouter-des-glyphes-a-une-fonte">Comment ajouter des glyphes à une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch018_comment-creer-une-police">Comment créer une fonte</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch019_formats">Formats ouverts</a></li>
+
+  <li style="background: none repeat scroll 0% 0% rgb(249, 155, 28);"><a href="http://fr.flossmanuals.net/fontes-libres/ch020_outils-complementaire">Outils complémentaires</a></li>
+
+  <li class="booki-section">Dessiner ses glyphes dans Inkscape</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape">Prise en main d'Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch023_vectorisation-dans-inkscape">Vectorisation d'une fonte dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch024_dessiner-avec-les-courbes-spiro-dans-inkscape">Dessiner avec les courbes dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch025_svg-fonts-dans-inkscape">SVG fonts dans Inkscape</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch026_tester-sa-fonte">Tester sa fonte</a></li>
+
+  <li class="booki-section">Annexes</li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch028_glossaire">Glossaire</a></li>
+
+  <li><a href="http://fr.flossmanuals.net/fontes-libres/ch029_ressources">Ressources et bibliographie</a></li>
+</ul>
+
+      </div>
+      <div class="navbar">
+        <div class="arrow bottom left">
+          <a title="Formats ouverts" href="http://fr.flossmanuals.net/fontes-libres/ch019_formats"><img src="ch020_outils-complementaire_files/previous-arrow.png" alt=""></a>
+        </div>
+        <div class="arrow bottom right">
+          <a title="Prise en main d'Inkscape" href="http://fr.flossmanuals.net/fontes-libres/ch022_prise-en-main-dinkscape"><img src="ch020_outils-complementaire_files/next-arrow.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+<!-- Piwik -->
+<script type="application/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://fr.flossmanuals.net/piwik/" : "http://fr.flossmanuals.net/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='application/javascript'%3E%3C/script%3E"));
+</script><script src="ch020_outils-complementaire_files/piwik.js" type="application/javascript"></script><script type="application/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://fr.flossmanuals.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+    
+  
+
+
+</body></html>

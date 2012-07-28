@@ -1,0 +1,54 @@
+FONT="DejaVu Sans Oblique"
+
+
+replace with:
+
+Gentium Basic Italic
+
+***
+
+inserting page break:
+
+<breakframe/>
+
+***
+
+
+Gentium Basic Regular
+
+Gentium Basic Bold
+
+Gentium Basic Italic
+
+****
+
+For typographie libre:
+
+Let's use: 
+
+
+Gentium 
+
+
+***
+
+other otions:
+
+Droid Serif / Sans
+
+Liberation Serif / Sans
+
+
+Fengardo Regular
+Fengardo Italic
+
+***
+***********
+
+Replace: quillemets typographiques:
+
+' should be: ’
+
+**********
+*****
+
