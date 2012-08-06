@@ -1,0 +1,18 @@
+Note: page format:
+
+add some more margin on top and bottom, to leave more space for the Header text and page Nr.
+
+Inside: 	0.8 in (2 cm)
+Outside: 	0.6 in (1.52)
+Top: 		0.7 in (1.77)
+Bottom: 	0.7 in
+
+
+
+try:
+
+Inside. 	0.8
+Outside: 	0.6
+top/bottom: 0.8
+
+***

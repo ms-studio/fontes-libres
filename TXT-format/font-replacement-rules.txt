@@ -1,8 +1,6 @@
 FONT="DejaVu Sans Oblique"
 
-
 replace with:
-
 Gentium Basic Italic
 
 ***
@@ -11,24 +9,14 @@ inserting page break:
 
 <breakframe/>
 
-***
-
-
-Gentium Basic Regular
-
-Gentium Basic Bold
-
-Gentium Basic Italic
-
 ****
 
 For typographie libre:
 
-Let's use: 
-
-
-Gentium 
-
+Gentium :
+Gentium Basic Regular
+Gentium Basic Bold
+Gentium Basic Italic
 
 ***
 
@@ -41,6 +29,29 @@ Liberation Serif / Sans
 
 Fengardo Regular
 Fengardo Italic
+
+## TRY: ## 
+
+PT sans, smaller (9pt)
+Body: PT Sans Regular
+Headers: PT Sans Caption Bold
+
+CM / LM fonts:
+
+LMRoman10 Oblique
+LMRoman10 Regular
+
+NotCourierSans Regular
+
+PropCourierSans Regular
+
+NotCourier + Gentium...
+
+
+Full LMRoman / Typewriter
+
+at 9.5
+
 
 ***
 ***********

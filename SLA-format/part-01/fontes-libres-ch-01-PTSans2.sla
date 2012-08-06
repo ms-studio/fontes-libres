@@ -19,7 +19,7 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="3" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="PT Sans Regular" FONTSIZE="10"/>
+        <STYLE NAME="Default Paragraph Style" ALIGN="3" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" FONT="PT Sans Regular" FONTSIZE="10"/>
         <STYLE NAME="HTML_default" LINESPMode="0" LINESP="13" VOR="5" NACH="5" KERN="0"/>
         <STYLE NAME="HTML_p" LINESPMode="0" LINESP="15" NACH="14.17322835" FONT="PT Sans Regular" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
         <STYLE NAME="HTML_li_level-0" LINESPMode="0" LINESP="15" INDENT="27.0216" FIRST="0" FONT="PT Sans Regular" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
@@ -27,11 +27,42 @@
         <STYLE NAME="HTML_h2" ALIGN="0" LINESPMode="0" LINESP="15" VOR="30" NACH="20" FONT="PT Sans Caption Bold" FONTSIZE="16" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
         <STYLE NAME="HTML_h3" ALIGN="0" LINESPMode="0" LINESP="15" VOR="20" NACH="10" FONT="PT Sans Caption Bold" FONTSIZE="14" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
         <STYLE NAME="HTML_h4" ALIGN="0" LINESPMode="0" LINESP="15" VOR="10" NACH="5" FONT="PT Sans Caption Bold" FONTSIZE="13" FEATURES="inherit" FCOLOR="Black" KERN="0"/>
-        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="PT Sans Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" FONT="PT Sans Regular" FONTSIZE="10" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="1" useColor="1" mirrorH="1" mirrorV="1" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" includePDFMarks="1" PSLevel="0" PDLanguage="0" markOffset="5.48612406879369e+303" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="Adobe RGB (1998)" ImageP="Adobe RGB (1998)" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <LPI Color="" Frequency="0" Angle="0" SpotFunction="0"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="Adobe RGB (1998)" ImageP="Adobe RGB (1998)" PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="1" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="CM Roman Italic"/>
+            <Fonts Name="CM Roman Regular"/>
+            <Fonts Name="LMRoman10 Oblique"/>
+            <Fonts Name="LMRoman10 Regular"/>
+            <Fonts Name="LMRoman8 Regular"/>
+            <Fonts Name="PT Sans Caption Bold"/>
+            <Fonts Name="PT Sans Italic"/>
+            <Fonts Name="PT Sans Regular"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
             <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
@@ -85,6 +116,28 @@
         <PAGE PAGEXPOS="532.0008" PAGEYPOS="6900.0336" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="20" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="100.0008" PAGEYPOS="7588.0368" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="21" NAM="" MNAM="Normal Left" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
         <PAGE PAGEXPOS="532.0008" PAGEYPOS="7588.0368" PAGEWIDTH="432" PAGEHEIGHT="648" BORDERLEFT="57.6" BORDERRIGHT="43.2" BORDERTOP="50.4" BORDERBOTTOM="50.4" NUM="22" NAM="" MNAM="Normal Right" Size="Custom" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0"/>
+        <MASTEROBJECT OwnPage="1" PTYPE="4" XPOS="414" YPOS="623" WIDTH="75" HEIGHT="20" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 75 0 75 0 75 0 75 0 75 20 75 20 75 20 75 20 0 20 0 20 0 20 0 20 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 75 0 75 0 75 0 75 0 75 20 75 20 75 20 75 20 0 20 0 20 0 20 0 20 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="Normal Right" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="I : "/>
+            <var name="pgno"/>
+            <trail ALIGN="2"/>
+            <PageItemAttributes/>
+        </MASTEROBJECT>
+        <MASTEROBJECT OwnPage="1" PTYPE="4" XPOS="157.736947016461" YPOS="53" WIDTH="331.2140989369" HEIGHT="15.6540852194788" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.214 0 331.214 0 331.214 0 331.214 0 331.214 15.6541 331.214 15.6541 331.214 15.6541 331.214 15.6541 0 15.6541 0 15.6541 0 15.6541 0 15.6541 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.214 0 331.214 0 331.214 0 331.214 0 331.214 15.6541 331.214 15.6541 331.214 15.6541 331.214 15.6541 0 15.6541 0 15.6541 0 15.6541 0 15.6541 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="Normal Right" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="NotCourierSans Regular" CH="Introduction"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </MASTEROBJECT>
+        <MASTEROBJECT OwnPage="0" PTYPE="4" XPOS="143" YPOS="623" WIDTH="75" HEIGHT="20" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 75 0 75 0 75 0 75 0 75 20 75 20 75 20 75 20 0 20 0 20 0 20 0 20 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 75 0 75 0 75 0 75 0 75 20 75 20 75 20 75 20 0 20 0 20 0 20 0 20 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="Normal Left" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="I : "/>
+            <var name="pgno"/>
+            <trail ALIGN="0"/>
+            <PageItemAttributes/>
+        </MASTEROBJECT>
+        <MASTEROBJECT OwnPage="0" PTYPE="4" XPOS="142.73694702" YPOS="53" WIDTH="331.2140989" HEIGHT="15.65408522" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.214 0 331.214 0 331.214 0 331.214 0 331.214 15.6541 331.214 15.6541 331.214 15.6541 331.214 15.6541 0 15.6541 0 15.6541 0 15.6541 0 15.6541 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.214 0 331.214 0 331.214 0 331.214 0 331.214 15.6541 331.214 15.6541 331.214 15.6541 331.214 15.6541 0 15.6541 0 15.6541 0 15.6541 0 15.6541 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="Normal Left" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="NotCourierSans Regular" CH="Fontes Libres"/>
+            <trail ALIGN="1"/>
+            <PageItemAttributes/>
+        </MASTEROBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="589.6008" YPOS="70.4016" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="1" BACKITEM="-1">
             <para PARENT="HTML_default"/>
             <ITEXT CH="Préface"/>
@@ -127,40 +180,43 @@
             <ITEXT FCOLOR="Blue" CH=" [2]"/>
             <ITEXT CH="."/>
             <para PARENT="HTML_default"/>
-            <ITEXT CH="Pour être tout à fait complet, il convient de préciser qu'un alphabet (pouvant être latin, arabe, grec, cyrillique, coréen, etc.) n'est qu'un type parmi d'autres de systèmes d'écriture (désignés sous le nom de "/>
-            <ITEXT FONT="PT Sans Italic" CH="scripts"/>
-            <ITEXT CH=" en anglais) au même titre que les systèmes logographiques (associant un signe à un mot comme pour les idéogrammes chinois, aussi utilisé en japonais et coréen, ou encore comme dans le cas des hiéroglyphes égyptiens), les systèmes syllabiques (comme les kanas japonais ou l'écriture cherokee) sans oublier les systèmes pictographiques correspondant à des codes signalétiques plus ou moins standardisés et non plus à des langues"/>
-            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="2"/>
-            <ITEXT FCOLOR="Blue" CH=" [3]"/>
-            <ITEXT CH=". À cet égard, signalons le projet "/>
-            <ITEXT FEATURES="inherit underline" FCOLOR="Blue" CH="ScriptSource.org"/>
-            <ITEXT FCOLOR="Blue" CH=" [4]"/>
-            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="3"/>
-            <ITEXT FCOLOR="Blue" CH=" [5]"/>
-            <ITEXT CH=", un service collaboratif qui répertorie et détaille l'ensemble de la connaissance sur les différents systèmes d'écriture dans le monde ainsi que les différents standards internationaux correspondants: Unicode, ISO 639, ISO 15924, CLDR, etc."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="La fonte"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9.5" CH="P"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" CH="our être tout à fait complet, il convient de préciser qu'un alphabet (pouvant être latin, arabe, grec, cyrillique, coréen, etc.) n'est qu'un type parmi d'autres de systèmes d'écriture (désignés sous le nom de scripts en anglais) au même titre que les systèmes logographiques (associant un signe à un mot comme pour les idéogrammes chinois, aussi utilisé en japonais et coréen, ou encore comme dans le cas des hiéroglyphes égyptiens), les systèmes syllabiques (comme les kanas japonais ou l'écriture cherokee) sans oublier les systèmes pictographiques correspondant à des codes signalétiques plus ou moins standardisés et non plus à des langues"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" FEATURES="inherit underline superscript" FCOLOR="Blue" CH="2"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" FCOLOR="Blue" CH=" [3]"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" CH=". À cet égard, signalons le projet "/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" FEATURES="inherit underline" FCOLOR="Blue" CH="ScriptSource.org"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" FCOLOR="Blue" CH=" [4]"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" FEATURES="inherit underline superscript" FCOLOR="Blue" CH="3"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" FCOLOR="Blue" CH=" [5]"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" CH=", un service collaboratif qui répertorie et détaille l'ensemble de la connaissance sur les différents systèmes d'écriture dans le monde ainsi que les différents standards internationaux correspondants: Unicode, ISO 639, ISO 15924, CLDR, etc."/>
+            <para PARENT="HTML_default" LINESP="11"/>
+            <ITEXT FONT="LMRoman10 Oblique" CH="La fonte"/>
             <para PARENT="HTML_h4"/>
-            <ITEXT CH="La fonte, appelée ainsi car historiquement issue de la fonte de plomb et d'antimoine*, désigne aujourd'hui le fichier numérique grâce auquel on peut utiliser la typo. À noter qu'à une typo peut correspondre plusieurs fontes, qui sont autant de variantes. Les variantes les plus courantes sont le romain, le gras, l'italique et le gras italique, bien connues des utilisateurs de traitement de texte."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Le caractère"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="La fonte, appelée ainsi car historiquement issue de la fonte de plomb et d'antimoine*, désigne aujourd'hui le fichier numérique grâce auquel on peut utiliser la typo. À noter qu'à une typo peut correspondre plusieurs fontes, qui sont autant de variantes. Les variantes les plus courantes sont le romain, "/>
+            <ITEXT FONT="LMRoman10 Bold" FONTSIZE="9" CH="le gras"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH=", "/>
+            <ITEXT FONT="LMRoman10 Italic" FONTSIZE="9" CH="l'italique"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH=" et "/>
+            <ITEXT FONT="LMRoman10 BoldItalic" FONTSIZE="9" CH="le gras italique"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH=", bien connues des utilisateurs de traitement de texte."/>
+            <para PARENT="HTML_default" LINESP="10"/>
+            <ITEXT FONT="LMRoman10 Oblique" CH="Le caractère"/>
             <para PARENT="HTML_h4"/>
-            <ITEXT CH="Le caractère désigne la zone standardisée où l'un des éléments constitutifs du système d'écriture est défini (il y a bien sûr souvent plusieurs caractères par fonte, afin que celle-ci soit utilisable pour former des mots à l'écran). "/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Le glyphe"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="10" CH="Le caractère désigne la zone standardisée où l'un des éléments constitutifs du système d'écriture est défini (il y a bien sûr souvent plusieurs caractères par fonte, afin que celle-ci soit utilisable pour former des mots à l'écran). "/>
+            <para PARENT="HTML_default" LINESP="11"/>
+            <ITEXT FONT="NotCourierSans Regular" CH="Le glyphe"/>
             <para PARENT="HTML_h4"/>
-            <ITEXT CH="Le glyphe est la forme graphique composée de contours que peut revêtir un caractère (il peut y avoir plusieurs glyphes par caractère, plusieurs "/>
-            <ITEXT FONT="PT Sans Italic" CH="a"/>
-            <ITEXT CH=" minuscules par exemple, ou plusieurs styles de chiffres). "/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Les termes volontairement écartés"/>
+            <ITEXT FONT="LMRoman8 Regular" CH="Le glyphe est la forme graphique composée de contours que peut revêtir un caractère (il peut y avoir plusieurs glyphes par caractère, plusieurs a minuscules par exemple, ou plusieurs styles de chiffres). "/>
+            <para PARENT="HTML_default" LINESP="12"/>
+            <ITEXT FONT="NotCourierSans Regular" CH="Les termes volontairement écartés"/>
             <para PARENT="HTML_h2"/>
-            <ITEXT CH="Nous avons pris le parti d'écarter les expressions "/>
-            <ITEXT FONT="PT Sans Italic" CH="police de caractères "/>
-            <ITEXT CH="et "/>
-            <ITEXT FONT="PT Sans Italic" CH="caractère typographique"/>
-            <ITEXT CH=" et compte tenu de la relative notoriété, voire de la popularité de ces expressions, nous tenons à expliquer ce choix ici."/>
-            <para PARENT="HTML_default"/>
+            <ITEXT FONT="CM Roman Regular" CH="Nous avons pris le parti d'écarter les expressions "/>
+            <ITEXT FONT="CM Roman Italic" CH="police de caractères"/>
+            <ITEXT FONT="CM Roman Regular" CH=" et "/>
+            <ITEXT FONT="LMRoman10 Oblique" CH="caractère typographique"/>
+            <ITEXT FONT="CM Roman Regular" CH=" et compte tenu de la relative notoriété, voire de la popularité de ces expressions, nous tenons à expliquer ce choix ici."/>
+            <para PARENT="HTML_default" LINESP="12"/>
             <ITEXT CH="Police de caractères"/>
             <para PARENT="HTML_h4"/>
             <ITEXT CH="L'expression "/>
@@ -197,26 +253,26 @@
             <ITEXT CH=" "/>
             <para PARENT="HTML_li_level-0"/>
             <breakframe/>
-            <ITEXT CH="Vers un nouveau paradigme"/>
+            <ITEXT FONT="PropCourierSans Regular" CH="Vers un nouveau paradigme"/>
             <para PARENT="HTML_h1"/>
-            <ITEXT CH="Le monde de la typographie vit actuellement un développement si important que des dizaines de fontes apparaissent chaque jour et sont mises à disposition immédiatement sur divers sites web. Il faut prendre ce constat comme l'indice d'un engouement grandissant pour la création de fontes. On dénombre ainsi aisément plusieurs dizaines de milliers de fontes disponibles dans des styles allant du plus classique au plus original, en passant par le style gothique, le style manuscrit et bien d'autres. Pour autant, la situation est loin d'être idéale sur bien des points."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="L'expérience montre que le besoin reste présent pour des raisons qui ne sont d'ailleurs pas toujours sans importance. Le souhait de créer une forme plus belle pour une œuvre artistique le dispute à la nécessité d'adapter la forme d'un caractère aux besoins d'une langue africaine par exemple."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONT="PT Sans Italic" CH="La modification, la recréation, la récréation"/>
-            <ITEXT FEATURES="inherit underline superscript" FCOLOR="Blue" CH="1"/>
-            <ITEXT FCOLOR="Blue" CH=" [9]"/>
-            <ITEXT CH=" montrent à quel point la création de fontes est toujours d'actualité. Bien des graphistes souffrent de ne pas pouvoir et/ou de ne pas savoir manipuler les caractères comme ils le souhaitent."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="La typographie est au demeurant un art très empreint de techniques avancées qui permettent à celui qui le maîtrise un tant soit peu de résoudre à son niveau bon nombre de problèmes comme ceux évoqués ci-dessous."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Combler l'absence"/>
+            <ITEXT FONT="LMRoman10 CapsRegular" CH="e monde de la ty­po­graph­ie"/>
+            <ITEXT FONT="LMRoman10 Regular" CH=" vit ac­tuelle­ment un dévelop­pe­ment si im­port­ant que des dizaines de fontes ap­par­ais­sent chaque jour et sont mises à dis­pos­i­tion im­mé­di­ate­ment sur divers sites web. Il faut pren­dre ce con­stat comme l'in­dice d'un engoue­ment gran­dis­sant pour la créa­tion de fontes. On dénombre ain­si aisé­ment plusieurs dizaines de mil­li­ers de fontes dispon­ibles dans des styles al­lant du plus classique au plus ori­gin­al, en passant par le style gothique, le style manuscrit et bi­en d'autres. Pour autant, la situ­ation est loin d'être idéale sur bi­en des points."/>
+            <para PARENT="HTML_default" LINESP="12"/>
+            <ITEXT FONT="LMRoman10 Regular" CH="L'expérience montre que le besoin reste présent pour des raisons qui ne sont d'ailleurs pas toujours sans importance. Le souhait de créer une forme plus belle pour une œuvre artistique le dispute à la nécessité d'adapter la forme d'un caractère aux besoins d'une langue africaine par exemple."/>
+            <para PARENT="HTML_default" LINESP="12"/>
+            <ITEXT FONT="LMRoman10 Italic" CH="La modification, la recréation, la récréation"/>
+            <ITEXT FONT="LMRoman10 Regular" FEATURES="inherit underline superscript" FCOLOR="Blue" CH="1"/>
+            <ITEXT FONT="LMRoman10 Regular" FCOLOR="Blue" CH=" [9]"/>
+            <ITEXT FONT="LMRoman10 Regular" CH=" montrent à quel point la création de fontes est toujours d'actualité. Bien des graphistes souffrent de ne pas pouvoir et/ou de ne pas savoir manipuler les caractères comme ils le souhaitent."/>
+            <para PARENT="HTML_default" LINESP="12"/>
+            <ITEXT FONT="LMRoman10 Regular" CH="La ty­po­graph­ie est au de­meur­ant un art très empre­int de tech­niques avancées qui per­mettent à ce­lui qui le maîtrise un tant soit peu de ré­soudre à son niveau bon nombre de problèmes comme ceux évoqués ci-des­sous."/>
+            <para PARENT="HTML_default" LINESP="12"/>
+            <ITEXT FONT="PropCourierSans Regular" CH="Combler l'absence"/>
             <para PARENT="HTML_h3"/>
-            <ITEXT CH="Bon nombre de fontes ne disposent pas de tous les caractères voulus ni des variantes souhaitées. Il peut alors s'avérer intéressant pour un graphiste d'accéder au dessin même du caractère, de le modifier, de le travailler afin de lui offrir des caractéristiques supplémentaires puis de le rendre accessible non seulement à lui-même, mais aussi à toute une communauté de graphistes qui pourrait en bénéficier aussi."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Il faut aussi souligner le cas très répandu de nombreux pays, d'Afrique ou d'ailleurs (c'est même parfois le cas pour le français ou d'autres langues européennes dans une certaine mesure) où la multiplicité des langues et l'absence de caractères associés à certains signes et donc à certains sons constituent une barrière empêchant les locuteurs de ces langues d'accéder à l'information sous forme électronique, ceci limitant grandement - souvent jusqu'à la paralysie - l'expression culturelle, les échanges et les efforts d'éducation."/>
-            <para PARENT="HTML_default"/>
+            <ITEXT FONT="LMRoman10 Regular" CH="Bon nombre de fontes ne dis­posent pas de tous les ca­ra­ctères voulus ni des vari­antes souhaitées. Il peut al­ors s'avérer in­téress­ant pour un graph­iste d'ac­céder au dessin même du ca­ra­ctère, de le mod­i­fi­er, de le trav­ailler afin de lui of­frir des ca­ra­ctéristiques sup­plé­mentaires puis de le rendre ac­cess­ible non seule­ment à lui-même, mais aus­si à toute une com­mun­auté de graph­istes qui pour­rait en béné­fi­ci­er aus­si."/>
+            <para PARENT="HTML_default" ALIGN="3" LINESP="12"/>
+            <ITEXT FONT="LMRoman10 Regular" CH="Il faut aus­si soulign­er le cas très répandu de nom­breux pays, d'Afrique ou d'ail­leurs (c'est même par­fois le cas pour le français ou d'autres langues européennes dans une cer­taine mesure) où la mul­ti­pli­cité des langues et l'ab­sence de ca­ra­ctères as­so­ciés à cer­tains signes et donc à cer­tains sons con­stitu­ent une bar­rière em­pêchant les locuteurs de ces langues d'ac­céder à l'in­form­a­tion sous forme élec­tro­nique, ceci lim­it­ant gran­dement - souvent jusqu'à la para­lysie - l'ex­pres­sion cul­turelle, les échanges et les ef­forts d'édu­ca­tion."/>
+            <para PARENT="HTML_default" ALIGN="3" LINESP="12"/>
             <ITEXT CH="Permettre l'intercompréhension"/>
             <para PARENT="HTML_h3"/>
             <ITEXT CH="Les caractères propres à certaines fontes sont absents d'autres fontes entravant la compréhension d'un texte ouvert dans un autre environnement. Ce qui fonctionne bien pour l'émetteur du message devient incompréhensible pour son destinataire. Nous sommes loin des considérations visuelles et graphiques, le fond même du message est inaccessible. C'est surtout le cas des fontes créées par certains amateurs pour un besoin précis sans prise en compte des enjeux de l'interopérabilité et la pérennité de leur travail (comme le soin de faire conformer leur fonte au standard Unicode)."/>
@@ -231,29 +287,34 @@
             <para PARENT="HTML_h3"/>
             <ITEXT CH="Dans leur diversité, les caractères sont également utilisés dans des affiches ou autres créations plus graphiques et ponctuelles, contenant moins d'information. Dans ce cas, les qualités plastiques l'emportent sur la contrainte de lisibilité. Cependant, il est utile de créer une fonte à partir de lettres ponctuelles pour la ré-exploiter ultérieurement ou dans d'autres contextes (via un enrichissement fonctionnel des variations contextuelles). De nombreux mouvements artistiques des années 20 ou 60 ont largement abordé ces problèmes qui perdurent actuellement dans les pratiques quotidiennes de nombreux graphistes."/>
             <para PARENT="HTML_default"/>
-            <ITEXT CH="Satisfaire son désir créatif"/>
+            <ITEXT FONT="Liberation Sans Regular" FONTSIZE="13" CH="Satisfaire son désir créatif"/>
+            <para PARENT="HTML_h3" LINESP="18"/>
+            <ITEXT FONT="Liberation Sans Regular" FONTSIZE="9" CH="La modification ou la création de caractères est en elle-même un exercice amusant pour le graphiste qui peut le conduire à la création d’une fonte (et donc l’amenant à devenir fondeur lui-même). Cette nouvelle fonte ne manquera pas d’atouts personnels et ajoutera un vent de fantaisie et d’originalité comme celui qui souffle actuellement sur le petit monde de la typographie."/>
+            <para PARENT="HTML_default" LINESP="11"/>
+            <ITEXT FONT="LMRoman10 BoldItalic" FONTSIZE="15" CH="Quelles exigences pour la création de fontes ?"/>
+            <para PARENT="HTML_h2" LINESP="18"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="Si vous voulez vous exercer à créer ou à modifier une fonte, et si vous êtes vraiment motivés, alors sachez que ce capital de motivation représente une des choses essentielles dans cette aventure. Compte tenu du temps nécessaire à la production d'une fonte, et du nombre de retouches parfois décourageantes, c'est votre envie d'aller jusqu'au bout qui vous donnera l’énergie indispensable. Cultivez donc cette envie autant que vous pourrez mais apprenez aussi à considérer un certain nombre de choses selon le type de support d'édition :"/>
+            <para PARENT="HTML_default" LINESP="11"/>
+            <ITEXT FONT="LMRoman10 BoldItalic" CH="Viser la lisibilité"/>
             <para PARENT="HTML_h3"/>
-            <ITEXT CH="La modification ou la création de caractères est en elle-même un exercice amusant pour le graphiste qui peut le conduire à la création d'une fonte (et donc l'amenant à devenir fondeur lui-même). Cette nouvelle fonte ne manquera pas d'atouts personnels et ajoutera un vent de fantaisie et d'originalité comme celui qui souffle actuellement sur le petit monde de la typographique."/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Quelles exigences pour la création de fontes ?"/>
-            <para PARENT="HTML_h2"/>
-            <ITEXT CH="Si vous voulez vous exercer à créer ou à modifier une fonte, et si vous êtes vraiment motivés, alors sachez que ce capital de motivation représente une des choses essentielles dans cette aventure. Compte tenu du temps nécessaire à la production d'une fonte, et du nombre de retouches parfois décourageantes, c'est votre envie d'aller jusqu'au bout qui vous donnera l'énergie indispensable. Cultivez donc cette envie autant que vous pourrez mais apprenez aussi à considérer un certain nombre de choses selon le type de support d'édition :"/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="Viser la lisibilité"/>
-            <para PARENT="HTML_h3"/>
-            <ITEXT CH="La recherche de lisibilité constitue une bonne raison pour créer des fontes. Si la lisibilité peut être appréhendée de différentes manières, elle vise en effet, dans tous les cas, à ce que la facilité et le rythme de lecture ne soient pas entravés par la composition :"/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH=" - Le type de texte à composer (selon qu'il s'agisse de titres, de logotypes, de textes courants) induit un type de fontes ; "/>
-            <para PARENT="HTML_li_level-0"/>
-            <para PARENT="HTML_default"/>
-            <ITEXT CH="- L'allure générale du texte (appelée encore gris typographique*) devrait être homogène ce qui n'est pas toujours le cas, selon que l'on fasse varier la force* du corps (ou taille du texte) ou la langue du document. Aussi une fonte donnant un rendu correct dans une langue ne le donnera pas nécessairement dans une autre au vu des spécificités (taux d'exploitation des voyelles, ascendantes, descendantes, majuscules, espaces et blancs...) ; "/>
-            <para PARENT="HTML_li_level-0"/>
-            <ITEXT CH="- Changement de média : toutes les typos et toutes les fontes ne s'adaptent pas toujours à tous les médias. L'impression papier est plus précise et régulière qu'un affichage-écran. Il appartient au créateur de la fonte de définir la relation entre les deux (optimisation écran ou "/>
-            <ITEXT FONT="PT Sans Italic" CH="hinting*"/>
-            <ITEXT CH="), et cela n'est pas toujours fait. Les résultats de certains outils automatiques peuvent apporter un résultat correct mais qui reste insuffisant. "/>
-            <para PARENT="HTML_li_level-0"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="La recherche de lisibilité constitue une bonne raison pour créer des fontes. Si la lisibilité peut être appréhendée de différentes manières, elle vise en effet, dans tous les cas, à ce que la facilité et le rythme de lecture ne soient pas entravés par la composition :"/>
+            <para PARENT="HTML_default" LINESP="11"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH=" - Le type de texte à composer (selon qu'il s'agisse de titres, de logotypes, de textes courants) induit un type de fontes ; "/>
+            <para PARENT="HTML_li_level-0" LINESP="11"/>
+            <para PARENT="HTML_li_level-0" LINESP="11"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="- L’allure générale du texte (appelée encore "/>
+            <ITEXT FONT="LMRoman10 Italic" FONTSIZE="9" CH="gris typographique"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="*) devrait être homogène ce qui n'est pas toujours le cas, selon que l'on fasse varier la "/>
+            <ITEXT FONT="LMRoman10 Italic" FONTSIZE="9" CH="force"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="* du corps (ou taille du texte) ou la langue du document. Aussi une fonte donnant un rendu correct dans une langue ne le donnera pas nécessairement dans une autre au vu des spécificités (taux d'exploitation des voyelles, ascendantes, descendantes, majuscules, espaces et blancs...) ; "/>
+            <para PARENT="HTML_li_level-0" LINESP="11"/>
+            <para PARENT="HTML_li_level-0" LINESP="11"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="- Changement de média : toutes les typos et toutes les fontes ne s'adaptent pas toujours à tous les médias. L'impression papier est plus précise et régulière qu'un affichage-écran. Il appartient au créateur de la fonte de définir la relation entre les deux (optimisation écran ou "/>
+            <ITEXT FONT="LMRoman10 Italic" FONTSIZE="9" CH="hinting"/>
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="9" CH="*), et cela n'est pas toujours fait. Les résultats de certains outils automatiques peuvent apporter un résultat correct mais qui reste insuffisant. "/>
+            <para PARENT="HTML_li_level-0" LINESP="11"/>
             <ITEXT CH="Forger une identité visuelle comme débouché typographique"/>
-            <para PARENT="HTML_h3"/>
+            <para PARENT="HTML_h3" LINESP="11"/>
             <ITEXT CH="Il s'agit à l'heure actuelle d'un domaine très porteur. Un texte composé dans telle ou telle typo ne donnera en effet pas la même impression au lecteur. Cette impression est bien sûr aussi dépendante de la culture du lecteur, mais du point de vue du graphiste, plusieurs points peuvent justifier la création typographique :"/>
             <para PARENT="HTML_default"/>
             <ITEXT CH=" - le besoin de se démarquer et de créer un caractère facilement reconnaissable. Il suffit de penser à la plupart des grandes marques, elles ont souvent une typo qui leur est spécifique et créée pour le besoin : Renault, Pepsi... dans ce cas, la typo sera souvent utilisée sur des textes courts et écrits en corps large. Plus récemment, il faut souligner les efforts de plusieurs projets communautaires du logiciel libre qui se sont doté d'une fonte libre spécifique - par exemple Ubuntu"/>
@@ -677,12 +738,17 @@
         <PAGEOBJECT OwnPage="22" PTYPE="4" XPOS="589.6008" YPOS="7638.4368" WIDTH="331.2" HEIGHT="547.2" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0.433133858267717" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="1" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 331.2 0 331.2 0 331.2 0 331.2 0 331.2 547.2 331.2 547.2 331.2 547.2 331.2 547.2 0 547.2 0 547.2 0 547.2 0 547.2 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="21">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="589.2778" YPOS="149.2778" WIDTH="331" HEIGHT="170.7222" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.509230769230769" LOCALSCY="0.509230769230769" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../01-index_files/preface2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331 0 331 0 331 0 331 0 331 170.722 331 170.722 331 170.722 331 170.722 0 170.722 0 170.722 0 170.722 0 170.722 0 0 0 0 " NUMCO="16" COCOOR="-1 -8.33921 -1 -8.33921 330 -8.33921 330 -8.33921 330 -8.33921 330 -8.33921 330 179.061 330 179.061 330 179.061 330 179.061 -1 179.061 -1 179.061 -1 179.061 -1 179.061 -1 -8.33921 -1 -8.33921 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="2" XPOS="589.2778" YPOS="149.2778" WIDTH="331" HEIGHT="170.7222" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.509230769230769" LOCALSCY="0.509230769230769" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../HTML-source/part-01-Introduction/01-index_files/preface2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331 0 331 0 331 0 331 0 331 170.722 331 170.722 331 170.722 331 170.722 0 170.722 0 170.722 0 170.722 0 170.722 0 0 0 0 " NUMCO="16" COCOOR="-1 -8.33921 -1 -8.33921 330 -8.33921 330 -8.33921 330 -8.33921 330 -8.33921 330 179.061 330 179.061 330 179.061 330 179.061 -1 179.061 -1 179.061 -1 179.061 -1 179.061 -1 -8.33921 -1 -8.33921 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="590.2778" YPOS="879.281" WIDTH="331" HEIGHT="168.7238" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.777529032258065" LOCALSCY="0.777529032258065" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../ch001_terminologie_files/IlTypoFonte_2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331 0 331 0 331 0 331 0 331 168.724 331 168.724 331 168.724 331 168.724 0 168.724 0 168.724 0 168.724 0 168.724 0 0 0 0 " NUMCO="16" COCOOR="-1 -8.24159 -1 -8.24159 330 -8.24159 330 -8.24159 330 -8.24159 330 -8.24159 330 176.965 330 176.965 330 176.965 330 176.965 -1 176.965 -1 176.965 -1 176.965 -1 176.965 -1 -8.24159 -1 -8.24159 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="590.2778" YPOS="879.281" WIDTH="331" HEIGHT="168.7238" RADRECT="0" FRTYPE="3" CLIPEDIT="1" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.777529032258065" LOCALSCY="0.777529032258065" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="3" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="1" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../HTML-source/part-01-Introduction/ch001_terminologie_files/IlTypoFonte_2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 331 0 331 0 331 0 331 0 331 168.724 331 168.724 331 168.724 331 168.724 0 168.724 0 168.724 0 168.724 0 168.724 0 0 0 0 " NUMCO="16" COCOOR="-1 -8.24159 -1 -8.24159 330 -8.24159 330 -8.24159 330 -8.24159 330 -8.24159 330 176.965 330 176.965 330 176.965 330 176.965 -1 176.965 -1 176.965 -1 176.965 -1 176.965 -1 -8.24159 -1 -8.24159 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="6" PTYPE="4" XPOS="589.024074074075" YPOS="2185.66203703704" WIDTH="17.9398148148148" HEIGHT="25.5648148148152" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 17.9398 0 17.9398 0 17.9398 0 17.9398 0 17.9398 25.5648 17.9398 25.5648 17.9398 25.5648 17.9398 25.5648 0 25.5648 0 25.5648 0 25.5648 0 25.5648 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 17.9398 0 17.9398 0 17.9398 0 17.9398 0 17.9398 25.5648 17.9398 25.5648 17.9398 25.5648 17.9398 25.5648 0 25.5648 0 25.5648 0 25.5648 0 25.5648 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="LMRoman10 Regular" FONTSIZE="22" CH="L"/>
+            <trail PARENT="HTML_default" LINESP="12"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
